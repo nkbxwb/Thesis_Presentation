@@ -104,13 +104,58 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
 % and table of contents.
 \section{Introduction}
 
-\subsection{Motivation}
+%\subsection{}
 
-\begin{frame}{Analysis}
+\begin{frame}{In an ideal world}
   \begin{itemize}
-  \item Would like to analyze survival data under the causal model
-  \item Motivated by Cancer data
+  \item We would have a large dataset
+  \begin{itemize}
+   \item That was obtained from an RCT
+   \item That would help answer a clearly defined question
+   \item That had all the covariates of scientific interest
+   \item That contained no missing data
   \end{itemize}
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{In Reality}
+
+  \begin{itemize}
+   \item RCT's are expensive and often unethical
+   \begin{itemize}
+    \item We often get retrospective observational data
+    \item Pulled from a database or historical records
+   \end{itemize}
+
+   \item That would help answer a clearly defined question
+   \begin{itemize}
+    \item The data collected often doesn't support the question in mind
+   \end{itemize}
+
+   \item That had all the covariates of scientific interest
+   \begin{itemize}
+    \item Since often no control of experiment, no control over what is collected
+   \end{itemize}
+
+   \item That contained no missing data
+   \begin{itemize}
+    \item Since no control, we can't guarantee that everything is collected
+   \end{itemize}
+
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Is This a Problem?}
+
+  \begin{itemize}
+   \item Without an RCT, we can't be sure if differences in treatments is due to the treatment or something else
+   \item We often don't know what is of interest until we collect the data
+   \item With missing data, we will be throwing away data and biasing our results
+  \end{itemize}
+
+
 \end{frame}
 
 \subsection{The Problem}
