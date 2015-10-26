@@ -103,6 +103,7 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
 % Section and subsections will appear in the presentation overview
 % and table of contents.
 \section{Introduction}
+\subsection{The Problem}
 
 %\subsection{}
 
@@ -180,7 +181,60 @@ This thesis aims to fix some of these problems
 
 \end{frame}
 
-\subsection{The Problem}
+\begin{frame}{Abstract}
+In this thesis, multiple imputation, survival analysis, and propensity score analysis are combined in 
+order to answer questions about cancer data with moderate missingness. While each of these fields have 
+been studied individually, there has been little work and analysis on using the three in trio.
+Starting with an incomplete dataset, we aim to impute the missing data, run survival analysis on each
+of the imputed datasets, and then do propensity score analysis to observe causal effects.
+Along the way, many theoretical and analytical decisions are mode. I explain why each decision is made, 
+and offer ample evidence for the other choices such that the interested reader may implement the methods
+if they so choose. I apply the methodology to a cancer survival dataset in a case study, but the methods 
+used are general, and could be adapted for any type of data.
+ 
+\end{frame}
+
+\subsection{Missing data}
+\begin{frame}
+ \begin{itemize}
+ \item Missing data happens when we intend to collect a piece of data but don't actually get it
+ \item Historical approaches
+ \begin{itemize}
+  \item Complete Case analysis: Throw away any record that is not complete
+  % list of downsides
+ \item Available Case analysis: Use records so long as they are complete for the specific analysis in question
+ %bad things here
+ \end{itemize}
+ \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Imputation}
+The English verb ``to impute'' comes from the Latin imputo, which means
+to reckon, attribute, make account of, charge, ascribe. !!VanBuuren2012!!
+\begin{itemize}
+ \item In the 1930's, Allan, Wishart,and Yates laid framework for missing data
+ \begin{itemize}
+  \item Idea: Fill in the missing value, deduct degrees of freedom to account for it
+  \item Issue: Dogmatic, and variance can't be estimates correctly
+ \end{itemize}
+
+\end{itemize}
+
+ 
+\end{frame}
+
+\begin{frame}{Multiple Imputation}
+Throughout the 70's and 80's Donald Rubin worked to improve on this
+\begin{itemize}
+ \item Instead of imputing one value, lets impute it many times
+ \item Draw the values from the missing datas posterior distibution
+\end{itemize}
+This idea is called Multiple Imputation (MI) and was formalized in 1987. It is the gold standard method
+for missing data currently.
+ 
+\end{frame}
+
 
 % You can reveal the parts of a slide one at a time
 % with the \pause command:
