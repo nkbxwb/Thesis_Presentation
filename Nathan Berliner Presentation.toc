@@ -2,5 +2,5 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{The Problem}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Missing data}{10}{0}{1}
-\beamer@sectionintoc {2}{Second Main Section}{20}{0}{2}
-\beamer@subsectionintoc {2}{1}{Another Subsection}{20}{0}{2}
+\beamer@sectionintoc {2}{Second Main Section}{25}{0}{2}
+\beamer@subsectionintoc {2}{1}{Another Subsection}{25}{0}{2}

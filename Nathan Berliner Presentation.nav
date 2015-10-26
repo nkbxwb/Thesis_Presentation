@@ -30,34 +30,44 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {1}{2}{4}{13/13}{Missing data}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {1}{2}{5}{14/19}{Missing data}{0}}
-\headcommand {\beamer@framepages {14}{19}}
-\headcommand {\sectionentry {2}{Second Main Section}{20}{Second Main Section}{0}}
-\headcommand {\beamer@sectionpages {3}{19}}
-\headcommand {\beamer@subsectionpages {10}{19}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{20}{Another Subsection}}\headcommand {\beamer@subsectionpages {20}{19}}
-\headcommand {\slideentry {2}{1}{1}{20/20}{Another Subsection}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {2}{1}{2}{21/21}{Another Subsection}{0}}
-\headcommand {\beamer@framepages {21}{21}}
-\headcommand {\sectionentry {3}{Summary}{22}{Summary}{0}}
-\headcommand {\beamer@sectionpages {20}{21}}
-\headcommand {\beamer@subsectionpages {20}{21}}
-\headcommand {\slideentry {3}{0}{3}{22/22}{}{0}}
-\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {1}{2}{5}{14/14}{Missing data}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{2}{6}{15/15}{Missing data}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{2}{7}{16/16}{Missing data}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {1}{2}{8}{17/17}{Missing data}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {1}{2}{9}{18/18}{Missing data}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {1}{2}{10}{19/24}{Missing data}{0}}
+\headcommand {\beamer@framepages {19}{24}}
+\headcommand {\sectionentry {2}{Second Main Section}{25}{Second Main Section}{0}}
+\headcommand {\beamer@sectionpages {3}{24}}
+\headcommand {\beamer@subsectionpages {10}{24}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{25}{Another Subsection}}\headcommand {\beamer@subsectionpages {25}{24}}
+\headcommand {\slideentry {2}{1}{1}{25/25}{Another Subsection}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{1}{2}{26/26}{Another Subsection}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\sectionentry {3}{Summary}{27}{Summary}{0}}
+\headcommand {\beamer@sectionpages {25}{26}}
+\headcommand {\beamer@subsectionpages {25}{26}}
+\headcommand {\slideentry {3}{0}{3}{27/27}{}{0}}
+\headcommand {\beamer@framepages {27}{27}}
 \headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{22}}
-\headcommand {\beamer@sectionpages {22}{22}}
-\headcommand {\beamer@subsectionpages {22}{22}}
-\headcommand {\beamer@appendixpages {23}}
-\headcommand {\sectionentry {4}{\translate {Appendix}}{23}{\translate {Appendix}}{1}}
-\headcommand {\beamer@sectionpages {23}{22}}
-\headcommand {\beamer@subsectionpages {23}{22}}
-\headcommand {\beamer@subsectionentry {1}{4}{1}{23}{For Further Reading}}\headcommand {\beamer@subsectionpages {23}{22}}
-\headcommand {\slideentry {4}{1}{1}{23/23}{For Further Reading}{1}}
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {23}{23}}
-\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\beamer@sectionpages {23}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\def \inserttotalframenumber {18}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@sectionpages {27}{27}}
+\headcommand {\beamer@subsectionpages {27}{27}}
+\headcommand {\beamer@appendixpages {28}}
+\headcommand {\sectionentry {4}{\translate {Appendix}}{28}{\translate {Appendix}}{1}}
+\headcommand {\beamer@sectionpages {28}{27}}
+\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\beamer@subsectionentry {1}{4}{1}{28}{For Further Reading}}\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\slideentry {4}{1}{1}{28/28}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\beamer@partpages {28}{28}}
+\headcommand {\beamer@subsectionpages {28}{28}}
+\headcommand {\beamer@sectionpages {28}{28}}
+\headcommand {\beamer@documentpages {28}}
+\headcommand {\def \inserttotalframenumber {23}}

@@ -211,8 +211,10 @@ used are general, and could be adapted for any type of data.
 
 
 \begin{frame}{Imputation}
+\begin{block}{Definition}
 The English verb ``to impute'' comes from the Latin imputo, which means
-to reckon, attribute, make account of, charge, ascribe \cite{VanBuuren2012}.
+to reckon, attribute, make account of, charge, ascribe. \cite{VanBuuren2012}
+\end{block}
 \begin{itemize}
  \item In the 1930's, Allan, Wishart,and Yates laid framework for missing data
  \begin{itemize}
@@ -228,12 +230,59 @@ to reckon, attribute, make account of, charge, ascribe \cite{VanBuuren2012}.
 \begin{frame}{Multiple Imputation}
 Throughout the 70's and 80's Donald Rubin worked to improve on this
 \begin{itemize}
- \item Instead of imputing one value, lets impute it many times
+ \item Instead of imputing one value, lets impute it $m\geq 2$ times
  \item Draw the values from the missing datas posterior distibution
 \end{itemize}
 This idea is called Multiple Imputation (MI) and was formalized in 1987 \cite{Rubin1987}. It is the gold standard method
 for missing data currently.
- 
+\end{frame}
+
+
+\begin{frame}{How does MI work?}
+ \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.8\textwidth]{mi_example_full.jpg}
+  \caption{Visualization of MI data}
+\label{fig:miexample}
+\medskip
+\small
+Missingness is displayed by \textcolor{red}{?'s} and the imputed data is shown  as \textcolor{green}{\#'s}.
+We then regress age on weight, get the results from the individual datasets, and then pool them together.
+\end{figure}
+\end{frame}
+
+\begin{frame}{How to generate imputations}
+\begin{itemize}
+ \item FIll this in later
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Rubin's Rules}
+ Put them here
+\end{frame}
+
+\begin{frame}{Survival Analysis}
+\begin{block}{Survival Analysis}
+Survival analysis is a field of statistics concerned with analyzing time to 
+event data, often in the face of censoring.
+\end{block}
+Common survival estimates and tests
+\begin{itemize}
+ \item The survival function $S(t)=P(T>t)$ is estimated by the Kaplan-Meier Curve
+ $$\hat{S}(t)=\prod_{t_i<t}\frac{n_i -d_i}{n_i}$$
+Where $n_i$ is the number of survivors minus the number of censored cases just before time $t_i$
+and $d_i$ is the number of deaths at time $t_i$, and $n_i$ is the risk set
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Cox Regression}
+ \begin{itemize}
+  \item The log rank test compares two survival curves to see if from the same distribution
+ \item Hazard is the instantaneous rate of event given that you have survived until time t, given 
+ by $$\lambda(t)=\lim_{\Delta t \rightarrow 0+}\frac{P[t\leq T<t+\Delta t|t\leq T]}{\Delta t}$$
+   \item Cox regression models hazard by $$h(t|Z)=h_0(t)exp(\sum_{k=1}^{p}\beta_k)$$
+ \end{itemize}
+
 \end{frame}
 
 
