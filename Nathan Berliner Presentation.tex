@@ -12,6 +12,7 @@
 
 \documentclass{beamer}
 \usepackage{lmodern}
+\usepackage{verbatim}
 % There are many different themes available for Beamer. A comprehensive
 % list with examples is given here:
 % http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
@@ -211,7 +212,7 @@ used are general, and could be adapted for any type of data.
 
 \begin{frame}{Imputation}
 The English verb ``to impute'' comes from the Latin imputo, which means
-to reckon, attribute, make account of, charge, ascribe. !!VanBuuren2012!!
+to reckon, attribute, make account of, charge, ascribe \cite{VanBuuren2012}.
 \begin{itemize}
  \item In the 1930's, Allan, Wishart,and Yates laid framework for missing data
  \begin{itemize}
@@ -230,7 +231,7 @@ Throughout the 70's and 80's Donald Rubin worked to improve on this
  \item Instead of imputing one value, lets impute it many times
  \item Draw the values from the missing datas posterior distibution
 \end{itemize}
-This idea is called Multiple Imputation (MI) and was formalized in 1987. It is the gold standard method
+This idea is called Multiple Imputation (MI) and was formalized in 1987 \cite{Rubin1987}. It is the gold standard method
 for missing data currently.
  
 \end{frame}
@@ -311,6 +312,8 @@ Here is an example of an example block.
 \appendix
 \section<presentation>*{\appendixname}
 \subsection<presentation>*{For Further Reading}
+\begin{comment}
+ 
 
 \begin{frame}[allowframebreaks]
   \frametitle<presentation>{For Further Reading}
@@ -336,7 +339,13 @@ Here is an example of an example block.
     2000.
   \end{thebibliography}
 \end{frame}
+\end{comment}
 
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \bibliographystyle{ieeetr}
+	\bibliography{Research}
+\end{frame}
 \end{document}
 
 
