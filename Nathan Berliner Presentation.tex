@@ -261,26 +261,60 @@ We then regress age on weight, get the results from the individual datasets, and
  Put them here
 \end{frame}
 
+\subsection{Survival Analysis}
+
 \begin{frame}{Survival Analysis}
 \begin{block}{Survival Analysis}
 Survival analysis is a field of statistics concerned with analyzing time to 
-event data, often in the face of censoring.
+event data, often in the face of censoring (not knowing the exact time of failure).
 \end{block}
-Common survival estimates and tests
+Examples:
 \begin{itemize}
- \item The survival function $S(t)=P(T>t)$ is estimated by the Kaplan-Meier Curve
- $$\hat{S}(t)=\prod_{t_i<t}\frac{n_i -d_i}{n_i}$$
-Where $n_i$ is the number of survivors minus the number of censored cases just before time $t_i$
-and $d_i$ is the number of deaths at time $t_i$, and $n_i$ is the risk set
+ \item The survival of patients after a liver transplant in a hospital
+ \begin{itemize}
+  \item Censoring: study ending, patients die before study starts, subject moves away
+ \end{itemize}
+
+ \item The time until a child learns a new task
+ \begin{itemize}
+  \item Censoring: Refuse participation, move away, don't recall the exact time they learned,
+  already learned the task
+ \end{itemize}
+
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Kaplan-Meier Estimator}
+\begin{itemize}
+ \item The survival function $S(t)=P(T>t)$ is estimated by the nonparametric Kaplan-Meier Curve
+ $$\hat{S}(t)=\prod_{t_i<t}\frac{n_i -d_i}{n_i}$$
+Where $n_i$ is the number of subject in the risk set at time $t_i$
+and $d_i$ is the number of deaths at time $t_i$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Log rank test}
+The log rank test compares two survival curves to see if from the same distribution
+
+$$\frac{\sum_{j=1}^{J}w_j(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}w_j^2V_{j}}}\sim N(0,1)$$
+\begin{itemize}
+ \item Where $w_j$ is the weight of each observation (must be $\geq 0$, we will set all to be 1)
+ \item $N_j=N_{1j}+N_{2j}$ is the number at risk at time j(composed from deaths in each group)
+ \item $O_j=O_{1j}+O_{2j}$ is the observed number of deaths at time j (composed from the observed deaths in each group)
+ \item $E_{1j}=\frac{O_jN_{1j}}{N_j}$
+ %figure out the u thing
+ \item $V_j=\frac{O_j(N_{1j}/N_j)(1-N_{1j}/N_j)(N_{j}-O_{j})}{N_j -1}$
+ \end{itemize}
+
 \end{frame}
 
 \begin{frame}{Cox Regression}
  \begin{itemize}
-  \item The log rank test compares two survival curves to see if from the same distribution
  \item Hazard is the instantaneous rate of event given that you have survived until time t, given 
  by $$\lambda(t)=\lim_{\Delta t \rightarrow 0+}\frac{P[t\leq T<t+\Delta t|t\leq T]}{\Delta t}$$
-   \item Cox regression models hazard by $$h(t|Z)=h_0(t)exp(\sum_{k=1}^{p}\beta_k)$$
+   \item Cox regression models hazard by $$h(t|Z)=h_{0}(t)\exp(\sum_{k=1}^{p}\beta_{k}Z_{k})$$
+   \item Where $h_{0}(t)$ is the baseline hazard
+   \item $\beta_k$ is found by partial maximum likelihood estimation
  \end{itemize}
 
 \end{frame}

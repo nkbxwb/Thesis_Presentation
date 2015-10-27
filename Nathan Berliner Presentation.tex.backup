@@ -261,16 +261,35 @@ We then regress age on weight, get the results from the individual datasets, and
  Put them here
 \end{frame}
 
+\subsection{Survival Analysis}
+
 \begin{frame}{Survival Analysis}
 \begin{block}{Survival Analysis}
 Survival analysis is a field of statistics concerned with analyzing time to 
-event data, often in the face of censoring.
+event data, often in the face of censoring (not knowing the exact time of failure).
 \end{block}
-Common survival estimates and tests
+Examples:
 \begin{itemize}
- \item The survival function $S(t)=P(T>t)$ is estimated by the Kaplan-Meier Curve
+ \item The survival of patients after a liver transplant in a hospital
+ \begin{itemize}
+  \item Censoring: study ending, patients die before study starts, subject moves away
+ \end{itemize}
+
+ \item The time until a child learns a new task
+ \begin{itemize}
+  \item Censoring: Refuse participation, move away, don't recall the exact time they learned,
+  already learned the task
+ \end{itemize}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Kaplan-Meier Estimator}
+
+\begin{itemize}
+ \item The survival function $S(t)=P(T>t)$ is estimated by the nonparametric Kaplan-Meier Curve
  $$\hat{S}(t)=\prod_{t_i<t}\frac{n_i -d_i}{n_i}$$
-Where $n_i$ is the number of survivors minus the number of censored cases just before time $t_i$
+Where $n_i$ is the number of subject in the risk set at time $t_i$
 and $d_i$ is the number of deaths at time $t_i$
 \end{itemize}
 \end{frame}
