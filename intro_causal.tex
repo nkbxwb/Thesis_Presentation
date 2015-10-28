@@ -1,0 +1,51 @@
+\begin{frame}{Causal Analysis}
+Suppose we have a new drug we want to test to see how efficacious it is.
+ \begin{itemize}
+  \item We would like to be able to say ``The drug leads to better health''
+  \begin{itemize}
+   \item But need an RCT to say this
+   \item We only have observational data
+   \item Thus differences could be attributed to the drug or another factor (like healthier people
+   decided to take the drug)
+  \end{itemize}
+Idea: try to balance the covariates so the two groups seem identical at baseline
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Counterfactual Model}
+\begin{itemize}
+ \item Suppose that for or every person, there are two potential outcomes
+ \begin{itemize}
+  \item $Y_i(0)$ - The outcome if they had taken the control
+  \item $Y_i(1)$ - The outcome if they had taken the treatment
+ \end{itemize}
+\item Obviously, we only observe one. The fundamental problem of causal inference
+\item If we could observe both, then we could observe the causal effects for each person
+\item We will have to settle for finding the average treatment effect (ATE)
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{Propensity scores}
+\begin{block}{Definition}
+The propensity score is the probability that the subject received the treatment given the subjects
+covariates. It is computed using the patient's baseline (pretreatment) information \cite{Rosenbaum1983}
+\end{block}
+ \begin{itemize}
+  \item Assume that the covariates play a role in how the subject chose treatment
+  \item Controling for propensity score will make groups seem indistinguishable
+  \item Thus, we may treat it as if it were an RCT
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Common Propensity Score Methods}
+\begin{itemize}
+ \item Matching: Match treatment and controls on their propensity score, calculate ATE
+ \item Stratification: Stratify on propensity score, weight and combine ATE in each strate
+ \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
+\end{itemize}
+
+ 
+\end{frame}

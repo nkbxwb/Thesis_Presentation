@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  28 OCT 2015 12:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  28 OCT 2015 12:33
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -795,7 +795,10 @@ terthemeinfolines.sty"
 Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ))
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
-)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_missing_data.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
@@ -812,7 +815,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Try loading font information for OT1+lmss on input line 99.
 
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 *geometry* driver: auto-detecting
@@ -1014,9 +1018,11 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
 ) [3
 
-] [4
+] (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.tex [4
 
-] [5
+
+]
+[5
 
 ] [6
 
@@ -1026,11 +1032,14 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 
 ] [9
 
-]
+])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
 ) [10
 
-] [11
+
+] (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_missing_data.tex
+[11
+
 
 ] [12
 
@@ -1040,55 +1049,59 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
-Package pdftex.def Info: mi_example_full.jpg used on input line 261.
+Package pdftex.def Info: mi_example_full.jpg used on input line 56.
 (pdftex.def)             Requested size: 273.83728pt x 148.4225pt.
 
-Overfull \vbox (2.8406pt too high) detected at line 261
+Overfull \vbox (2.8406pt too high) detected at line 56
  []
 
 [14
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/mi_example_full.jpg>]
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/mi_example_full.jpg>])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
 ) [15
 
-] [16
 
-] [17
+] (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.tex [16
+
+
+]
+[17
 
 ] [18
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 336.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 70.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [19
 
-]
+])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
 ) [20
 
-] [21
+
+] (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.tex [21
+
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 366.
+(Font)              <10> on input line 28.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 366.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 366.
-
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 28.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 366.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 28.
 
- [22
+[22
 
 ] [23
 
 ] [24
 
-] [25
+]) [25
+
 
 ] [26
 
@@ -1117,23 +1130,26 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 500.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 500.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 500.
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_missing_data.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
 Package rerunfilecheck Info: File `Nathan*Berliner*Presentation.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 500.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
  ) 
 Here is how much of TeX's memory you used:
- 17170 strings out of 493921
- 335618 string characters out of 3144873
- 390570 words of memory out of 3000000
- 19946 multiletter control sequences out of 15000+200000
+ 17202 strings out of 493921
+ 337206 string characters out of 3144873
+ 391993 words of memory out of 3000000
+ 19950 multiletter control sequences out of 15000+200000
  60761 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,65p,409b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1150,7 +1166,7 @@ onts/type1/public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmsso10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
 msso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><
 C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (34 pages, 434415 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (34 pages, 434496 bytes).
 PDF statistics:
  1150 PDF objects out of 1200 (max. 8388607)
  84 named destinations out of 1000 (max. 500000)

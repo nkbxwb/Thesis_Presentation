@@ -1,0 +1,90 @@
+
+%\subsection{}
+
+\begin{frame}{In an ideal world}
+  \begin{itemize}
+  \item We would have a large dataset
+  \begin{itemize}
+   \item That was obtained from an RCT
+   \item That would help answer a clearly defined question
+   \item That had all the covariates of scientific interest
+   \item That contained no missing data
+  \end{itemize}
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{In Reality}
+
+  \begin{itemize}
+   \item RCT's are expensive and often unethical
+   \begin{itemize}
+    \item We often get retrospective observational data
+    \item Pulled from a database or historical records
+   \end{itemize}
+
+   \item The questions we have may not be answerable from the data on hand
+   \begin{itemize}
+    \item The data obtained often doesn't support the original question in mind
+   \end{itemize}
+
+   \item The covariates collected are out of our control
+   \begin{itemize}
+    \item Since often no control of experiment, no control over what is collected
+   \end{itemize}
+
+   \item Lots of missing data
+   \begin{itemize}
+    \item Since no control over how the data is collected, we can't guarantee that everything is collected
+   \item This issue is seemingly omnipresent in all types of data collection
+   \end{itemize}
+
+  \end{itemize}
+  \note{hey!}
+
+\end{frame}
+
+\begin{frame}{Is This a Problem?}
+
+  \begin{itemize}
+   \item Without an RCT, we can't be sure if differences in treatments is due to the treatment or something else
+   \item Omitting important factors may bias our results
+   \item With missing data, we will be throwing away data and biasing our results
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{The Solution}
+This thesis aims to fix some of these problems
+  \begin{itemize}
+   \item Fill in missing data via multiple imputation
+   \item Create meaningful analytical models via survival analysis
+   \item Get a causal interpretation from observational data
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Motivation}
+\begin{itemize}
+   \item This thesis is motivated by cancer survival data with moderate missingness
+   \item We will build the theory for dealing with this sitation
+   \item And then apply it to a cancer data set
+  \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Abstract}
+In this thesis, multiple imputation, survival analysis, and propensity score analysis are combined in 
+order to answer questions about cancer data with moderate missingness. While each of these fields have 
+been studied individually, there has been little work and analysis on using the three in trio.
+Starting with an incomplete dataset, we aim to impute the missing data, run survival analysis on each
+of the imputed datasets, and then do propensity score analysis to observe causal effects.
+Along the way, many theoretical and analytical decisions are mode. I explain why each decision is made, 
+and offer ample evidence for the other choices such that the interested reader may implement the methods
+if they so choose. I apply the methodology to a cancer survival dataset in a case study, but the methods 
+used are general, and could be adapted for any type of data.
+ 
+\end{frame}
