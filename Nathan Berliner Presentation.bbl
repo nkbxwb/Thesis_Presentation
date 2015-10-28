@@ -8,4 +8,9 @@ S.~{Van Buuren}, {\em {Flexible Imputation of Missing Data}}.
 D.~B. Rubin, {\em {Multiple Imputation for Nonresponse in Surveys}}.
 \newblock No.~JOHN WILEY {\&} SONS, 1987.
 
+\bibitem{Rosenbaum1983}
+P.~Rosenbaum and D.~Rubin, ``{The Central Role of the Propensity Score in
+  Observational Studies for Causal Effects},'' vol.~70, no.~1, pp.~41--55,
+  1983.
+
 \end{thebibliography}

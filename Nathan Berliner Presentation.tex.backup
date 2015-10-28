@@ -10,7 +10,13 @@
 % modify this file as you see fit and even to delete this copyright
 % notice. 
 
-\documentclass{beamer}
+
+%%\documentclass[notes]{beamer}       % print frame + notes
+%\documentclass[notes=only]{beamer}   % only notes
+\documentclass{beamer}              % only frames
+
+
+%\documentclass{beamer}
 \usepackage{lmodern}
 \usepackage{verbatim}
 % There are many different themes available for Beamer. A comprehensive
@@ -64,7 +70,7 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
   Rice University
   }
 
-\date{Fill in Date here, 2015}
+\date{11/30/2015}
 % - Either use conference name or its abbreviation.
 % - Not really informative to the audience, more for people (including
 %   yourself) who are reading the slides online
@@ -147,6 +153,7 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
    \end{itemize}
 
   \end{itemize}
+  \note{hey!}
 
 \end{frame}
 
@@ -231,7 +238,8 @@ to reckon, attribute, make account of, charge, ascribe. \cite{VanBuuren2012}
 Throughout the 70's and 80's Donald Rubin worked to improve on this
 \begin{itemize}
  \item Instead of imputing one value, lets impute it $m\geq 2$ times
- \item Draw the values from the missing datas posterior distibution
+ \item Draw the values from the missing datas posterior distibution given the observed
+ data and the process that generated the missing data
 \end{itemize}
 This idea is called Multiple Imputation (MI) and was formalized in 1987 \cite{Rubin1987}. It is the gold standard method
 for missing data currently.
@@ -249,35 +257,28 @@ for missing data currently.
 Missingness is displayed by \textcolor{red}{?'s} and the imputed data is shown  as \textcolor{green}{\#'s}.
 We then regress age on weight, get the results from the individual datasets, and then pool them together.
 \end{figure}
+\note{We will go in to much more detail later in presentation}
 \end{frame}
 
-\begin{frame}{How to generate imputations}
-\begin{itemize}
- \item FIll this in later
-\end{itemize}
-\end{frame}
 
-\begin{frame}{Rubin's Rules}
- Put them here
-\end{frame}
 
 \subsection{Survival Analysis}
 
 \begin{frame}{Survival Analysis}
 \begin{block}{Survival Analysis}
 Survival analysis is a field of statistics concerned with analyzing time to 
-event data, often in the face of censoring (not knowing the exact time of failure).
+event data, often in the face of censoring or truncation.
 \end{block}
 Examples:
 \begin{itemize}
  \item The survival of patients after a liver transplant in a hospital
  \begin{itemize}
-  \item Censoring: study ending, patients die before study starts, subject moves away
+  \item Complications: study ending, patients die before study starts, subject moves away
  \end{itemize}
 
  \item The time until a child learns a new task
  \begin{itemize}
-  \item Censoring: Refuse participation, move away, don't recall the exact time they learned,
+  \item Complications: refuse participation, move away, don't recall the exact time they learned,
   already learned the task
  \end{itemize}
 
@@ -286,11 +287,13 @@ Examples:
 
 \begin{frame}{Kaplan-Meier Estimator}
 \begin{itemize}
- \item The survival function $S(t)=P(T>t)$ is estimated by the nonparametric Kaplan-Meier Curve
+ \item The survival function $S(t)=P(T>t)=\int_{t}^{\infty}f(u)du$ is estimated by the 
+ nonparametric Kaplan-Meier Estimator
  $$\hat{S}(t)=\prod_{t_i<t}\frac{n_i -d_i}{n_i}$$
-Where $n_i$ is the number of subject in the risk set at time $t_i$
-and $d_i$ is the number of deaths at time $t_i$
+\item $n_i$ is the number of subject in the risk set at time $t_i$
+\item $d_i$ is the number of deaths at time $t_i$
 \end{itemize}
+\note{We use death and survival because easy to say, but it really means event or not}
 \end{frame}
 
 \begin{frame}{Log rank test}
@@ -299,13 +302,18 @@ The log rank test compares two survival curves to see if from the same distribut
 $$\frac{\sum_{j=1}^{J}w_j(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}w_j^2V_{j}}}\sim N(0,1)$$
 \begin{itemize}
  \item Where $w_j$ is the weight of each observation (must be $\geq 0$, we will set all to be 1)
- \item $N_j=N_{1j}+N_{2j}$ is the number at risk at time j(composed from deaths in each group)
+ \item $N_j=N_{1j}+N_{2j}$ is the number at risk at time j (composed from deaths in each group)
  \item $O_j=O_{1j}+O_{2j}$ is the observed number of deaths at time j (composed from the observed deaths in each group)
  \item $E_{1j}=\frac{O_jN_{1j}}{N_j}$
- %figure out the u thing
  \item $V_j=\frac{O_j(N_{1j}/N_j)(1-N_{1j}/N_j)(N_{j}-O_{j})}{N_j -1}$
  \end{itemize}
+\note[itemize]{Weights such as
 
+\item peto peto
+\item gehan
+
+will put emphasis on different parts of the survival curve
+}
 \end{frame}
 
 
@@ -314,8 +322,12 @@ $$\frac{\sum_{j=1}^{J}w_j(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}w_j^2V_{j}}}\sim N
 %$\underbrace{h_{0}(t)}_{\textrm{time}}*\underbrace{exp(\sum_{k=1}^{p}\beta_{k}Z_{k})}_{\textrm{covariates}}$
 \begin{itemize}
  \item Hazard is the instantaneous rate of event given that you have survived until time t, given 
- by $$h(t)=\lim_{\Delta t \rightarrow 0+}\frac{P[t\leq T<t+\Delta t|t\leq T]}{\Delta t}$$
-   \item Cox regression models hazard by $$h(t|Z)=h_{0}(t)\exp(\sum_{k=1}^{p}\beta_{k}Z_{k})$$
+ by $$h(t)=\lim_{\Delta t \rightarrow 0+}\frac{P[t\leq T<t+\Delta t|T\geq t]}{\Delta t}$$
+   \item Cox regression models hazard by 
+   
+   %$$h(t|Z)=h_{0}(t)\exp(\sum_{k=1}^{p}\beta_{k}Z_{k})$$
+   $$h(t|Z)=\underbrace{h_{0}(t)}_{\textrm{time}}*\underbrace{exp(\sum_{k=1}^{p}\beta_{k}Z_{k})}_{\textrm{covariates}}$$
+
    \item Where $h_{0}(t)$ is the baseline hazard
    \item $Z_k$ is the $k^{th}$ covariate
    \item $\beta_k$'s are found by maximizing the partial likelihood function
@@ -324,7 +336,7 @@ The covariates act to multiply the hazard function.
 \end{frame}
 
 \begin{frame}{Causal analysis}
-Suppose we have a new drug we want to test. 
+Suppose we have a new drug we want to test to see how efficacious it is.
  \begin{itemize}
   \item We would like to be able to say ``The drug leads to better health''
   \begin{itemize}
@@ -339,9 +351,32 @@ Idea: try to balance the covariates so the two groups seem identical at baseline
 \end{frame}
 
 \begin{frame}{Counterfactual Model}
-Fill this in later.
+\begin{itemize}
+ \item Suppose that for or every person, there are two potential outcomes
+ \begin{itemize}
+  \item $Y_i(0)$ - The outcome if they had taken the control
+  \item $Y_i(1)$ - The outcome if they had taken the treatment
+ \end{itemize}
+\item Obviously, we only observe one. The fundamental problem of causal inference
+\item If we could observe both, then we could observe the causal effects for each person
+\item We will have to settle for finding the average treatment effect
+\end{itemize}
  
 \end{frame}
+
+\begin{frame}{Propensity scores}
+\begin{block}{Definition}
+The propensity score is the probability that the subject received the treatment given the subjects
+covariates. It is computed using the patient's baseline (pretreatment) information \cite{Rosenbaum1983}
+\end{block}
+ \begin{itemize}
+  \item Assume that the covariates play a role in how the subject chose treatment
+  \item Controling for propensity score will make groups seem indistinguishable
+  \item Thus, we may treat it as if it were an RCT
+ \end{itemize}
+
+\end{frame}
+
 
 % You can reveal the parts of a slide one at a time
 % with the \pause command:
