@@ -133,10 +133,36 @@ Pros
   \item Assume MAR missing data mechanism %althouth MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
   \item Requires no distributional assumptions
-  \item Idead: Specify k one dimensional models to impute on the missing data columns
+  \item Idea: Specify k one dimensional models to impute on the missing data columns
  \end{itemize}
-\note{ PUT THIS FOR THE FCS ALGO
-see page 7 of van buuren paper in jstatsoft
 
+\end{frame}
+
+\begin{frame}{FCS Algorithm}
+  \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.6\textwidth]{fcs_algo}
+ % \caption{Normal JM imputation pseudocode}
+\label{fig:fcsexample}
+\end{figure}
+ \note{ Observe how the previous imputation Y_j^(t-1) only enters the current imputation
+ through its relation with other variables, and not directly. This makes convergence very fast
 }
+\end{frame}
+
+\begin{frame}{FCS Pros and Cons}
+Pros
+ \begin{itemize}
+  \item Flexible
+  \item Easy to specify models
+  \item Handles mixed continous categorical
+ \end{itemize}
+
+ Cons
+ \begin{itemize}
+  \item No guarantee that full conditionals are compatible
+  \item Slow
+  \item Gets much harder as sample size increases to specify models
+ \end{itemize}
+
 \end{frame}

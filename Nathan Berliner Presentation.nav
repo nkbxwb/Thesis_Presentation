@@ -78,34 +78,38 @@
 \headcommand {\beamer@framepages {33}{33}}
 \headcommand {\slideentry {2}{1}{10}{34/34}{Imputation}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {2}{1}{11}{35/40}{Imputation}{0}}
-\headcommand {\beamer@framepages {35}{40}}
-\headcommand {\sectionentry {3}{Second Main Section}{41}{Second Main Section}{0}}
-\headcommand {\beamer@sectionpages {25}{40}}
-\headcommand {\beamer@subsectionpages {25}{40}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{41}{Another Subsection}}\headcommand {\beamer@subsectionpages {41}{40}}
-\headcommand {\slideentry {3}{1}{1}{41/41}{Another Subsection}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {3}{1}{2}{42/42}{Another Subsection}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\sectionentry {4}{Summary}{43}{Summary}{0}}
-\headcommand {\beamer@sectionpages {41}{42}}
-\headcommand {\beamer@subsectionpages {41}{42}}
-\headcommand {\slideentry {4}{0}{3}{43/43}{}{0}}
+\headcommand {\slideentry {2}{1}{11}{35/35}{Imputation}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {2}{1}{12}{36/36}{Imputation}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\slideentry {2}{1}{13}{37/42}{Imputation}{0}}
+\headcommand {\beamer@framepages {37}{42}}
+\headcommand {\sectionentry {3}{Second Main Section}{43}{Second Main Section}{0}}
+\headcommand {\beamer@sectionpages {25}{42}}
+\headcommand {\beamer@subsectionpages {25}{42}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{43}{Another Subsection}}\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\slideentry {3}{1}{1}{43/43}{Another Subsection}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{43}}
-\headcommand {\beamer@sectionpages {43}{43}}
-\headcommand {\beamer@subsectionpages {43}{43}}
-\headcommand {\beamer@appendixpages {44}}
-\headcommand {\sectionentry {5}{\translate {Appendix}}{44}{\translate {Appendix}}{1}}
-\headcommand {\beamer@sectionpages {44}{43}}
-\headcommand {\beamer@subsectionpages {44}{43}}
-\headcommand {\beamer@subsectionentry {1}{5}{1}{44}{For Further Reading}}\headcommand {\beamer@subsectionpages {44}{43}}
-\headcommand {\slideentry {5}{1}{1}{44/44}{For Further Reading}{1}}
+\headcommand {\slideentry {3}{1}{2}{44/44}{Another Subsection}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@partpages {44}{44}}
-\headcommand {\beamer@subsectionpages {44}{44}}
-\headcommand {\beamer@sectionpages {44}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\def \inserttotalframenumber {39}}
+\headcommand {\sectionentry {4}{Summary}{45}{Summary}{0}}
+\headcommand {\beamer@sectionpages {43}{44}}
+\headcommand {\beamer@subsectionpages {43}{44}}
+\headcommand {\slideentry {4}{0}{3}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\partentry {\translate {Appendix}}{1}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@sectionpages {45}{45}}
+\headcommand {\beamer@subsectionpages {45}{45}}
+\headcommand {\beamer@appendixpages {46}}
+\headcommand {\sectionentry {5}{\translate {Appendix}}{46}{\translate {Appendix}}{1}}
+\headcommand {\beamer@sectionpages {46}{45}}
+\headcommand {\beamer@subsectionpages {46}{45}}
+\headcommand {\beamer@subsectionentry {1}{5}{1}{46}{For Further Reading}}\headcommand {\beamer@subsectionpages {46}{45}}
+\headcommand {\slideentry {5}{1}{1}{46/46}{For Further Reading}{1}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\beamer@partpages {46}{46}}
+\headcommand {\beamer@subsectionpages {46}{46}}
+\headcommand {\beamer@sectionpages {46}{46}}
+\headcommand {\beamer@documentpages {46}}
+\headcommand {\def \inserttotalframenumber {41}}
