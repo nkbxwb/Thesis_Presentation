@@ -6,5 +6,5 @@
 \beamer@subsectionintoc {1}{4}{Causal Analysis}{20}{0}{1}
 \beamer@sectionintoc {2}{Methods}{25}{0}{2}
 \beamer@subsectionintoc {2}{1}{Imputation}{25}{0}{2}
-\beamer@sectionintoc {3}{Second Main Section}{43}{0}{3}
-\beamer@subsectionintoc {3}{1}{Another Subsection}{43}{0}{3}
+\beamer@sectionintoc {3}{Second Main Section}{49}{0}{3}
+\beamer@subsectionintoc {3}{1}{Another Subsection}{49}{0}{3}

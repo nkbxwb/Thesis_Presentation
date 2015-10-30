@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  29 OCT 2015 21:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  30 OCT 2015 13:10
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1142,8 +1142,7 @@ Package pdftex.def Info: fcs_algo.jpg used on input line 151.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/fcs_algo.jpg>] [36
 
-]) [37
-
+] [37
 
 ] [38
 
@@ -1155,17 +1154,30 @@ Package pdftex.def Info: fcs_algo.jpg used on input line 151.
 
 ] [42
 
-]
-("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
-) [43
+]) [43
+
 
 ] [44
 
 ] [45
 
+] [46
+
+] [47
+
+] [48
+
+]
+("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
+) [49
+
+] [50
+
+] [51
+
 ]
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [46
+) [52
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
 .pdf>]
@@ -1189,33 +1201,30 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 240.
  ) 
 Here is how much of TeX's memory you used:
- 17286 strings out of 493921
- 338529 string characters out of 3144873
- 397431 words of memory out of 3000000
- 19992 multiletter control sequences out of 15000+200000
+ 17309 strings out of 493921
+ 338736 string characters out of 3144873
+ 397707 words of memory out of 3000000
+ 20004 multiletter control sequences out of 15000+200000
  60761 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,65p,409b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.3.1.42} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program
- Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-mi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (46 pages, 606506 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
+so10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "Nathan Berliner Presentation.pdf" (52 pages, 646989 bytes).
 PDF statistics:
- 1536 PDF objects out of 1728 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
+ 1707 PDF objects out of 1728 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -246,11 +246,6 @@ Then
   \item Total variance given by
   $$T=\bar{U}+B +\frac{B}{m}$$
   \item This is proven by Rubin in \cite{Rubin1987}
-  \item To do inference, assume that the complete sample estimate $\hat{Q}\sim N(Q,U)$, 
-  where U is the variance-covariance of $(Q-\hat{Q})$
-  \item Since true T is not known, then
-  $$\frac{Q-\bar{Q}}{\sqrt{T}}\sim t_{\nu}$$
-  \item $\nu$ is given by !! do this later!! 
  \end{itemize}
 
 \end{frame}
