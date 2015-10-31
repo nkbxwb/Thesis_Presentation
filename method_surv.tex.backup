@@ -18,7 +18,6 @@ back transform
 
 \end{frame}
 
-%I want to make this better
 \begin{frame}{Median Survival Time}
  \begin{itemize}
   \item Want a measure of central tendency
@@ -26,13 +25,7 @@ back transform
    \item Survival distributions often skewed, so mean is poor choice
    \item Median (time the survival curve dips below 50\%) is a better option
   \end{itemize}
-\item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
-\item Confidence interval at median: Where the lower and upper bands cross
-the 50\% line
+\item Algorithm: Take MI Kaplan-Meier curve, observe first 
  \end{itemize}
 
-\end{frame}
-
-\begin{frame}{Log Rank Test}
- 
 \end{frame}
