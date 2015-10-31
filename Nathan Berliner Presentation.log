@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  31 OCT 2015 13:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  31 OCT 2015 14:17
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -800,7 +800,8 @@ Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux))
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
 LaTeX Font Info:    ... okay on input line 100.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
@@ -1047,7 +1048,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 
 ] [13
 
-] <mi_example_full.jpg, id=487, 493.0922pt x 267.24844pt>
+] <mi_example_full.jpg, id=452, 493.0922pt x 267.24844pt>
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
@@ -1121,7 +1122,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 
 ] [31
 
-] <jm_algo.jpg, id=1035, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=960, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
 
 <use jm_algo.jpg>
@@ -1133,7 +1134,7 @@ Package pdftex.def Info: jm_algo.jpg used on input line 113.
 
 ] [34
 
-] <fcs_algo.jpg, id=1121, 365.11406pt x 261.97874pt>
+] <fcs_algo.jpg, id=1040, 365.11406pt x 261.97874pt>
 File: fcs_algo.jpg Graphic file (type jpg)
 
 <use fcs_algo.jpg>
@@ -1156,7 +1157,7 @@ Package pdftex.def Info: fcs_algo.jpg used on input line 151.
 ] [42
 
 ]
-<stacked.jpg, id=1351, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=1254, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 282.
@@ -1178,41 +1179,29 @@ Package pdftex.def Info: stacked.jpg used on input line 282.
 
 ] [48
 
-]) [49
-
-
-] [50
-
-] [51
-
-] [52
-
-] [53
-
-] [54
-
-]
+])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
-) [55
+) [49
 
-] [56
 
-] [57
+] (C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.tex [50
 
-]
+
+])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [58
+) [51
+
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
-.pdf>] [59
+.pdf>] [52
 
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
@@ -1220,43 +1209,41 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
 Package rerunfilecheck Info: File `Nathan*Berliner*Presentation.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
  ) 
 Here is how much of TeX's memory you used:
- 17365 strings out of 493921
- 339806 string characters out of 3144873
- 398507 words of memory out of 3000000
- 20031 multiletter control sequences out of 15000+200000
+ 17301 strings out of 493921
+ 338836 string characters out of 3144873
+ 395505 words of memory out of 3000000
+ 19980 multiletter control sequences out of 15000+200000
  60761 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,65p,409b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Outline0.3.1.54} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program
- Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-mi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (59 pages, 738301 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lms
+s8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
+Output written on "Nathan Berliner Presentation.pdf" (52 pages, 665924 bytes).
 PDF statistics:
- 1941 PDF objects out of 2073 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1618 PDF objects out of 1728 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
