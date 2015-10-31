@@ -7,5 +7,5 @@
 \beamer@sectionintoc {2}{Methods}{25}{0}{2}
 \beamer@subsectionintoc {2}{1}{Imputation}{25}{0}{2}
 \beamer@subsectionintoc {2}{2}{Survival}{44}{0}{2}
-\beamer@sectionintoc {3}{Second Main Section}{54}{0}{3}
-\beamer@subsectionintoc {3}{1}{Another Subsection}{54}{0}{3}
+\beamer@sectionintoc {3}{Second Main Section}{55}{0}{3}
+\beamer@subsectionintoc {3}{1}{Another Subsection}{55}{0}{3}

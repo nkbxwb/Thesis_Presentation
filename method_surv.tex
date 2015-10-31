@@ -51,12 +51,23 @@ log rank test
  \item Pooling LRT and Score test is unstable \cite{Marshall2009}
  \item Wald test is asymptotically equivalent
 \end{itemize}
- \item Final Solution: Run the Wald test as an approximation
+ \item Final Solution: Run the Wald test on Cox model as an approximation
 
  \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Cox Model in the MI Setting}
+\begin{itemize}
+ \item Goal: To get a ``baseline'' Cox model, then add treatment variables
+ \item Need to check for proportional hazards assumption
+ \begin{itemize}
+  \item Problem:  MI cox model doesn't have residuals
+  \item Solution: Check assumptions on stacked dataset or each MI dataset individually
+ \end{itemize}
+\item Cox model is normally distributed, use Rubin's Rules to pool
+\item Add treatment covariates, rerun models, pool
+\end{itemize}
+
  
 \end{frame}
