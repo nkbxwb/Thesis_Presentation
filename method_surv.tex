@@ -24,15 +24,39 @@ back transform
   \item Want a measure of central tendency
   \begin{itemize}
    \item Survival distributions often skewed, so mean is poor choice
-   \item Median (time the survival curve dips below 50\%) is a better option
   \end{itemize}
+  \item Median: smallest time such that $S(t)\leq .5$
 \item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
-\item Confidence interval at median: Where the lower and upper bands cross
-the 50\% line
+\item Confidence interval at median: Take the median of the upper and lower confidence bands
  \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Log Rank Test}
+ \begin{itemize}
+  \item Idea: Combine log rank tests from each MI dataset
+  \begin{itemize}
+  \item Problem: Wastes information and is unstable \cite{Marshall2009}
+  \item Idea: Calculate log rank from the MI Kaplan-Meier curve
+  \item Problem: Risk set and deaths no longer meaningful
+  \end{itemize}
+
+  \item Solution: Under no tied times, Cox Regression on a treatment is equivalent to the
+log rank test
+\begin{itemize}
+ \item And very similar under tied times
+\end{itemize}
+\item Idea: Derive log rank test from Cox model
+\begin{itemize}
+ \item Pooling LRT and Score test is unstable \cite{Marshall2009}
+ \item Wald test is asymptotically equivalent
+\end{itemize}
+ \item Final Solution: Run the Wald test as an approximation
+
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Cox Model in the MI Setting}
  
 \end{frame}

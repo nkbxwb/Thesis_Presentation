@@ -18,14 +18,24 @@ back transform
 
 \end{frame}
 
+%I want to make this better
 \begin{frame}{Median Survival Time}
  \begin{itemize}
   \item Want a measure of central tendency
   \begin{itemize}
    \item Survival distributions often skewed, so mean is poor choice
-   \item Median (time the survival curve dips below 50\%) is a better option
   \end{itemize}
-\item Algorithm: Take MI Kaplan-Meier curve, observe first 
+  \item Median: smallest time such that $S(t)\leq .5$
+\item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
+\item Confidence interval at median: Take the median of the upper and lower confidence bands
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Log Rank Test}
+ \begin{itemize}
+  \item Idea: Combine log rank tests from each MI dataset
+  \item Problem: Wastes information and is unstable \cite{Marshall2009}
  \end{itemize}
 
 \end{frame}
