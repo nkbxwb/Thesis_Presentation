@@ -8,3 +8,4 @@
 \beamer@subsectionintoc {2}{1}{Imputation}{25}{0}{2}
 \beamer@subsectionintoc {2}{2}{Survival}{44}{0}{2}
 \beamer@subsectionintoc {2}{3}{Causal Analysis}{49}{0}{2}
+\beamer@sectionintoc {3}{Application}{51}{0}{3}

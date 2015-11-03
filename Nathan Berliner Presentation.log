@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  31 OCT 2015 14:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  2 NOV 2015 20:54
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -774,6 +774,54 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks44
 \verbatim@in@stream=\read2
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+\XKV@depth=\count153
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box53
+)
+\tc@llx=\dimen188
+\tc@lly=\dimen189
+\tc@urx=\dimen190
+\tc@ury=\dimen191
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen192
+\adjbox@Height=\dimen193
+\adjbox@Depth=\dimen194
+\adjbox@Totalheight=\dimen195
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count154
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count155
+\@vwid@loff=\dimen196
+\@vwid@roff=\dimen197
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\theme\beamerth
 emeMadrid.sty"
 Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -801,22 +849,23 @@ Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 100
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\cancerapplication.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 102
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -858,20 +907,20 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count153
-\scratchdimen=\dimen188
-\scratchbox=\box53
-\nofMPsegments=\count154
-\nofMParguments=\count155
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count156
-\MPscratchDim=\dimen189
-\MPnumerator=\count157
-\makeMPintoPDFobject=\count158
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count156
+\scratchdimen=\dimen198
+\scratchbox=\box55
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen199
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks48
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 100.
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 102.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -879,62 +928,62 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count159
+\c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.out"
 ) ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.ou
 t")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 100.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 100.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 102.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 100.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 100.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 100.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 100.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 100.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 100.
+(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 100.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 102.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -960,56 +1009,56 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 100.
+LaTeX Info: Redefining \includegraphics on input line 102.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.nav"
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 104.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 106.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 104
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 106
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 104
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 106
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 104.
+(Font)              <10.95> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 104.
+(Font)              <8> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 104.
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+(Font)              <6> on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 104.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 104.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 104.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 104.
+(Font)              <5> on input line 106.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 104.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
  [1
 
@@ -1048,7 +1097,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 
 ] [13
 
-] <mi_example_full.jpg, id=452, 493.0922pt x 267.24844pt>
+] <mi_example_full.jpg, id=460, 493.0922pt x 267.24844pt>
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
@@ -1122,7 +1171,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 
 ] [31
 
-] <jm_algo.jpg, id=960, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=972, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
 
 <use jm_algo.jpg>
@@ -1134,7 +1183,7 @@ Package pdftex.def Info: jm_algo.jpg used on input line 113.
 
 ] [34
 
-] <fcs_algo.jpg, id=1040, 365.11406pt x 261.97874pt>
+] <fcs_algo.jpg, id=1052, 365.11406pt x 261.97874pt>
 File: fcs_algo.jpg Graphic file (type jpg)
 
 <use fcs_algo.jpg>
@@ -1157,7 +1206,7 @@ Package pdftex.def Info: fcs_algo.jpg used on input line 151.
 ] [42
 
 ]
-<stacked.jpg, id=1254, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=1266, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 282.
@@ -1188,20 +1237,52 @@ Package pdftex.def Info: stacked.jpg used on input line 282.
 
 
 ])
+(C:\Users\Nathan\Desktop\Thesis_Presentation\cancerapplication.tex
+Overfull \hbox (1.07983pt too wide) in paragraph at lines 26--26
+ [] 
+ []
+
+
+Overfull \vbox (2.21805pt too high) detected at line 26
+ []
+
+[51
+
+
+
+]
+Overfull \vbox (10.78333pt too high) detected at line 55
+ []
+
+[52
+
+] <missingvalues_plot.png, id=1552, 711.65875pt x 485.815pt>
+File: missingvalues_plot.png Graphic file (type png)
+
+<use missingvalues_plot.png>
+Package pdftex.def Info: missingvalues_plot.png used on input line 67.
+(pdftex.def)             Requested size: 273.83728pt x 186.93185pt.
+
+Overfull \vbox (51.40553pt too high) detected at line 67
+ []
+
+[53
+
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/missingvalues_plot.png>])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [51
+) [54
 
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
-.pdf>] [52
+.pdf>] [55
 
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
@@ -1210,22 +1291,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+(C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\cancerapplication.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `Nathan*Berliner*Presentation.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 17301 strings out of 493921
- 338836 string characters out of 3144873
- 395505 words of memory out of 3000000
- 19980 multiletter control sequences out of 15000+200000
+ 18051 strings out of 493921
+ 351257 string characters out of 3144873
+ 418707 words of memory out of 3000000
+ 20680 multiletter control sequences out of 15000+200000
  60761 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,16n,65p,409b,640s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,65p,409b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -1241,9 +1323,9 @@ s8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (52 pages, 665924 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (55 pages, 694090 bytes).
 PDF statistics:
- 1618 PDF objects out of 1728 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1716 PDF objects out of 1728 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
