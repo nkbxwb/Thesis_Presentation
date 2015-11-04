@@ -192,8 +192,6 @@ other/none      & \textless.0001          & \textless.0001          \\ \hline
 
 \begin{table}[]
 \centering
-\caption{My caption}
-\label{my-label}
 \begin{tabular}{|l|c|c|}
 \hline
                    & \multicolumn{2}{c|}{HER2}                         \\ \hline
