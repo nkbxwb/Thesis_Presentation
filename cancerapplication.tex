@@ -218,5 +218,31 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 \end{frame}
 
 \begin{frame}{Base model}
- 
+ \begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+\hline
+                                                       &                                  &      & \begin{tabular}[c]{@{}c@{}}AC \\ n= 845\end{tabular} &                 &  &      & MI                                                 &                                                            \\ \hline
+Variable                                               & Contrast                         & HR   & \begin{tabular}[c]{@{}c@{}}95\% \\ CI\end{tabular}   & pvalue          &  & HR   & \begin{tabular}[c]{@{}c@{}}95\% \\ CI\end{tabular} & \begin{tabular}[c]{@{}c@{}}pvalue\\  (t test)\end{tabular} \\ \hline
+HR/HER2                                                & -/+ vs. -/-                      & 0.57 & (0.46,0.71)                                          & \textless0.0001 &  & 0.59 & (0.48,0.72)                                        & \textless0.0001                                            \\ \hline
+                                                       & +/- vs. -/-                      & 0.66 & (0.54,0.81)                                          & \textless0.0001 &  & 0.63 & (0.52,0.76)                                        & \textless0.0001                                            \\ \hline
+                                                       & +/+ vs. -/-                      & 0.4  & (0.31,0.50)                                          & \textless0.0001 &  & 0.4  & (0.32,0.50)                                        & \textless0.0001                                            \\ \hline
+Age                                                    & \textgreater 60 vs. \textless 60 & 1.37 & (1.13,1.65)                                          & 0.0011          &  & 1.45 & (1.22,1.72)                                        & \textless0.0001                                            \\ \hline
+Dx to BM                                               & \textgreater 6 vs. \textless 6   & 0.66 & (0.54,0.82)                                          & 0.00013         &  & 0.71 & (0.59,0.86)                                        & 0.0002                                                     \\ \hline
+First DM                                               & Brain vs. Oth                    & 0.8  & (0.66,0.97)                                          & 0.026           &  & 0.83 & (0.70,0.99)                                        & 0.02                                                       \\ \hline
+Race                                                   & Hisp. Vs. White                  & 0.85 & (0.68,1.07)                                          & 0.17            &  & 0.88 & (0.71,1.08)                                        & 0.11                                                       \\ \hline
+                                                       & Black vs. White                  & 1.31 & (1.06,1.63)                                          & 0.014           &  & 1.25 & (1.02,1.52)                                        & 0.015                                                      \\ \hline
+                                                       & Other vs. White                  & 0.65 & (0.40,1.04)                                          & 0.075           &  & 0.7  & (0.45,1.07)                                        & 0.05                                                       \\ \hline
+\begin{tabular}[c]{@{}c@{}}\# prior \\ Rx\end{tabular} & \textgreater2 vs. 0-2            & 1.58 & (1.31,1.91)                                          & \textless0.0001 &  & 1.53 & (1.29,1.82)                                        & \textless0.0001                                            \\ \hline
+BM type                                                & Mult. Vs. Single                 & 1.45 & (1.20,1.76)                                          & \textless0.0001 &  & 1.48 & (1.24,1.76)                                        & \textless0.0001                                            \\ \hline
+                                                       & LMD vs. Single                   & 1.6  & (1.21,2.13)                                          & 0.001           &  & 1.58 & (1.25,2.00)                                        & \textless0.0001                                            \\ \hline
+Sys. Cont.                                             & Yes vs. No                       & 0.71 & (0.61,0.83)                                          & \textless0.0001 &  & 0.73 & (0.63,0.85)                                        & \textless0.0001                                            \\ \hline
+\end{tabular}
+}
+\caption{AC and MI baseline Cox model}
+\label{fig:acmicox}
+\end{table}
+
 \end{frame}
