@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  4 NOV 2015 21:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  7 NOV 2015 13:24
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1379,13 +1379,21 @@ Overfull \vbox (6.39539pt too high) detected at line 248
 
 [67
 
+]
+Overfull \vbox (13.11601pt too high) detected at line 279
+ []
+
+[68
+
+] [69
+
 ])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [68
+) [70
 
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
-.pdf>] [69
+.pdf>] [71
 
 
 ]
@@ -1416,10 +1424,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 18170 strings out of 493921
- 352887 string characters out of 3144873
- 432280 words of memory out of 3000000
- 20757 multiletter control sequences out of 15000+200000
+ 18180 strings out of 493921
+ 352991 string characters out of 3144873
+ 446978 words of memory out of 3000000
+ 20762 multiletter control sequences out of 15000+200000
  61120 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,65p,409b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1439,10 +1447,10 @@ ic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (69 pages, 1258151 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (71 pages, 1274080 bytes).
 
 PDF statistics:
- 2113 PDF objects out of 2487 (max. 8388607)
- 164 named destinations out of 1000 (max. 500000)
+ 2167 PDF objects out of 2487 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
  252 words of extra memory for PDF output out of 10000 (max. 10000000)
 
