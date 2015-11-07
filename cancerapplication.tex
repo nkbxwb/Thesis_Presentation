@@ -1,6 +1,6 @@
 \begin{frame}{Data Explanation}
 \begin{itemize}
- \item 1514 MD Anderson patients who had brainmets from breast cancer
+ \item 1514 MD Anderson patients who had brain mets from breast cancer
  \item 90 covariates
  \begin{itemize}
   \item Missingness from 0 to 65\%
@@ -15,7 +15,7 @@ Type                                                                            
 Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
 Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
 \begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
-\begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nasuea                                                    \\ \hline
+\begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
 Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline
 \end{tabular}
@@ -41,7 +41,7 @@ race2       & 0                                                          & Categ
 priorn      & 0                                                          & \begin{tabular}[c]{@{}c@{}}Indicator: Number of prior treatments in metastatic setting \\ before brain mets\end{tabular}                            \\ \hline
 braintype   & 4                                                        & Categorical: Single, multiple, Leptomeningeal disease                                                                                               \\ \hline
 controlled  & 12                                                        & Indicator: Extracranial progression of brain mets                                                                                                   \\ \hline
-capeothno   & 18                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotheraputic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
+capeothno   & 18                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotherapeutic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
 lapatrasno  & 18                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2 treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
 os          & 0                                                          & Overall survival (months)                                                                                                                           \\ \hline
 dead        & 0                                                          & Indicator: death indicator                                                                                                                          \\ \hline
@@ -99,7 +99,7 @@ sequences is no larger than the variance within each individual sequence.}
 
 \begin{frame}{Validity}
  \begin{itemize}
-  \item Lots of tools for continous imputations
+  \item Lots of tools for continuous imputations
   \item not many for categorical
   \begin{itemize}
    \item Solution: look at tables to verify validity
@@ -159,7 +159,7 @@ no local therapy                                  & 10\%                        
 
 \begin{frame}{Kaplan-Meier in MI}
  \begin{itemize}
-  \item Noninformative censoring reasonable
+  \item Non-informative censoring reasonable
   \item Pooled by Rubin's Rules on Complimentary log-log
  \end{itemize}
  \begin{figure}[h!]
@@ -198,7 +198,7 @@ other/none      & \textless.0001          & \textless.0001          \\ \hline
                    & \multicolumn{1}{l|}{AC} & \multicolumn{1}{l|}{MI} \\ \hline
 Lapat/Traztuz/none & \textless.0001          & \textless.0001          \\ \hline
 Lapat/Trastuz      & .87                     & .81                     \\ \hline
-Lapta/none         & .00017                  & .00018                  \\ \hline
+Lapat/none         & .00017                  & .00018                  \\ \hline
 Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 \end{tabular}
 \end{table}
@@ -305,4 +305,14 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 \caption{AC and MI Cox model with HER2 Treatment}
 
 \end{table}
+\end{frame}
+
+\begin{frame}{Causal Analysis}
+\begin{itemize}
+ \item Need to get propensity score from \textit{pretreatment} covariates
+ \item Check the balance and standardized bias
+ \item Run IPTW analysis on each dataset
+ \item Use Mitra and Reiter's within method to get each MI dataset ATE \cite{Mitra2012}
+ \item Pool via Rubin's Rules
+\end{itemize}
 \end{frame}
