@@ -4,11 +4,20 @@ Suppose we have a new drug we want to test to see how efficacious it is.
   \item We would like to be able to say ``The drug leads to better health''
   \begin{itemize}
    \item But need an RCT to say this
+   \begin{itemize}
+    \item Randomization minimizes differences between groups at baseline
+   \end{itemize}
+
    \item We only have observational data
-   \item Thus differences could be attributed to the drug or another factor (like healthier people
-   decided to take the drug)
+   \item Thus differences could be attributed to the drug or confounding
+   
+   \begin{itemize}
+    \item e.g. more healthier people at baseline were much more likely to take the drug
+   \end{itemize}
+
   \end{itemize}
-Idea: try to balance the covariates so the two groups seem identical at baseline
+Idea: Try to balance the covariates to reduce the effects of confounding
+so the two groups seem identical at baseline
  \end{itemize}
 
 \end{frame}
@@ -17,23 +26,32 @@ Idea: try to balance the covariates so the two groups seem identical at baseline
 \begin{itemize}
  \item Suppose that for or every person, there are two potential outcomes
  \begin{itemize}
-  \item $Y_i(0)$ - The outcome if they had taken the control
-  \item $Y_i(1)$ - The outcome if they had taken the treatment
+  \item $Y_i(0)$ - The outcome if they had taken the control, $Z=0$
+  \item $Y_i(1)$ - The outcome if they had taken the treatment, $Z=1$
  \end{itemize}
-\item Obviously, we only observe one. The fundamental problem of causal inference
+\item Obviously, we only observe one. \textit{The fundamental problem of causal inference}
 \item If we could observe both, then we could observe the causal effects for each person
-\item We will have to settle for finding the average treatment effect (ATE)
+\item Estimands of interest:
+\begin{itemize}
+ \item Average Treatment Effect (ATE) $E[Y_i(1)-Y_i(0)]$. The effect of moving entire population
+ from treated to untreated
+ \item Average treatment effect for the treated (ATT) $E[Y_i(1)-Y_i(0)|Z=1]$. The average treatment
+ effect for those actually treated
+\end{itemize}
+\item In survival, the ATE is the difference in survival time
 \end{itemize}
  
 \end{frame}
 
 \begin{frame}{Propensity scores}
 \begin{block}{Definition}
-The propensity score is the probability that the subject received the treatment given the subjects
+The propensity score is the probability that the subject received the treatment given the subjects \textit{pretreatment}
 covariates. It is computed using the patient's baseline (pretreatment) information \cite{Rosenbaum1983}
 \end{block}
  \begin{itemize}
+  \item Defined as  $e_i(x)=P(Z_i =1 |X_i)$
   \item Assume that the covariates play a role in how the subject chose treatment
+  \item If we assume that $(Y(0),Y(1))\perp T|X \implies (Y(0),Y(1))\perp T|e(X)$
   \item Controling for propensity score will make groups seem indistinguishable
   \item Thus, we may treat it as if it were an RCT
  \end{itemize}
@@ -46,6 +64,13 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
  \item Stratification: Stratify on propensity score, weight and combine ATE in each strate
  \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
 \end{itemize}
+\end{frame}
 
- 
+\begin{frame}{Propensity Score Issues}
+ \begin{itemize}
+  \item Unmeasured confounders
+  \item Choice of pretreatment covariates in the propensity score model
+  \item Different models and methods may lead to different conclusions
+ \end{itemize}
+
 \end{frame}
