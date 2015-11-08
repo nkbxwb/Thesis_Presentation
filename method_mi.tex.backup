@@ -31,6 +31,7 @@
 \item $\psi$ is a vector of parameters for the missing data model. 
 \item The missing data model is given as $p(R|Y_{obs},Y_{mis},\psi)$
 \item $\theta$ is a vector of the parameters for the full model of $Y$
+\item $\phi_j$ is the unknown parameters of the imputation model 
 \end{itemize}
 \end{frame}
 
@@ -223,7 +224,7 @@ Validation
 
 \end{frame}
 
-\begin{frame}{Pooling Notation}
+\begin{frame}{Rubin's Rules}
  Let
  \begin{itemize}
   \item $\hat{Q}_i$ be the scientific estimand from the $i^{th}$ MI dataset
@@ -232,22 +233,27 @@ Validation
 Then
 \begin{itemize}
  \item The MI estimate is given by
- $$\bar{Q}=\frac{1}{m}\sum_{i=1}^{m}\hat{Q}_i$$
+ $\bar{Q}=\frac{1}{m}\sum_{i=1}^{m}\hat{Q}_i$
  \item The MI ``within'' variance is given by
- $$\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$$
+ $\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$
  \item the MI ``between'' variance is given by
- $$B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$$
+ $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$
+   \item Total variance given by \cite{Rubin1987}
+  $$T=\bar{U}+B +\frac{B}{m}$$
 \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Rubin's Rules}
+%tidy this up
+\begin{frame}{Inference with Rubin's Rules}
  \begin{itemize}
-  \item Total variance given by \cite{Rubin1987}
-  $$T=\bar{U}+B +\frac{B}{m}$$
-  \item To do inference, assume that the complete sample estimate $\hat{Q}\sim N(Q,U)$, 
-  where U is the variance-covariance of $(Q-\hat{Q})$
-  \item Since true T is not known, then
+  \item Assume that with complete data, inference on the estimand
+  Q would be based on the statement $(Q- \hat{Q})\sim N(0,U)$
+  \begin{itemize}
+   \item $\hat{Q}$ is the statistic estimating Q
+   \item $U$ is the variance-covariance of $(Q-\hat{Q})$
+  \end{itemize}
+   \item Since true T is not known, then
   $$\frac{Q-\bar{Q}}{\sqrt{T}}\sim t_{\nu}$$
   \item $\nu$ is given by \cite{Barnard1999}
   $$\nu=\frac{\nu_{old}\nu_{obs}}{\nu_{old}+\nu_{obs}}$$
@@ -260,3 +266,23 @@ Then
 if not normal, transform}
 \end{frame}
 
+\begin{frame}{The Stack Method}
+ \begin{itemize}
+  \item Rubin's Rules work well, but not always
+  \begin{itemize}
+   \item Ex: partitioning the MI data on an imputed variable
+   \item Taking the average is not a good idea
+  \end{itemize}
+    \item Solution: Stack the MI datasets on top of eachother to get one huge dataset
+    \begin{itemize}
+     \item Will get unbiassed results
+     \item But sample size is falsley inflated, thus cannot trust variance
+    \end{itemize}
+ \end{itemize}
+ \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.6\textwidth]{stacked}
+ % \caption{Normal JM imputation pseudocode}
+\label{fig:stacked}
+\end{figure}
+\end{frame}
