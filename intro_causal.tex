@@ -12,7 +12,7 @@ Suppose we have a new drug we want to test to see how efficacious it is.
    \item Thus differences could be attributed to the drug or confounding
    
    \begin{itemize}
-    \item e.g. more healthier people at baseline were much more likely to take the drug
+    \item e.g. healthier people were much more likely to take the drug at baseline
    \end{itemize}
 
   \end{itemize}
@@ -52,7 +52,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
   \item Defined as  $e_i(x)=P(Z_i =1 |X_i)$
   \item Assume that the covariates play a role in how the subject chose treatment
   \item If we assume that $(Y(0),Y(1))\perp T|X \implies (Y(0),Y(1))\perp T|e(X)$
-  \item Controling for propensity score will make groups seem indistinguishable
+  \item Controlling for propensity score will make groups seem indistinguishable
   \item Thus, we may treat it as if it were an RCT
  \end{itemize}
 
@@ -61,7 +61,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 \begin{frame}{Common Propensity Score Methods}
 \begin{itemize}
  \item Matching: Match treatment and controls on their propensity score, calculate ATE
- \item Stratification: Stratify on propensity score, weight and combine ATE in each strate
+ \item Stratification: Stratify on propensity score, weight and combine ATE in each strata
  \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
 \end{itemize}
 \end{frame}
