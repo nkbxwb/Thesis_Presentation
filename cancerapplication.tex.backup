@@ -25,6 +25,17 @@ Survival data                                                                   
 
 \end{frame}
 
+\begin{frame}{Questions of interest}
+Want to explore...
+\begin{itemize}
+ \item Chemotherapeutic drugs: Capecitabine vs other chemotherapeutic agents
+ \item HER2 directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects
+\end{itemize}
+
+ 
+\end{frame}
+
+
 \begin{frame}{Important Covariates}
  \begin{table}[ !ht]
 \centering
@@ -121,8 +132,8 @@ sequences is no larger than the variance within each individual sequence.}
 
 \begin{frame}{Tabluar Checks}
  %figurethis out
- %\includegraphics[width=.5\textwidth,height=.5\textwidth]{oscontrol_table}%
-%\includegraphics[width=.5\textwidth]{oshrher2_table} 
+ \includegraphics[width=.5\textwidth,height=.5\textwidth]{oscontrol_table}%
+\includegraphics[width=.5\textwidth]{oshrher2_table} 
 \end{frame}
 
 \begin{frame}{MI data Breakdown}
