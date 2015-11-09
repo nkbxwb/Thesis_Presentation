@@ -33,6 +33,7 @@
 \item $\theta$ is a vector of the parameters for the full model of $Y$
 \item $\phi_j$ is the unknown parameters of the imputation model 
 \end{itemize}
+\note{Missing data model relates Y to R}
 \end{frame}
 
 \begin{frame}{MI Concepts}
@@ -90,7 +91,7 @@ Now, we may discuss the three main types of missing data mechanisms.
  
 \end{frame}
 
-\begin{frame}{Joint Modelling}
+\begin{frame}{Joint Modelling (JM)}
  \begin{itemize}
   \item Assume ignorable MAR  missing data mechanism
   \item Missing data imputed by sampling from a user specified distribution
@@ -129,7 +130,7 @@ Pros
 
 \end{frame}
 
-\begin{frame}{Full Conditional Specification}
+\begin{frame}{Full Conditional Specification (FCS)}
  \begin{itemize}
   \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
@@ -237,7 +238,7 @@ Then
  \item The MI ``within'' variance is given by
  $\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$
  \item the MI ``between'' variance is given by
- $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$
+ $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})^{2}$ % matrix notation?
    \item Total variance given by \cite{Rubin1987}
   $$T=\bar{U}+B +\frac{B}{m}$$
 \end{itemize}
