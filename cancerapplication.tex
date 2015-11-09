@@ -1,6 +1,6 @@
 \begin{frame}{Data Explanation}
 \begin{itemize}
- \item 1514 MD Anderson patients who had brain mets from breast cancer
+ \item 1514 MD Anderson patients who had brain mets from breast cancer between 19XX and 20XX
  \item 1242 usable cases
  \item 90 covariates
  \begin{itemize}
@@ -31,6 +31,10 @@ Want to explore...
 \begin{itemize}
  \item Chemotherapeutic drugs: Capecitabine vs other chemotherapeutic agents
  \item HER2 directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects
+ \item Note: treatment not determined at time of diagnosis, need to landmark (2 months)
+ 
+ \note{Human epidermal growth factor receptor 2 (HER2) overexpression drives the biology of 20
+ pct of breast cancers, and predicts a poor prognosis for patients.}
 \end{itemize}
 
  
@@ -106,7 +110,10 @@ Issues
 
 \note{On convergence, the different streams should be freely intermingled with one another,
 without showing any definite trends. Convergence is diagnosed when the variance between different 
-sequences is no larger than the variance within each individual sequence.}
+sequences is no larger than the variance within each individual sequence.
+
+We do mean, because without it, we would have 50*missing# for each
+var, and it would be very hard to read}
 \end{frame}
 
 \begin{frame}{Validity}
