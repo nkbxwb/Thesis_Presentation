@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  8 NOV 2015 17:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  8 NOV 2015 20:55
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1102,10 +1102,10 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
-Package pdftex.def Info: mi_example_full.jpg used on input line 56.
+Package pdftex.def Info: mi_example_full.jpg used on input line 60.
 (pdftex.def)             Requested size: 273.83728pt x 148.4225pt.
 
-Overfull \vbox (2.8406pt too high) detected at line 56
+Overfull \vbox (2.8406pt too high) detected at line 60
  []
 
 [14
@@ -1124,7 +1124,7 @@ Overfull \vbox (2.8406pt too high) detected at line 56
 ] [18
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 70.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 72.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [19
@@ -1178,7 +1178,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 File: jm_algo.jpg Graphic file (type jpg)
 
 <use jm_algo.jpg>
-Package pdftex.def Info: jm_algo.jpg used on input line 114.
+Package pdftex.def Info: jm_algo.jpg used on input line 115.
 (pdftex.def)             Requested size: 205.37926pt x 206.23698pt.
  [33
 
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: jm_algo.jpg used on input line 114.
 File: fcs_algo.jpg Graphic file (type jpg)
 
 <use fcs_algo.jpg>
-Package pdftex.def Info: fcs_algo.jpg used on input line 152.
+Package pdftex.def Info: fcs_algo.jpg used on input line 153.
 (pdftex.def)             Requested size: 205.37926pt x 147.36267pt.
  [36
 
@@ -1212,7 +1212,7 @@ Package pdftex.def Info: fcs_algo.jpg used on input line 152.
 <stacked.jpg, id=1315, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
-Package pdftex.def Info: stacked.jpg used on input line 288.
+Package pdftex.def Info: stacked.jpg used on input line 289.
 (pdftex.def)             Requested size: 205.37926pt x 104.10193pt.
  [44
 
@@ -1478,7 +1478,7 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (79 pages, 1359468 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (79 pages, 1359383 bytes).
 
 PDF statistics:
  2429 PDF objects out of 2487 (max. 8388607)

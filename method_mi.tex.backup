@@ -1,7 +1,7 @@
 \begin{frame}{A path with many options}
  \begin{itemize}
   \item There are many different options to choose
-  \item I explain my choices but dicuss other options
+  \item I explain my choices but discuss other options
   \item Goal: Be clear so other researchers can adapt my methodology to their problems
  \end{itemize}
 
@@ -33,6 +33,7 @@
 \item $\theta$ is a vector of the parameters for the full model of $Y$
 \item $\phi_j$ is the unknown parameters of the imputation model 
 \end{itemize}
+\note{Missing data model relates Y to R}
 \end{frame}
 
 \begin{frame}{MI Concepts}
@@ -90,7 +91,7 @@ Now, we may discuss the three main types of missing data mechanisms.
  
 \end{frame}
 
-\begin{frame}{Joint Modelling}
+\begin{frame}{Joint Modelling (JM)}
  \begin{itemize}
   \item Assume ignorable MAR  missing data mechanism
   \item Missing data imputed by sampling from a user specified distribution
@@ -124,14 +125,14 @@ Pros
  \begin{itemize}
   \item Inflexible
   \item Limited to known distributions
-  \item How to deal with mixed categorical and continous missing data
+  \item How to deal with mixed categorical and continuous missing data
  \end{itemize}
 
 \end{frame}
 
-\begin{frame}{Full Conditional Specification}
+\begin{frame}{Full Conditional Specification (FCS)}
  \begin{itemize}
-  \item Assume MAR missing data mechanism %althouth MNAR with more 
+  \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
   \item Requires no distributional assumptions
   \item Idea: Specify k one dimensional models to impute on the missing data columns
@@ -156,7 +157,7 @@ Pros
  \begin{itemize}
   \item Flexible
   \item Easy to specify models
-  \item Handles mixed continous categorical
+  \item Handles mixed continuous categorical
  \end{itemize}
 
  Cons
@@ -195,7 +196,7 @@ Pros
  Convergence
  \begin{itemize}
   \item Chains should be freely intermingled with no pattern
-  \item Convergence when variance between chains is no larger than variance withing each chain
+  \item Convergence when variance between chains is no larger than variance within each chain
   \item Formal tests like Gelman/Rubin $\hat{R}$ proposed to check convergence
  \end{itemize}
 Validation
@@ -254,7 +255,7 @@ Then
    \item $U$ is the variance-covariance of $(Q-\hat{Q})$
   \end{itemize}
    \item Since true T is not known, then
-  $$\frac{Q-\bar{Q}}{\sqrt{T}}\sim t_{\nu}$$
+  $$\frac{Q-\hat{Q}}{\sqrt{T}}\sim t_{\nu}$$
   \item $\nu$ is given by \cite{Barnard1999}
   $$\nu=\frac{\nu_{old}\nu_{obs}}{\nu_{old}+\nu_{obs}}$$
 \item Where $\nu_{obs}=\frac{\nu_{com}+1}{\nu_{com}+3}\nu_{com}(1-\frac{B + B/m}{T})$
@@ -273,10 +274,10 @@ if not normal, transform}
    \item Ex: partitioning the MI data on an imputed variable
    \item Taking the average is not a good idea
   \end{itemize}
-    \item Solution: Stack the MI datasets on top of eachother to get one huge dataset
+    \item Solution: Stack the MI datasets on top of each other to get one huge dataset
     \begin{itemize}
-     \item Will get unbiassed results
-     \item But sample size is falsley inflated, thus cannot trust variance
+     \item Will get unbiased results
+     \item But sample size is falsely inflated, thus cannot trust variance
     \end{itemize}
  \end{itemize}
  \begin{figure}[h!]

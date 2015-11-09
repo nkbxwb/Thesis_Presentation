@@ -41,7 +41,8 @@ back transform
   \item Problem: Risk set and deaths no longer meaningful
   \end{itemize}
 
-  \item Solution: Under no tied times, Cox Regression on a treatment is equivalent to the
+  \item Solution: Under no tied times, the score test on
+  Cox Regression on a treatment is equivalent to the
 log rank test
 \begin{itemize}
  \item And very similar under tied times
@@ -62,8 +63,8 @@ log rank test
  \item Goal: To get a ``baseline'' Cox model, then add treatment variables
  \item Need to check for proportional hazards assumption
  \begin{itemize}
-  \item Problem:  MI cox model doesn't have residuals
-  \item Solution: Check assumptions on stacked dataset or each MI dataset individually
+  \item Problem:  MI Cox model doesn't have residuals
+  \item Solution: Check assumptions (Schoenfeld residuals) on stacked dataset or each MI dataset individually
  \end{itemize}
 \item Cox model is normally distributed, use Rubin's Rules to pool
 \item Add treatment covariates, rerun models, pool
