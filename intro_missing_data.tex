@@ -9,6 +9,9 @@
  %bad things here
  \end{itemize}
  \end{itemize}
+ 
+ \note{This can occur because when correlations are computed using different cases,
+ the resulting patterns can be ones that are impossible to produce with complete data.}
 \end{frame}
 
 
@@ -33,11 +36,15 @@ to reckon, attribute, make account of, charge, ascribe. \cite{VanBuuren2012}
 Throughout the 70's and 80's Donald Rubin worked to improve on this
 \begin{itemize}
  \item Instead of imputing one value, lets impute it $m\geq 2$ times
- \item Draw the values from the missing data’s posterior distribution given the observed
+ \item Draw the values from the missing data's posterior distribution given the observed
  data and the process that generated the missing data
 \end{itemize}
 This idea is called Multiple Imputation (MI) and was formalized in 1987 \cite{Rubin1987}. It is the gold standard method
 for missing data currently.
+
+\note{MI are repitions frawn to simulate a bayesian posterior distribution
+of the missing values under a model}
+
 \end{frame}
 
 
