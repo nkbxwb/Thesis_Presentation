@@ -31,6 +31,7 @@ Want to explore...
 \begin{itemize}
  \item Chemotherapeutic drugs: Capecitabine vs other chemotherapeutic agents
  \item HER2 directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects
+ \item Note: treatment not determined at time of diagnosis, need to landmark (2 months)
  
  \note{Human epidermal growth factor receptor 2 (HER2) overexpression drives the biology of 20
  pct of breast cancers, and predicts a poor prognosis for patients.}
@@ -109,7 +110,10 @@ Issues
 
 \note{On convergence, the different streams should be freely intermingled with one another,
 without showing any definite trends. Convergence is diagnosed when the variance between different 
-sequences is no larger than the variance within each individual sequence.}
+sequences is no larger than the variance within each individual sequence.
+
+We do mean, because without it, we would have 50*missing# for each
+var, and it would be very hard to read}
 \end{frame}
 
 \begin{frame}{Validity}
@@ -334,4 +338,30 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
  \item Use Mitra and Reiter's within method to get each MI dataset ATE \cite{Mitra2012}
  \item Pool via Rubin's Rules
 \end{itemize}
+\end{frame}
+
+\begin{frame}{Issues}
+\begin{itemize}
+ \item Problem: Theory was developed for binary treatments, we have ternary
+ \begin{itemize}
+  \item Solution: Run each treatment as binary, then compare groups
+ \end{itemize}
+\item Propensity score model specification
+\begin{itemize}
+ \item Solution: Boosting, subject to standardized bias minimization
+\end{itemize}
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{IPTW Weighting in MI Setting}
+\begin{itemize}
+ \item Set the propensity score model
+ \item Weight observations by propensity score
+ \item Check to ensure balance achieved
+ \item Run IPTW weighted Cox regression on treatment
+ \item Pool results via Rubin's rules
+\end{itemize}
+
+ 
 \end{frame}

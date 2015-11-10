@@ -339,3 +339,37 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
  \item Pool via Rubin's Rules
 \end{itemize}
 \end{frame}
+
+\begin{frame}{Issues}
+\begin{itemize}
+ \item Problem: Theory was developed for binary treatments, we have ternary
+ \begin{itemize}
+  \item Solution: Run each treatment as binary, then compare groups
+ \end{itemize}
+\item Propensity score model specification
+\begin{itemize}
+ \item Solution: Boosting, subject to standardized bias minimization
+\end{itemize}
+\end{itemize}
+ 
+\end{frame}
+
+\begin{frame}{IPTW Weighting in MI Setting}
+\begin{itemize}
+ \item Set the propensity score model
+ \item Weight observations by propensity score
+ \item Check to ensure balance achieved
+ \item Run IPTW weighted Cox regression on treatment
+ \item Pool results via Rubin's rules
+ \item Double robustness: Include pretreatment variables in model?
+\end{itemize} 
+\end{frame}
+
+\begin{frame}{Implementation}
+ \begin{itemize}
+  \item A few of the balance diagnostics
+  \item results
+ \end{itemize}
+
+\end{frame}
+
