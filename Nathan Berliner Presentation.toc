@@ -10,4 +10,5 @@
 \beamer@subsectionintoc {2}{3}{Causal Analysis}{50}{0}{2}
 \beamer@sectionintoc {3}{Application}{53}{0}{3}
 \beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{53}{0}{3}
-\beamer@sectionintoc {4}{Discussion}{75}{0}{4}
+\beamer@sectionintoc {4}{Conclusion}{78}{0}{4}
+\beamer@subsectionintoc {4}{1}{Discussion}{78}{0}{4}
