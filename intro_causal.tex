@@ -63,7 +63,17 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
  \item Matching: Match treatment and controls on their propensity score, calculate ATE
  \item Stratification: Stratify on propensity score, weight and combine ATE in each stratum
  \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
+ 
+  \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.8\textwidth]{ps_examples.png}
+    \caption{Taken from TWANG shortcourse \cite{Rand2015}}
+\label{fig:psexamp}
+
+\end{figure}
 \end{itemize}
+
+
 \end{frame}
 
 \begin{frame}{Propensity Score Issues}
