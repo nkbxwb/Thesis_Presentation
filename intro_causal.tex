@@ -1,7 +1,7 @@
 \begin{frame}{Causal Analysis}
-Example: Examining weight loss between new weightloss drug or placebo
+Example: Examining weight loss between new weight loss drug or placebo
  \begin{itemize}
-  \item We would like to be able to say ``The drug leads to more weightloss''
+  \item We would like to be able to say ``The drug leads to more weight loss''
   \begin{itemize}
    \item But need an RCT to say this
    \begin{itemize}
@@ -19,10 +19,17 @@ Example: Examining weight loss between new weightloss drug or placebo
 Idea: Try to balance the covariates to reduce the effects of confounding
 so the two groups seem identical at baseline
  \end{itemize}
-
 \end{frame}
 
-\begin{frame}{Counterfactual Model}
+\begin{frame}{Rubin's Causal Model}
+\begin{itemize}
+\item Stable unit treatment value assumption (SUTVA): Treatment status of another subject does not affect outcome of other units. Single version of each treatment
+\item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Counterfactuals}
 \begin{itemize}
  \item Suppose that for or every person, there are two potential outcomes
  \begin{itemize}
@@ -36,7 +43,7 @@ so the two groups seem identical at baseline
 
 
   
-\begin{frame}{The Counterfactual}
+\begin{frame}{Counterfactual Example}
    \begin{figure}[h!]
   \centering
     \includegraphics[width=0.5\textwidth]{counterfactual.png}
@@ -45,22 +52,21 @@ so the two groups seem identical at baseline
 \end{figure}
 
 \begin{itemize}
- \item Obviously, we only observe one. \textit{The fundamental problem of causal inference}
+ \item Obviously we only observe one. \textit{The fundamental problem of causal inference}
 \item If we could observe both, then we could observe the causal effects for each person
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Estimands of Interest}
  \begin{itemize}
- \item Treatment Effect on the subject: $Y_i(1)-Y_i(0)$
- \item Average Treatment Effect (ATE) $E[Y(1)-Y(0)]$. The effect of moving entire population
+ \item Individual Treatment Effect: $Y_i(1)-Y_i(0)$
+ \item Average Treatment Effect (ATE): $E[Y(1)-Y(0)]$. The effect of moving entire population
  from treated to untreated
- \item Average treatment effect for the treated (ATT) $E[Y(1)-Y(0)|T=1]$. The average treatment
+ \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
 \end{itemize}
  
 \end{frame}
-
 
 
 \begin{frame}{Propensity scores}
@@ -71,7 +77,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
  \begin{itemize}
   \item Defined as  $e_i(x)=P(T_i =1 |X_i)$
   \item Assume that the covariates play a role in how the subject chose treatment
-  \item If we assume that $(Y(0),Y(1))\perp T|X \implies (Y(0),Y(1))\perp T|e(X)$
+  \item If we assume that $(Y(0),Y(1))\perp T|X \implies (Y(0),Y(1))\perp T|e(X)$, \cite{Rosenbaum1983}
   \item Controlling for propensity score will make groups seem indistinguishable
   \item Thus, we may treat it as if it were an RCT
  \end{itemize}
@@ -92,8 +98,6 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 
 \end{figure}
 \end{itemize}
-
-
 \end{frame}
 
 \begin{frame}{Propensity Score Issues}
