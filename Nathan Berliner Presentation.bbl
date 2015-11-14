@@ -16,11 +16,6 @@ P.~Rosenbaum and D.~Rubin, ``{The Central Role of the Propensity Score in
 \bibitem{Rand2015}
 D.~F. {Griffin, Beth Ann McCaffrey}, ``{TWANG Short Course}.''
 
-\bibitem{Demirtas2008}
-H.~Demirtas and D.~Hedeker, ``{Imputing continuous data under some non-Gaussian
-  distributions},'' {\em Statistica Neerlandica}, vol.~62, no.~2, pp.~193--205,
-  2008.
-
 \bibitem{Barnard1999}
 J.~Barnard and D.~Rubin, ``{Small-sample degrees of freedom with multiple
   imputation},'' {\em Biometrika}, vol.~86, no.~4, pp.~948--955, 1999.
@@ -35,5 +30,10 @@ A.~Marshall, D.~G. Altman, R.~L. Holder, and P.~Royston, ``{Combining estimates
 R.~Mitra and J.~P. Reiter, ``{A comparison of two methods of estimating
   propensity scores after multiple imputation},'' {\em Statistical Methods in
   Medical Research}, pp.~1--17, 2012.
+
+\bibitem{Demirtas2008}
+H.~Demirtas and D.~Hedeker, ``{Imputing continuous data under some non-Gaussian
+  distributions},'' {\em Statistica Neerlandica}, vol.~62, no.~2, pp.~193--205,
+  2008.
 
 \end{thebibliography}
