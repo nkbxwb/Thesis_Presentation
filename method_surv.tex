@@ -2,18 +2,8 @@
  \begin{itemize}
   \item Clearly define the population, groups, and events of interest
   \item Ensure that we have noninformative censoring
-  \item Issue: Kaplan-Meier is not normally distributed
-  \begin{itemize}
-   \item Solution: Complimentary log log transformation, pool \cite{Marshall2009}
-  \end{itemize}
-  \item Issue: Imputations leave one KM curve much shorter than the rest
-  \begin{itemize}
-   \item Solution 1: Truncate all curves at the lowest time
-   \item Solution 2: Extend the curves out to the longest time
-   \item Solution 3: Use the stacked method
-  \end{itemize}
 \item Algorithm: Pool the complimentary log log of the Kaplan-Meier curve, get estimates,
-back transform
+back transform \cite{Marshall2009}
  \end{itemize}
 
 \end{frame}
@@ -27,21 +17,14 @@ back transform
   \end{itemize}
   \item Median: smallest time such that $\hat{S}(t)\leq .5$
 \item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
-\item Confidence interval at median: Take the median of the upper and lower confidence bands
+\item Confidence interval at median: the median of the upper and lower confidence bands
  \end{itemize}
 
 \end{frame}
 
 \begin{frame}{Log Rank Test}
  \begin{itemize}
-  \item Idea: Combine log rank tests from each MI dataset
-  \begin{itemize}
-  \item Problem: Wastes information and is unstable \cite{Marshall2009}
-  \item Idea: Calculate log rank from the MI Kaplan-Meier curve
-  \item Problem: Risk set and deaths no longer meaningful
-  \end{itemize}
-
-  \item Solution: Under no tied times, the score test on
+ \item Under no tied times, the score test on
   Cox Regression on a treatment is equivalent to the
 log rank test
 \begin{itemize}
@@ -55,7 +38,7 @@ log rank test
  \item Final Solution: Run the Wald test on Cox model as an approximation
 
  \end{itemize}
-
+\note{there are lots of issues, I moved them to extras}
 \end{frame}
 
 \begin{frame}{Cox Model in the MI Setting}

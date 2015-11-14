@@ -66,3 +66,30 @@ Pros
 \label{fig:stacked}
 \end{figure}
 \end{frame}
+
+\begin{frame}{KM issues in the MI setting}
+\begin{itemize}
+\item Issue: Kaplan-Meier is not normally distributed
+  \begin{itemize}
+   \item Solution: Complimentary log log transformation, pool \cite{Marshall2009}
+  \end{itemize}
+  \item Issue: Imputations leave one KM curve much shorter than the rest
+  \begin{itemize}
+   \item Solution 1: Truncate all curves at the lowest time
+   \item Solution 2: Extend the curves out to the longest time
+   \item Solution 3: Use the stacked method
+  \end{itemize}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Log Rank Issues in MI setting}
+\begin{itemize}
+  \item Idea: Combine log rank tests from each MI dataset
+  \begin{itemize}
+  \item Problem: Wastes information and is unstable \cite{Marshall2009}
+  \item Idea: Calculate log rank from the MI Kaplan-Meier curve
+  \item Problem: Risk set and deaths no longer meaningful
+  \end{itemize}
+\end{itemize}
+\end{frame}
