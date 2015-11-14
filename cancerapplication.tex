@@ -389,8 +389,24 @@ Other vs none  & 0.336         &  & 0.567       &  & 0.413         &  & 0.593   
 Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183      \\ \hline
 \end{tabular}
 }
-\caption{ATE with IPTW weights, AC and MI}
+\caption{Chemotherapeutic ATE with IPTW weights, AC and MI}
 
+\end{table}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                & \multicolumn{2}{c|}{AC Unweighted} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI no weight} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+                & HR           & 95\% CI             &                       & HR        & 95\% CI          &                       & HR          & 95\% CI             &                       & HR        & 95\% CI          \\ \hline
+lapat vs none   & 0.467        & (0.355,0.616)       &                       & 0.571     & (0.381,0.855)    &                       & 0.474       & (0.362,0.622)       &                       & 0.485     & (0.304,0.775)    \\ \hline
+Trastuz vs none & 0.488        & (0.398,0.597)       &                       & 0.566     & (0.421,0.759)    &                       & 0.506       & (0.417,0.614)       &                       & 0.480     & (0.313,0.735)    \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, AC and MI}
+\label{tab:lapatonly}
 \end{table}
  
 \end{frame}
