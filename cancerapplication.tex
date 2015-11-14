@@ -375,3 +375,22 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
  \end{itemize}
 
 \end{frame}
+
+\begin{frame}
+ \begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+               & AC-Unweighted &  & AC-Weighted &  & MI unweighted &  & MI Weighted \\ \hline
+Cape. vs none  & 0.396         &  & 0.655       &  & 0.484         &  & 0.702       \\ \hline
+Other vs none  & 0.336         &  & 0.567       &  & 0.413         &  & 0.593       \\ \hline
+Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183      \\ \hline
+\end{tabular}
+}
+\caption{ATE with IPTW weights, AC and MI}
+
+\end{table}
+ 
+\end{frame}

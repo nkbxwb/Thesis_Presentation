@@ -4,11 +4,11 @@
 \beamer@subsectionintoc {1}{2}{Missing data}{10}{0}{1}
 \beamer@subsectionintoc {1}{3}{Survival Analysis}{15}{0}{1}
 \beamer@subsectionintoc {1}{4}{Causal Analysis}{20}{0}{1}
-\beamer@sectionintoc {2}{Methods}{26}{0}{2}
-\beamer@subsectionintoc {2}{1}{Imputation}{26}{0}{2}
-\beamer@subsectionintoc {2}{2}{Survival}{45}{0}{2}
-\beamer@subsectionintoc {2}{3}{Causal Analysis}{50}{0}{2}
-\beamer@sectionintoc {3}{Application}{53}{0}{3}
-\beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{53}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{78}{0}{4}
-\beamer@subsectionintoc {4}{1}{Discussion}{78}{0}{4}
+\beamer@sectionintoc {2}{Methods}{28}{0}{2}
+\beamer@subsectionintoc {2}{1}{Imputation}{28}{0}{2}
+\beamer@subsectionintoc {2}{2}{Survival}{47}{0}{2}
+\beamer@subsectionintoc {2}{3}{Causal Analysis}{52}{0}{2}
+\beamer@sectionintoc {3}{Application}{55}{0}{3}
+\beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{55}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{81}{0}{4}
+\beamer@subsectionintoc {4}{1}{Discussion}{81}{0}{4}

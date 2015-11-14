@@ -56,140 +56,146 @@
 \headcommand {\beamer@framepages {24}{24}}
 \headcommand {\slideentry {1}{4}{6}{25/25}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\sectionentry {2}{Methods}{26}{Methods}{0}}
-\headcommand {\beamer@sectionpages {3}{25}}
-\headcommand {\beamer@subsectionpages {20}{25}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{26}{Imputation}}\headcommand {\beamer@subsectionpages {26}{25}}
-\headcommand {\slideentry {2}{1}{1}{26/26}{Imputation}{0}}
+\headcommand {\slideentry {1}{4}{7}{26/26}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {2}{1}{2}{27/27}{Imputation}{0}}
+\headcommand {\slideentry {1}{4}{8}{27/27}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {2}{1}{3}{28/28}{Imputation}{0}}
+\headcommand {\sectionentry {2}{Methods}{28}{Methods}{0}}
+\headcommand {\beamer@sectionpages {3}{27}}
+\headcommand {\beamer@subsectionpages {20}{27}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{28}{Imputation}}\headcommand {\beamer@subsectionpages {28}{27}}
+\headcommand {\slideentry {2}{1}{1}{28/28}{Imputation}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {2}{1}{4}{29/29}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{2}{29/29}{Imputation}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\slideentry {2}{1}{5}{30/30}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{3}{30/30}{Imputation}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {2}{1}{6}{31/31}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{4}{31/31}{Imputation}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {2}{1}{7}{32/32}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{5}{32/32}{Imputation}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {2}{1}{8}{33/33}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{6}{33/33}{Imputation}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {2}{1}{9}{34/34}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{7}{34/34}{Imputation}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {2}{1}{10}{35/35}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{8}{35/35}{Imputation}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {2}{1}{11}{36/36}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{9}{36/36}{Imputation}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {2}{1}{12}{37/37}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{10}{37/37}{Imputation}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {2}{1}{13}{38/38}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{11}{38/38}{Imputation}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {2}{1}{14}{39/39}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{12}{39/39}{Imputation}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {2}{1}{15}{40/40}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{13}{40/40}{Imputation}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {2}{1}{16}{41/41}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{14}{41/41}{Imputation}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\slideentry {2}{1}{17}{42/42}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{15}{42/42}{Imputation}{0}}
 \headcommand {\beamer@framepages {42}{42}}
-\headcommand {\slideentry {2}{1}{18}{43/43}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{16}{43/43}{Imputation}{0}}
 \headcommand {\beamer@framepages {43}{43}}
-\headcommand {\slideentry {2}{1}{19}{44/44}{Imputation}{0}}
+\headcommand {\slideentry {2}{1}{17}{44/44}{Imputation}{0}}
 \headcommand {\beamer@framepages {44}{44}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{45}{Survival}}\headcommand {\beamer@subsectionpages {26}{44}}
-\headcommand {\slideentry {2}{2}{1}{45/45}{Survival}{0}}
+\headcommand {\slideentry {2}{1}{18}{45/45}{Imputation}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {2}{2}{2}{46/46}{Survival}{0}}
+\headcommand {\slideentry {2}{1}{19}{46/46}{Imputation}{0}}
 \headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {2}{2}{3}{47/47}{Survival}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{47}{Survival}}\headcommand {\beamer@subsectionpages {28}{46}}
+\headcommand {\slideentry {2}{2}{1}{47/47}{Survival}{0}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\slideentry {2}{2}{4}{48/48}{Survival}{0}}
+\headcommand {\slideentry {2}{2}{2}{48/48}{Survival}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {2}{2}{5}{49/49}{Survival}{0}}
+\headcommand {\slideentry {2}{2}{3}{49/49}{Survival}{0}}
 \headcommand {\beamer@framepages {49}{49}}
-\headcommand {\beamer@subsectionentry {0}{2}{3}{50}{Causal Analysis}}\headcommand {\beamer@subsectionpages {45}{49}}
-\headcommand {\slideentry {2}{3}{1}{50/50}{Causal Analysis}{0}}
+\headcommand {\slideentry {2}{2}{4}{50/50}{Survival}{0}}
 \headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {2}{3}{2}{51/51}{Causal Analysis}{0}}
+\headcommand {\slideentry {2}{2}{5}{51/51}{Survival}{0}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\slideentry {2}{3}{3}{52/52}{Causal Analysis}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{52}{Causal Analysis}}\headcommand {\beamer@subsectionpages {47}{51}}
+\headcommand {\slideentry {2}{3}{1}{52/52}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {52}{52}}
-\headcommand {\sectionentry {3}{Application}{53}{Application}{0}}
-\headcommand {\beamer@sectionpages {26}{52}}
-\headcommand {\beamer@subsectionpages {50}{52}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{53}{Breast Brain Mets Example}}\headcommand {\beamer@subsectionpages {53}{52}}
-\headcommand {\slideentry {3}{1}{1}{53/53}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {2}{3}{2}{53/53}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {53}{53}}
-\headcommand {\slideentry {3}{1}{2}{54/54}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {2}{3}{3}{54/54}{Causal Analysis}{0}}
 \headcommand {\beamer@framepages {54}{54}}
-\headcommand {\slideentry {3}{1}{3}{55/55}{Breast Brain Mets Example}{0}}
+\headcommand {\sectionentry {3}{Application}{55}{Application}{0}}
+\headcommand {\beamer@sectionpages {28}{54}}
+\headcommand {\beamer@subsectionpages {52}{54}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{55}{Breast Brain Mets Example}}\headcommand {\beamer@subsectionpages {55}{54}}
+\headcommand {\slideentry {3}{1}{1}{55/55}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\slideentry {3}{1}{4}{56/56}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{2}{56/56}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {56}{56}}
-\headcommand {\slideentry {3}{1}{5}{57/57}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{3}{57/57}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {57}{57}}
-\headcommand {\slideentry {3}{1}{6}{58/58}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{4}{58/58}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {58}{58}}
-\headcommand {\slideentry {3}{1}{7}{59/59}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{5}{59/59}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {59}{59}}
-\headcommand {\slideentry {3}{1}{8}{60/60}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{6}{60/60}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {60}{60}}
-\headcommand {\slideentry {3}{1}{9}{61/61}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{7}{61/61}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {61}{61}}
-\headcommand {\slideentry {3}{1}{10}{62/62}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{8}{62/62}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\slideentry {3}{1}{11}{63/63}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{9}{63/63}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {63}{63}}
-\headcommand {\slideentry {3}{1}{12}{64/64}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{10}{64/64}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {64}{64}}
-\headcommand {\slideentry {3}{1}{13}{65/65}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{11}{65/65}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {65}{65}}
-\headcommand {\slideentry {3}{1}{14}{66/66}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{12}{66/66}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {3}{1}{15}{67/67}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{13}{67/67}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\slideentry {3}{1}{16}{68/68}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{14}{68/68}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {3}{1}{17}{69/69}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{15}{69/69}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\slideentry {3}{1}{18}{70/70}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{16}{70/70}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {70}{70}}
-\headcommand {\slideentry {3}{1}{19}{71/71}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{17}{71/71}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {71}{71}}
-\headcommand {\slideentry {3}{1}{20}{72/72}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{18}{72/72}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {72}{72}}
-\headcommand {\slideentry {3}{1}{21}{73/73}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{19}{73/73}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {73}{73}}
-\headcommand {\slideentry {3}{1}{22}{74/74}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{20}{74/74}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {74}{74}}
-\headcommand {\slideentry {3}{1}{23}{75/75}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{21}{75/75}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {75}{75}}
-\headcommand {\slideentry {3}{1}{24}{76/76}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{22}{76/76}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {76}{76}}
-\headcommand {\slideentry {3}{1}{25}{77/77}{Breast Brain Mets Example}{0}}
+\headcommand {\slideentry {3}{1}{23}{77/77}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\sectionentry {4}{Conclusion}{78}{Conclusion}{0}}
-\headcommand {\beamer@sectionpages {53}{77}}
-\headcommand {\beamer@subsectionpages {53}{77}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{78}{Discussion}}\headcommand {\beamer@subsectionpages {78}{77}}
-\headcommand {\slideentry {4}{1}{1}{78/78}{Discussion}{0}}
+\headcommand {\slideentry {3}{1}{24}{78/78}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {4}{1}{2}{79/79}{Discussion}{0}}
+\headcommand {\slideentry {3}{1}{25}{79/79}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\slideentry {4}{1}{3}{80/80}{Discussion}{0}}
+\headcommand {\slideentry {3}{1}{26}{80/80}{Breast Brain Mets Example}{0}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {4}{1}{4}{81/81}{Discussion}{0}}
+\headcommand {\sectionentry {4}{Conclusion}{81}{Conclusion}{0}}
+\headcommand {\beamer@sectionpages {55}{80}}
+\headcommand {\beamer@subsectionpages {55}{80}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{81}{Discussion}}\headcommand {\beamer@subsectionpages {81}{80}}
+\headcommand {\slideentry {4}{1}{1}{81/81}{Discussion}{0}}
 \headcommand {\beamer@framepages {81}{81}}
-\headcommand {\slideentry {4}{1}{5}{82/82}{Discussion}{0}}
+\headcommand {\slideentry {4}{1}{2}{82/82}{Discussion}{0}}
 \headcommand {\beamer@framepages {82}{82}}
-\headcommand {\slideentry {4}{1}{6}{83/83}{Discussion}{0}}
+\headcommand {\slideentry {4}{1}{3}{83/83}{Discussion}{0}}
 \headcommand {\beamer@framepages {83}{83}}
-\headcommand {\slideentry {4}{1}{6}{83/84}{Discussion}{0}}
-\headcommand {\beamer@framepages {83}{84}}
-\headcommand {\beamer@partpages {1}{84}}
-\headcommand {\beamer@subsectionpages {78}{84}}
-\headcommand {\beamer@sectionpages {78}{84}}
-\headcommand {\beamer@documentpages {84}}
-\headcommand {\def \inserttotalframenumber {84}}
+\headcommand {\slideentry {4}{1}{4}{84/84}{Discussion}{0}}
+\headcommand {\beamer@framepages {84}{84}}
+\headcommand {\slideentry {4}{1}{5}{85/85}{Discussion}{0}}
+\headcommand {\beamer@framepages {85}{85}}
+\headcommand {\slideentry {4}{1}{6}{86/86}{Discussion}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\slideentry {4}{1}{6}{86/87}{Discussion}{0}}
+\headcommand {\beamer@framepages {86}{87}}
+\headcommand {\beamer@partpages {1}{87}}
+\headcommand {\beamer@subsectionpages {81}{87}}
+\headcommand {\beamer@sectionpages {81}{87}}
+\headcommand {\beamer@documentpages {87}}
+\headcommand {\def \inserttotalframenumber {87}}
