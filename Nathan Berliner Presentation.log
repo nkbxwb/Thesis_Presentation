@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  14 NOV 2015 17:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  14 NOV 2015 19:09
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1123,16 +1123,16 @@ Overfull \vbox (2.8406pt too high) detected at line 63
 ] <hazard.png, id=580, 332.74312pt x 227.34938pt>
 File: hazard.png Graphic file (type png)
  <use hazard.png>
-Package pdftex.def Info: hazard.png used on input line 63.
+Package pdftex.def Info: hazard.png used on input line 57.
 (pdftex.def)             Requested size: 222.48985pt x 152.02147pt.
 
-Overfull \vbox (31.99869pt too high) detected at line 63
+Overfull \vbox (31.99869pt too high) detected at line 57
  []
 
 [17
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/hazard.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 72.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1147,28 +1147,46 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 ]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 33.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 33.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 33.
+
 [21
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 40.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 40.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 40.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 40.
- [22
-
-] <counterfactual.png, id=754, 458.46281pt x 317.68687pt>
+] <counterfactual.png, id=728, 458.46281pt x 317.68687pt>
 File: counterfactual.png Graphic file (type png)
 
 <use counterfactual.png>
-Package pdftex.def Info: counterfactual.png used on input line 58.
+Package pdftex.def Info: counterfactual.png used on input line 51.
 (pdftex.def)             Requested size: 171.14764pt x 118.5942pt.
- [23
+ [22
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/counterfactual.png>] [24
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/counterfactual.png>] [23
+
+]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \end{frame}
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 73
+[][]
+ []
+
+[24
 
 ] [25
 
@@ -1176,10 +1194,10 @@ Package pdftex.def Info: counterfactual.png used on input line 58.
 File: ps_examples.png Graphic file (type png)
 
 <use ps_examples.png>
-Package pdftex.def Info: ps_examples.png used on input line 101.
+Package pdftex.def Info: ps_examples.png used on input line 105.
 (pdftex.def)             Requested size: 273.83728pt x 109.8405pt.
 
-Overfull \vbox (1.33853pt too high) detected at line 101
+Overfull \vbox (1.33853pt too high) detected at line 105
  []
 
 [26
@@ -1379,34 +1397,34 @@ LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 
 [63
 
-] [64
-
-] <ac_schoenfeld.png, id=1951, 600.74437pt x 532.99126pt>
+] <ac_schoenfeld.png, id=1925, 600.74437pt x 532.99126pt>
 File: ac_schoenfeld.png Graphic file (type png)
 
 <use ac_schoenfeld.png>
-Package pdftex.def Info: ac_schoenfeld.png used on input line 241.
+Package pdftex.def Info: ac_schoenfeld.png used on input line 245.
 (pdftex.def)             Requested size: 171.14764pt x 151.84715pt.
- <mi_schoenfeld.png, id=1952, 800.9925pt x 710.655pt>
+ <mi_schoenfeld.png, id=1926, 800.9925pt x 710.655pt>
 File: mi_schoenfeld.png Graphic file (type png)
 
 <use mi_schoenfeld.png>
-Package pdftex.def Info: mi_schoenfeld.png used on input line 241.
+Package pdftex.def Info: mi_schoenfeld.png used on input line 245.
 (pdftex.def)             Requested size: 171.14764pt x 151.84444pt.
- [65
+ [64
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/ac_schoenfeld.png> <C:/Users/Nath
 an/Desktop/Thesis_Presentation/mi_schoenfeld.png (PNG copy)>]
-Overfull \vbox (6.39539pt too high) detected at line 271
+Overfull \vbox (6.39539pt too high) detected at line 275
+ []
+
+[65
+
+]
+Overfull \vbox (13.11601pt too high) detected at line 306
  []
 
 [66
 
-]
-Overfull \vbox (13.11601pt too high) detected at line 302
- []
-
-[67
+] [67
 
 ] [68
 
@@ -1414,63 +1432,66 @@ Overfull \vbox (13.11601pt too high) detected at line 302
 
 ] [70
 
-] [71
+]
+Overfull \hbox (231.26323pt too wide) in paragraph at lines 402--402
+ [] 
+ []
 
-] [72
-
-] [73
+[71
 
 ])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
-) [74
+) [72
 
 
 ] (C:\Users\Nathan\Desktop\Thesis_Presentation\conclusion_discuss.tex
-[75
+[73
 
+
+] [74
+
+] [75
 
 ] [76
 
-] [77
+]) (C:\Users\Nathan\Desktop\Thesis_Presentation\extras.tex
+[77
+
+
 
 ] [78
 
-]) (C:\Users\Nathan\Desktop\Thesis_Presentation\extras.tex
-[79
-
-
-
-] [80
-
-] <jm_algo.jpg, id=2389, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=2337, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
  <use jm_algo.jpg>
 Package pdftex.def Info: jm_algo.jpg used on input line 31.
 (pdftex.def)             Requested size: 205.37926pt x 206.23698pt.
 
-[81
+[79
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [82
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [80
 
 ]
-<stacked.jpg, id=2443, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=2392, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 68.
 (pdftex.def)             Requested size: 205.37926pt x 104.10193pt.
- [83
+ [81
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/stacked.jpg>] [84
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/stacked.jpg>] [82
 
-] [85
+] [83
+
+] [84
 
 ])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [86
+) [85
 
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
-.pdf>] [87
+.pdf>] [86
 
 
 ]
@@ -1500,37 +1521,46 @@ anged.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
  18347 strings out of 493921
- 356502 string characters out of 3144873
- 449719 words of memory out of 3000000
+ 356510 string characters out of 3144873
+ 449707 words of memory out of 3000000
  20864 multiletter control sequences out of 15000+200000
  63847 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,16n,65p,409b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
-mi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (87 pages, 1616966 bytes).
+ 56i,16n,65p,427b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation87} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.1.74} has been referenced but does not e
+xist, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss8.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy8.pfb>
+Output written on "Nathan Berliner Presentation.pdf" (86 pages, 1611964 bytes).
 
 PDF statistics:
- 2682 PDF objects out of 2984 (max. 8388607)
+ 2658 PDF objects out of 2984 (max. 8388607)
  211 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

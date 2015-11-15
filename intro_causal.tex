@@ -21,14 +21,6 @@ so the two groups seem identical at baseline
  \end{itemize}
 \end{frame}
 
-\begin{frame}{Rubin's Causal Model}
-\begin{itemize}
-\item Stable unit treatment value assumption (SUTVA): Treatment status of another subject does not affect outcome of other units. Single version of each treatment
-\item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$
-\end{itemize}
-\end{frame}
-
-
 \begin{frame}{Counterfactuals}
 \begin{itemize}
  \item Suppose that for or every person, there are two potential outcomes
@@ -36,6 +28,7 @@ so the two groups seem identical at baseline
   \item $Y_i(0)$ - The outcome if they had taken the control, $T=0$
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
  \end{itemize}
+ \item The observed value for subject i: $Y_i=Y_i(1)T+Y_0(1-T)$
   \end{itemize}
 \end{frame}
 
@@ -57,6 +50,17 @@ so the two groups seem identical at baseline
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Rubin's Causal Model}
+\begin{itemize}
+\item Stable unit treatment value assumption (SUTVA): Treatment status of another subject does not affect outcome of other units. Single version of each treatment
+\item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$
+\end{itemize}
+\note{No association between outcome and treatment asignment}
+\end{frame}
+
+
+
+
 \begin{frame}{Estimands of Interest}
  \begin{itemize}
  \item Individual Treatment Effect: $Y_i(1)-Y_i(0)$
@@ -65,7 +69,7 @@ so the two groups seem identical at baseline
  \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
 \end{itemize}
- 
+ \item Note:  $E[Y(1)|T=1]\neq E[Y(1)]$, because $E[Y|T=1]=E[Y_1T+Y_0(1-T)|T=1]=E[Y_1|T=1]\neq E[Y(1)]$
 \end{frame}
 
 
@@ -87,7 +91,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 \begin{frame}{Common Propensity Score Methods}
 \begin{itemize}
  \item Matching: Match treatment and controls on their propensity score, calculate ATE
- \item Stratification: Stratify on propensity score, weight and combine ATE in each stratum
+ \item Stratification: Stratify on propensity score, calculate ATE in each stratum
  \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
  
   \begin{figure}[h!]
