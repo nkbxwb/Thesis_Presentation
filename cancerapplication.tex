@@ -14,7 +14,7 @@
 \hline
 Type                                                                            & Example                                                                       \\ \hline
 Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
-Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
+Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
 \begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
@@ -227,6 +227,8 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 \end{table}
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{Cox Model in MI}
 \begin{itemize}
  \item Get good baseline model
@@ -234,6 +236,8 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
  \item Add treatment variables
 \end{itemize}
 \end{frame}
+
+\end{comment}
 
 \begin{frame}{Schoenfeld Residual Splines}
 \includegraphics[width=.5\textwidth]{ac_schoenfeld}%
@@ -341,29 +345,17 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 \end{frame}
 
  
-\begin{frame}{Issues}
-\begin{itemize}
- \item Problem: Theory was developed for binary treatments, we have ternary
- \begin{itemize}
-  \item Solution: Run each treatment as binary, then compare groups
- \end{itemize}
-\item Propensity score model specification
-\begin{itemize}
- \item Solution: Boosting, subject to KS statistic minimization
-\end{itemize}
-\end{itemize}
- 
-\end{frame}
+%causal issues were here
 
 
 \begin{frame}{IPTW Weighting in MI Setting}
 \begin{itemize}
- \item Set the propensity score model
+ \item Set the propensity score model - GBM
  \item Weight observations by propensity score
- \item Check to ensure balance achieved
+ \item Check to ensure balance achieved -KS and standardized bias
  \item Run IPTW weighted Cox regression on treatment
  \item Pool results via Rubin's rules
- \item Double robustness: Include pretreatment variables in model?
+ %\item Double robustness: Include pretreatment variables in model?
 \end{itemize} 
 \end{frame}
 
@@ -395,16 +387,14 @@ Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183   
 
 \begin{table}[]
 \centering
-\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
-           max width=\textwidth}{
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-                & \multicolumn{2}{c|}{AC Unweighted} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI no weight} & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW} \\ \hline
-                & HR           & 95\% CI             &                       & HR        & 95\% CI          &                       & HR          & 95\% CI             &                       & HR        & 95\% CI          \\ \hline
-lapat vs none   & 0.467        & (0.355,0.616)       &                       & 0.571     & (0.381,0.855)    &                       & 0.474       & (0.362,0.622)       &                       & 0.485     & (0.304,0.775)    \\ \hline
-Trastuz vs none & 0.488        & (0.398,0.597)       &                       & 0.566     & (0.421,0.759)    &                       & 0.506       & (0.417,0.614)       &                       & 0.480     & (0.313,0.735)    \\ \hline
+                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI no weight}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
+                   & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                           &                       & HR                         & 95\% CI                            \\ \hline
+Lapat. vs none     & 0.467                      & (0.355,0.616)                      &                       & 0.571                      & (0.381,0.855)                      &                       & 0.474                      & (0.362,0.622)                     &                       & 0.485                      & (0.304,0.775)                      \\ \hline
+Trastuz. vs none   & 0.488                      & (0.398,0.597)                      &                       & 0.566                      & (0.421,0.759)                      &                       & 0.506                      & (0.417,0.614)                     &                       & 0.480                      & (0.313,0.735)                      \\ \hline
+Lapat. vs Trastuz. & \multicolumn{1}{l|}{0.958} & \multicolumn{1}{l|}{(0.693,1.324)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.009} & \multicolumn{1}{l|}{(0.680,1.496)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{0.927} & \multicolumn{1}{l|}{(0.673,1.28)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.011} & \multicolumn{1}{l|}{(0.763,1.338)} \\ \hline
 \end{tabular}
-}
 \caption{HER2 directed ATE with IPTW weights, AC and MI}
 \label{tab:lapatonly}
 \end{table}
