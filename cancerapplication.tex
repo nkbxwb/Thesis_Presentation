@@ -187,9 +187,12 @@ no local therapy                                  & 10\%                        
  \end{itemize}
  \begin{figure}[h!]
   \centering
-\includegraphics[width=.8\textwidth]{cape_km}
+\includegraphics[width=.75\textwidth]{cape_km}
 \end{figure}
 \end{frame}
+
+
+
 
 \begin{frame}{Kaplan-Meier in MI}
  \begin{figure}[h!]
@@ -277,11 +280,11 @@ Sys. Cont.                                             & Yes vs. No             
 \begin{frame}{MI Cox Model, Chemo}
 \begin{table}[]
 \centering
-\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+\adjustbox{max height=.9\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
 \begin{tabular}{|l|l|c|c|c|c|c|c|c|}
 \hline
-                               &                                  & \begin{tabular}[c]{@{}c@{}}AC\\ n= 745\end{tabular} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & MI          & \multicolumn{1}{l|}{}                                       \\ \hline
+                               &                                  &  &  \begin{tabular}[c]{@{}c@{}}AC\\ n= 745\end{tabular}& \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & MI          & \multicolumn{1}{l|}{}                                       \\ \hline
 \multicolumn{1}{|c|}{Variable} & \multicolumn{1}{c|}{Contrast}    & HR                                                  & 95\% CI               & p-value               & \multicolumn{1}{l|}{} & HR                    & 95\% CI     & \begin{tabular}[c]{@{}c@{}}p-value \\ (t test)\end{tabular} \\ \hline
 HR/HER2                        & -/+ vs. -/-                      & 0.62                                                & (0.49,0.79)           & \textless .0001       &                       & 0.63                  & (0.51,0.77) & \textless .0001                                             \\ \hline
                                & +/- vs. -/-                      & 0.65                                                & (0.53,0.81)           & 0.00011               &                       & 0.64                  & (0.53,0.78) & \textless .0001                                             \\ \hline
@@ -351,6 +354,12 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 \begin{frame}{IPTW Weighting in MI Setting}
 \begin{itemize}
  \item Set the propensity score model - GBM
+ \begin{itemize}
+  \item Confounding factors: stage, race, IDC, breast cancer surgery, HR/HER2 status,
+  breast cancer radiation, first met site, number of prior treatments, ECOG score,
+  localized brain mets treatment, age at brain met, type of brain mets, brain met controlled
+ \end{itemize}
+
  \item Weight observations by propensity score
  \item Check to ensure balance achieved -KS and standardized bias
  \item Run IPTW weighted Cox regression on treatment
