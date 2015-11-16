@@ -1,4 +1,5 @@
 \beamer@slide {fig:miexample}{12}
+\beamer@slide {fig:hazard}{15}
 \beamer@slide {fig:hazard}{17}
 \beamer@slide {fig:counterfactual}{22}
 \beamer@slide {fig:psexamp}{26}
@@ -6,10 +7,10 @@
 \beamer@slide {table:cats}{49}
 \beamer@slide {table:importantvars}{51}
 \beamer@slide {fig:missingplot}{52}
-\beamer@slide {fig:tabcheck}{59}
-\beamer@slide {table:chartab}{60}
-\beamer@slide {fig:acmicox}{65}
-\beamer@slide {acmi_cox_chemo}{66}
-\beamer@slide {tab:lapatonly}{71}
-\beamer@slide {fig:jmexample}{79}
-\beamer@slide {fig:stacked}{81}
+\beamer@slide {fig:tabcheck}{58}
+\beamer@slide {table:chartab}{59}
+\beamer@slide {fig:acmicox}{64}
+\beamer@slide {acmi_cox_chemo}{65}
+\beamer@slide {tab:lapatonly}{70}
+\beamer@slide {fig:jmexample}{78}
+\beamer@slide {fig:stacked}{80}

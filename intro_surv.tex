@@ -3,11 +3,12 @@
 Survival analysis is a field of statistics concerned with analyzing time to 
 event data, often in the face of censoring or truncation.
 \end{block}
-Examples:
+Example:
 \begin{itemize}
  \item The survival of patients after a liver transplant in a hospital
  \begin{itemize}
-  \item Complications: study ending, patients die before study starts, subject moves away
+  \item Complications: study ending and no death, subject dies before study starts,
+  subject moves away, exact death time is only known between two times
  \end{itemize}
 
 \end{itemize}
@@ -21,6 +22,12 @@ Examples:
 \item $n_i$ is the number of subject in the risk set at time $t_i$
 \item $d_i$ is the number of deaths at time $t_i$
 \end{itemize}
+ \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.45\textwidth]{km_example.png}
+  \caption{A few different hazard function shapes, edited from wikipedia}
+\label{fig:hazard}
+\end{figure}
 \note{
  risk set at time t; the set of individuals alive and uncensored just before time t.
 We use death and survival because easy to say, but it really means event or not}

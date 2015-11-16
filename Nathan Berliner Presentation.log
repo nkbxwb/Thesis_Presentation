@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  15 NOV 2015 16:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  15 NOV 2015 19:43
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -845,8 +845,11 @@ Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_missing_data.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux
+
+LaTeX Warning: Label `fig:hazard' multiply defined.
+
+) (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux)
@@ -1116,23 +1119,38 @@ Overfull \vbox (2.8406pt too high) detected at line 63
 
 
 ]
+<km_example.png, id=523, 386.19281pt x 291.33844pt>
+File: km_example.png Graphic file (type png)
+ <use km_example.png>
+Package pdftex.def Info: km_example.png used on input line 34.
+(pdftex.def)             Requested size: 154.03183pt x 116.19989pt.
+
+Overfull \vbox (26.49255pt too high) detected at line 34
+ []
+
 [15
 
-] [16
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/km_example.png>] [16
 
-] <hazard.png, id=580, 332.74312pt x 227.34938pt>
+]
+<hazard.png, id=584, 332.74312pt x 227.34938pt>
 File: hazard.png Graphic file (type png)
  <use hazard.png>
-Package pdftex.def Info: hazard.png used on input line 57.
+Package pdftex.def Info: hazard.png used on input line 64.
 (pdftex.def)             Requested size: 222.48985pt x 152.02147pt.
-
-Overfull \vbox (31.99869pt too high) detected at line 57
+pdfTeX warning (ext4): destination with the same identifier (name{fig:hazard}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.64 \end{frame}
+                
+Overfull \vbox (31.99869pt too high) detected at line 64
  []
 
 [17
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/hazard.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 72.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1158,7 +1176,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 
 [21
 
-] <counterfactual.png, id=728, 458.46281pt x 317.68687pt>
+] <counterfactual.png, id=730, 458.46281pt x 317.68687pt>
 File: counterfactual.png Graphic file (type png)
 
 <use counterfactual.png>
@@ -1173,7 +1191,7 @@ Package pdftex.def Info: counterfactual.png used on input line 51.
 ] [25
 
 ]
-<ps_examples.png, id=838, 540.51938pt x 216.81pt>
+<ps_examples.png, id=840, 540.51938pt x 216.81pt>
 File: ps_examples.png Graphic file (type png)
  <use ps_examples.png>
 Package pdftex.def Info: ps_examples.png used on input line 106.
@@ -1199,7 +1217,7 @@ Overfull \vbox (1.33853pt too high) detected at line 106
 
 ] [31
 
-] <fcs_algo.jpg, id=1015, 365.11406pt x 261.97874pt>
+] <fcs_algo.jpg, id=1017, 365.11406pt x 261.97874pt>
 File: fcs_algo.jpg Graphic file (type jpg)
 
 <use fcs_algo.jpg>
@@ -1272,7 +1290,7 @@ Overfull \vbox (10.78333pt too high) detected at line 71
 
 [51
 
-] <missingvalues_plot.png, id=1587, 711.65875pt x 485.815pt>
+] <missingvalues_plot.png, id=1589, 711.65875pt x 485.815pt>
 File: missingvalues_plot.png Graphic file (type png)
 
 <use missingvalues_plot.png>
@@ -1282,123 +1300,123 @@ Package pdftex.def Info: missingvalues_plot.png used on input line 81.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/missingvalues_plot.png>] [53
 
-] [54
-
 ]
-<traceplots1.png, id=1669, 606.265pt x 440.64626pt>
+<traceplots1.png, id=1644, 606.265pt x 440.64626pt>
 File: traceplots1.png Graphic file (type png)
  <use traceplots1.png>
-Package pdftex.def Info: traceplots1.png used on input line 117.
+Package pdftex.def Info: traceplots1.png used on input line 107.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
 
-<traceplots2.png, id=1670, 606.265pt x 440.64626pt>
+<traceplots2.png, id=1645, 606.265pt x 440.64626pt>
 File: traceplots2.png Graphic file (type png)
  <use traceplots2.png>
-Package pdftex.def Info: traceplots2.png used on input line 117.
+Package pdftex.def Info: traceplots2.png used on input line 107.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
 
-[55
+[54
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/traceplots1.png> <C:/Users/Nathan
-/Desktop/Thesis_Presentation/traceplots2.png>] [56
+/Desktop/Thesis_Presentation/traceplots2.png>] [55
 
 ]
-<cont_densplot.png, id=1726, 477.785pt x 485.815pt>
+<cont_densplot.png, id=1701, 477.785pt x 485.815pt>
 File: cont_densplot.png Graphic file (type png)
  <use cont_densplot.png>
-Package pdftex.def Info: cont_densplot.png used on input line 134.
+Package pdftex.def Info: cont_densplot.png used on input line 124.
 (pdftex.def)             Requested size: 171.14764pt x 174.01854pt.
 
-<discrete_densplot.png, id=1727, 477.785pt x 485.815pt>
+<discrete_densplot.png, id=1702, 477.785pt x 485.815pt>
 File: discrete_densplot.png Graphic file (type png)
 
 <use discrete_densplot.png>
-Package pdftex.def Info: discrete_densplot.png used on input line 134.
+Package pdftex.def Info: discrete_densplot.png used on input line 124.
 (pdftex.def)             Requested size: 171.14764pt x 174.01854pt.
- [57
+ [56
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cont_densplot.png> <C:/Users/Nath
-an/Desktop/Thesis_Presentation/discrete_densplot.png>] <bw_timemet.png, id=1756
+an/Desktop/Thesis_Presentation/discrete_densplot.png>] <bw_timemet.png, id=1731
 , 616.3025pt x 485.815pt>
 File: bw_timemet.png Graphic file (type png)
  <use bw_timemet.png>
-Package pdftex.def Info: bw_timemet.png used on input line 139.
+Package pdftex.def Info: bw_timemet.png used on input line 129.
 (pdftex.def)             Requested size: 171.14764pt x 134.90791pt.
 
-<bw_timedx.png, id=1757, 616.3025pt x 485.815pt>
+<bw_timedx.png, id=1732, 616.3025pt x 485.815pt>
 File: bw_timedx.png Graphic file (type png)
  <use bw_timedx.png>
-Package pdftex.def Info: bw_timedx.png used on input line 139.
+Package pdftex.def Info: bw_timedx.png used on input line 129.
 (pdftex.def)             Requested size: 171.14764pt x 134.90791pt.
- [58
+ [57
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/bw_timemet.png> <C:/Users/Nathan/
 Desktop/Thesis_Presentation/bw_timedx.png>]
-<tabchecks.png, id=1786, 478.78876pt x 310.15875pt>
+<tabchecks.png, id=1761, 478.78876pt x 310.15875pt>
 File: tabchecks.png Graphic file (type png)
  <use tabchecks.png>
-Package pdftex.def Info: tabchecks.png used on input line 149.
+Package pdftex.def Info: tabchecks.png used on input line 139.
 (pdftex.def)             Requested size: 273.83728pt x 177.39336pt.
+
+[58
+
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/tabchecks.png>]
+Overfull \vbox (14.1272pt too high) detected at line 171
+ []
 
 [59
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/tabchecks.png>]
-Overfull \vbox (14.1272pt too high) detected at line 181
+] <cape_km.png, id=1817, 628.3475pt x 485.815pt>
+File: cape_km.png Graphic file (type png)
+ <use cape_km.png>
+Package pdftex.def Info: cape_km.png used on input line 182.
+(pdftex.def)             Requested size: 256.72147pt x 198.4812pt.
+
+Overfull \vbox (15.7396pt too high) detected at line 182
  []
 
 [60
 
-] <cape_km.png, id=1842, 628.3475pt x 485.815pt>
-File: cape_km.png Graphic file (type png)
- <use cape_km.png>
-Package pdftex.def Info: cape_km.png used on input line 192.
-(pdftex.def)             Requested size: 256.72147pt x 198.4812pt.
-
-Overfull \vbox (15.7396pt too high) detected at line 192
- []
-
-[61
-
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cape_km.png>]
-<lapat_km.png, id=1871, 676.5275pt x 485.815pt>
+<lapat_km.png, id=1845, 676.5275pt x 485.815pt>
 File: lapat_km.png Graphic file (type png)
  <use lapat_km.png>
-Package pdftex.def Info: lapat_km.png used on input line 203.
+Package pdftex.def Info: lapat_km.png used on input line 193.
 (pdftex.def)             Requested size: 273.83728pt x 196.6502pt.
- [62
+ [61
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/lapat_km.png>]
-LaTeX Font Info:    Try loading font information for OML+lmss on input line 231
+LaTeX Font Info:    Try loading font information for OML+lmss on input line 221
 .
-LaTeX Font Info:    No file OMLlmss.fd. on input line 231.
+LaTeX Font Info:    No file OMLlmss.fd. on input line 221.
 
 
 LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
-(Font)              for symbol `textless' on input line 231.
+(Font)              for symbol `textless' on input line 221.
 
-[63
+[62
 
-] <ac_schoenfeld.png, id=1926, 600.74437pt x 532.99126pt>
+] <ac_schoenfeld.png, id=1901, 600.74437pt x 532.99126pt>
 File: ac_schoenfeld.png Graphic file (type png)
 
 <use ac_schoenfeld.png>
-Package pdftex.def Info: ac_schoenfeld.png used on input line 248.
+Package pdftex.def Info: ac_schoenfeld.png used on input line 238.
 (pdftex.def)             Requested size: 171.14764pt x 151.84715pt.
- <mi_schoenfeld.png, id=1927, 800.9925pt x 710.655pt>
+ <mi_schoenfeld.png, id=1902, 800.9925pt x 710.655pt>
 File: mi_schoenfeld.png Graphic file (type png)
 
 <use mi_schoenfeld.png>
-Package pdftex.def Info: mi_schoenfeld.png used on input line 248.
+Package pdftex.def Info: mi_schoenfeld.png used on input line 238.
 (pdftex.def)             Requested size: 171.14764pt x 151.84444pt.
- [64
+ [63
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/ac_schoenfeld.png> <C:/Users/Nath
 an/Desktop/Thesis_Presentation/mi_schoenfeld.png (PNG copy)>]
-Overfull \vbox (6.39539pt too high) detected at line 278
+Overfull \vbox (6.39539pt too high) detected at line 268
  []
 
-[65
+[64
+
+] [65
 
 ] [66
 
@@ -1408,56 +1426,56 @@ Overfull \vbox (6.39539pt too high) detected at line 278
 
 ] [69
 
-] [70
-
 ]
-Overfull \hbox (231.26323pt too wide) in paragraph at lines 411--411
+Overfull \hbox (231.26323pt too wide) in paragraph at lines 401--401
  [] 
  []
 
-[71
+[70
 
 ])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.toc"
-) [72
+) [71
 
 
 ] (C:\Users\Nathan\Desktop\Thesis_Presentation\conclusion_discuss.tex
-[73
+[72
 
+
+] [73
 
 ] [74
 
 ] [75
 
-] [76
-
 ]) (C:\Users\Nathan\Desktop\Thesis_Presentation\extras.tex
-[77
+[76
 
 
 
-] [78
+] [77
 
-] <jm_algo.jpg, id=2337, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=2312, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
  <use jm_algo.jpg>
 Package pdftex.def Info: jm_algo.jpg used on input line 31.
 (pdftex.def)             Requested size: 205.37926pt x 206.23698pt.
 
-[79
+[78
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [80
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [79
 
 ]
-<stacked.jpg, id=2392, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=2367, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 68.
 (pdftex.def)             Requested size: 205.37926pt x 104.10193pt.
- [81
+ [80
 
- <C:/Users/Nathan/Desktop/Thesis_Presentation/stacked.jpg>] [82
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/stacked.jpg>] [81
+
+] [82
 
 ] [83
 
@@ -1499,13 +1517,16 @@ anged.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 18343 strings out of 493921
- 356465 string characters out of 3144873
- 448580 words of memory out of 3000000
- 20862 multiletter control sequences out of 15000+200000
+ 18348 strings out of 493921
+ 356554 string characters out of 3144873
+ 448649 words of memory out of 3000000
+ 20866 multiletter control sequences out of 15000+200000
  63847 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,65p,427b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1526,10 +1547,10 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files
  (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (86 pages, 1612298 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (86 pages, 1625368 bytes).
 
 PDF statistics:
- 2656 PDF objects out of 2984 (max. 8388607)
+ 2658 PDF objects out of 2984 (max. 8388607)
  209 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 
