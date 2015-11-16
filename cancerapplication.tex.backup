@@ -1,6 +1,7 @@
 \begin{frame}{Data Explanation}
 \begin{itemize}
- \item 1514 MD Anderson patients who had brain mets from breast cancer between 19XX and 20XX
+ \item 1514 MD Anderson patients who had brain mets from breast cancer between October 2009 and 
+ December 2012
  \item 1242 usable cases
  \item 90 covariates
  \begin{itemize}
@@ -106,6 +107,8 @@ var, and it would be very hard to read}
 
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{Validity}
  \begin{itemize}
   \item Lots of tools for continuous imputations
@@ -117,6 +120,9 @@ var, and it would be very hard to read}
  \end{itemize}
 
 \end{frame}
+
+\end{comment}
+
 
 \begin{frame}{Validity Checks}
 \includegraphics[width=.5\textwidth]{cont_densplot}%
@@ -170,6 +176,86 @@ no local therapy                                  & 10\%                        
  
 \end{frame}
 
+
+
+
+
+\begin{comment}
+ 
+
+%%%
+\begin{frame}
+  \frametitle{TESTING666}
+  \begin{columns}[onlytextwidth]
+  
+    \begin{column}{0.8\textwidth}
+	 \begin{figure}[h!]
+  \centering
+\includegraphics[width=.75\textwidth]{cape_km}
+\end{figure}
+
+    \end{column}
+    \begin{column}{0.2\textwidth}
+    \begin{table}[]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+                & \multicolumn{2}{c|}{Chemo}                         \\ \hline
+                & \multicolumn{1}{l|}{AC} & \multicolumn{1}{l|}{MI} \\ \hline
+cape/other/none & \textless.0001          & \textless.0001          \\ \hline
+cape/other      & 0.0321                  & 0.033                   \\ \hline
+cape/none       & 0.00039                 & .0016                   \\ \hline
+other/none      & \textless.0001          & \textless.0001          \\ \hline
+\end{tabular}
+\end{table}
+
+    \end{column}
+
+	\end{columns}
+\end{frame}
+
+%%%
+
+\end{comment}
+
+
+
+
+
+%%%
+\begin{frame}{TESTING666}
+  \begin{columns}[onlytextwidth]
+    \begin{column}{0.75\textwidth}
+	 \begin{figure}[h!]
+  \centering
+\includegraphics[width=.99\textwidth]{cape_km}
+\end{figure}
+
+    \end{column}
+    \begin{column}{0.25\textwidth}
+    \begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|c|c|}
+\hline
+                & \multicolumn{2}{c|}{Chemo}                         \\ \hline
+                & \multicolumn{1}{l|}{AC} & \multicolumn{1}{l|}{MI} \\ \hline
+cape/other/none & \textless.0001          & \textless.0001          \\ \hline
+cape/other      & 0.0321                  & 0.033                   \\ \hline
+cape/none       & 0.00039                 & .0016                   \\ \hline
+other/none      & \textless.0001          & \textless.0001          \\ \hline
+\end{tabular}
+}
+\end{table}
+
+    \end{column}
+
+	\end{columns}
+\end{frame}
+%%%
+
+
 \begin{frame}{Kaplan-Meier in MI}
  \begin{itemize}
   \item Non-informative censoring reasonable
@@ -179,6 +265,10 @@ no local therapy                                  & 10\%                        
   \centering
 \includegraphics[width=.75\textwidth]{cape_km}
 \end{figure}
+
+
+
+
 \end{frame}
 
 
@@ -193,6 +283,7 @@ no local therapy                                  & 10\%                        
 \end{frame}
 
 \begin{frame}{Log Rank Test}
+!!! Will want to combine this with km plots
 \begin{table}[]
 \centering
 \begin{tabular}{|l|c|c|}
@@ -208,6 +299,8 @@ other/none      & \textless.0001          & \textless.0001          \\ \hline
 %
 \begin{table}[]
 \centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
 \begin{tabular}{|l|c|c|}
 \hline
                    & \multicolumn{2}{c|}{HER2}                         \\ \hline
@@ -217,6 +310,7 @@ Lapat/Trastuz      & .87                     & .81                     \\ \hline
 Lapat/none         & .00017                  & .00018                  \\ \hline
 Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 \end{tabular}
+}
 \end{table}
 \end{frame}
 

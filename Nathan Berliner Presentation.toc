@@ -6,9 +6,9 @@
 \beamer@subsectionintoc {1}{4}{Causal Analysis}{19}{0}{1}
 \beamer@sectionintoc {2}{Methods}{27}{0}{2}
 \beamer@subsectionintoc {2}{1}{Imputation}{27}{0}{2}
-\beamer@subsectionintoc {2}{2}{Survival}{39}{0}{2}
-\beamer@subsectionintoc {2}{3}{Causal Analysis}{44}{0}{2}
-\beamer@sectionintoc {3}{Application}{48}{0}{3}
-\beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{48}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{71}{0}{4}
-\beamer@subsectionintoc {4}{1}{Discussion}{71}{0}{4}
+\beamer@subsectionintoc {2}{2}{Survival}{38}{0}{2}
+\beamer@subsectionintoc {2}{3}{Causal Analysis}{43}{0}{2}
+\beamer@sectionintoc {3}{Application}{47}{0}{3}
+\beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{47}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{69}{0}{4}
+\beamer@subsectionintoc {4}{1}{Discussion}{69}{0}{4}
