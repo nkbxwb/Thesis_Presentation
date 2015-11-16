@@ -451,12 +451,13 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
-\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-               & AC-Unweighted &  & AC-Weighted &  & MI unweighted &  & MI Weighted \\ \hline
-Cape. vs none  & 0.396         &  & 0.655       &  & 0.484         &  & 0.702       \\ \hline
-Other vs none  & 0.336         &  & 0.567       &  & 0.413         &  & 0.593       \\ \hline
-Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183      \\ \hline
+               & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+               & HR           & 95\% CI             &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR         & 95\% CI         \\ \hline
+Cape. vs none  & 0.396        & (0.325,0.482)       &  & 0.655     & (0.481,0.894)    &  & 0.484        & (0.400,0.585)       &  & 0.702          & (0.543,0.906)           \\ \hline
+Other vs none  & 0.336        & (0.287,0.394)       &  & 0.567     & (0.46,0.754)     &  & 0.413        & (0.354,0.481        &  & 0.593          & (0.470,0.748)           \\ \hline
+Cape. vs other & 1.179        & (0.983,1.416)       &  & 1.156     & (0.966,1.383)    &  & 1.173        & (0.981,1.402)       &  & X          & (Y,Z)           \\ \hline
 \end{tabular}
 }
 \caption{Chemotherapeutic ATE with IPTW weights, AC and MI}
@@ -464,7 +465,7 @@ Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183   
 \end{table}
 
 
- 
+ !! Need to put in doubly robust table here!!!
 \end{frame}
 
 \begin{frame}{Results of IPTW: HER2 Directed}
@@ -475,7 +476,7 @@ Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183   
            max width=\textwidth}{
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI Unerighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
+                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
                    & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                           &                       & HR                         & 95\% CI                            \\ \hline
 Lapat. vs none     & 0.467                      & (0.355,0.616)                      &                       & 0.571                      & (0.381,0.855)                      &                       & 0.474                      & (0.362,0.622)                     &                       & 0.485                      & (0.304,0.775)                      \\ \hline
 Trastuz. vs none   & 0.488                      & (0.398,0.597)                      &                       & 0.566                      & (0.421,0.759)                      &                       & 0.506                      & (0.417,0.614)                     &                       & 0.480                      & (0.313,0.735)                      \\ \hline
