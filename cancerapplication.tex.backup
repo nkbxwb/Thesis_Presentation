@@ -14,7 +14,7 @@
 \hline
 Type                                                                            & Example                                                                       \\ \hline
 Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
-Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
+Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
 \begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
@@ -90,17 +90,7 @@ her2        & 10                                                        & Indica
 
 \end{frame}
 
-\begin{frame}{Setting up the model}
-Issues
-\begin{itemize}
- \item Many categorical variables 
- \item Collinearity between predictors
- \item Variables with poor influx/outflux \cite{VanBuuren2012}
- \item How many iterations and imputations to draw?
-\end{itemize}
-
- 
-\end{frame}
+%issues were here
 
 
 \begin{frame}{Convergence}
@@ -111,9 +101,9 @@ Issues
 \note{On convergence, the different streams should be freely intermingled with one another,
 without showing any definite trends. Convergence is diagnosed when the variance between different 
 sequences is no larger than the variance within each individual sequence.
-
-We do mean, because without it, we would have 50*missing# for each
+We do mean, because without it, we would have 50*missing num for each
 var, and it would be very hard to read}
+
 \end{frame}
 
 \begin{frame}{Validity}
@@ -187,9 +177,12 @@ no local therapy                                  & 10\%                        
  \end{itemize}
  \begin{figure}[h!]
   \centering
-\includegraphics[width=.8\textwidth]{cape_km}
+\includegraphics[width=.75\textwidth]{cape_km}
 \end{figure}
 \end{frame}
+
+
+
 
 \begin{frame}{Kaplan-Meier in MI}
  \begin{figure}[h!]
@@ -227,6 +220,8 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 \end{table}
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{Cox Model in MI}
 \begin{itemize}
  \item Get good baseline model
@@ -234,6 +229,8 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
  \item Add treatment variables
 \end{itemize}
 \end{frame}
+
+\end{comment}
 
 \begin{frame}{Schoenfeld Residual Splines}
 \includegraphics[width=.5\textwidth]{ac_schoenfeld}%
@@ -273,11 +270,11 @@ Sys. Cont.                                             & Yes vs. No             
 \begin{frame}{MI Cox Model, Chemo}
 \begin{table}[]
 \centering
-\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+\adjustbox{max height=.9\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
 \begin{tabular}{|l|l|c|c|c|c|c|c|c|}
 \hline
-                               &                                  & \begin{tabular}[c]{@{}c@{}}AC\\ n= 745\end{tabular} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & MI          & \multicolumn{1}{l|}{}                                       \\ \hline
+                               &                                  &  &  \begin{tabular}[c]{@{}c@{}}AC\\ n= 745\end{tabular}& \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & MI          & \multicolumn{1}{l|}{}                                       \\ \hline
 \multicolumn{1}{|c|}{Variable} & \multicolumn{1}{c|}{Contrast}    & HR                                                  & 95\% CI               & p-value               & \multicolumn{1}{l|}{} & HR                    & 95\% CI     & \begin{tabular}[c]{@{}c@{}}p-value \\ (t test)\end{tabular} \\ \hline
 HR/HER2                        & -/+ vs. -/-                      & 0.62                                                & (0.49,0.79)           & \textless .0001       &                       & 0.63                  & (0.51,0.77) & \textless .0001                                             \\ \hline
                                & +/- vs. -/-                      & 0.65                                                & (0.53,0.81)           & 0.00011               &                       & 0.64                  & (0.53,0.78) & \textless .0001                                             \\ \hline
@@ -340,28 +337,92 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Issues}
-\begin{itemize}
- \item Problem: Theory was developed for binary treatments, we have ternary
- \begin{itemize}
-  \item Solution: Run each treatment as binary, then compare groups
- \end{itemize}
-\item Propensity score model specification
-\begin{itemize}
- \item Solution: Boosting, subject to standardized bias minimization
-\end{itemize}
-\end{itemize}
  
-\end{frame}
+%causal issues were here
+
 
 \begin{frame}{IPTW Weighting in MI Setting}
 \begin{itemize}
- \item Set the propensity score model
+ \item Set the propensity score model - GBM
+ \begin{itemize}
+  \item Confounding factors: stage, race, IDC, breast cancer surgery, HR/HER2 status,
+  breast cancer radiation, first met site, number of prior treatments, ECOG score,
+  localized brain mets treatment, age at brain met, type of brain mets, brain met controlled
+ \end{itemize}
+
  \item Weight observations by propensity score
- \item Check to ensure balance achieved
+ \item Check to ensure balance achieved -KS and standardized bias
  \item Run IPTW weighted Cox regression on treatment
  \item Pool results via Rubin's rules
-\end{itemize}
+ %\item Double robustness: Include pretreatment variables in model?
+\end{itemize} 
+\end{frame}
+
+
+\begin{frame}{Implementation}
+ \begin{itemize}
+  \item A few of the balance diagnostics
+  \item results
+ \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Results of IPTW: Chemotherapeutic}
+ \begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+               & AC-Unweighted &  & AC-Weighted &  & MI unweighted &  & MI Weighted \\ \hline
+Cape. vs none  & 0.396         &  & 0.655       &  & 0.484         &  & 0.702       \\ \hline
+Other vs none  & 0.336         &  & 0.567       &  & 0.413         &  & 0.593       \\ \hline
+Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183      \\ \hline
+\end{tabular}
+}
+\caption{Chemotherapeutic ATE with IPTW weights, AC and MI}
+
+\end{table}
+
 
  
 \end{frame}
+
+\begin{frame}{Results of IPTW: HER2 Directed}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI no weight}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
+                   & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                           &                       & HR                         & 95\% CI                            \\ \hline
+Lapat. vs none     & 0.467                      & (0.355,0.616)                      &                       & 0.571                      & (0.381,0.855)                      &                       & 0.474                      & (0.362,0.622)                     &                       & 0.485                      & (0.304,0.775)                      \\ \hline
+Trastuz. vs none   & 0.488                      & (0.398,0.597)                      &                       & 0.566                      & (0.421,0.759)                      &                       & 0.506                      & (0.417,0.614)                     &                       & 0.480                      & (0.313,0.735)                      \\ \hline
+Lapat. vs Trastuz. & \multicolumn{1}{l|}{0.958} & \multicolumn{1}{l|}{(0.693,1.324)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.009} & \multicolumn{1}{l|}{(0.680,1.496)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{0.927} & \multicolumn{1}{l|}{(0.673,1.28)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.011} & \multicolumn{1}{l|}{(0.763,1.338)} \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, AC and MI}
+\label{tab:lapatonly}
+\end{table}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                   & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI Unweighted} &  & \multicolumn{2}{c|}{MI weights} \\ \hline
+                   & HR          & 95\% CI              &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR         & 95\% CI            \\ \hline
+Lapat. vs none     & 0.468       & (0.316,0.692)        &  & 0.514     & (0.331,0.798)    &  & 0.524        & (0.367,0.747)       &  & 0.410      & (0.257,0.652)      \\ \hline
+Trastuz. vs none   & 0.447       & (0.328,0.6089)       &  & 0.456     & (0.328,0.632)    &  & 0.511        & (0.381,0.685)       &  & 0.388      & (0.249,0.602)      \\ \hline
+Lapat. vs Trastuz. & 1.048       & (0.704,1.560)        &  & 1.128     & (0.726,1.754)    &  & 1.026        & (0.713,1.477)       &  & 1.057      & (0.788,1.417)      \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, double robust}
+\label{lapatfull}
+\end{table}
+ 
+\end{frame}
+

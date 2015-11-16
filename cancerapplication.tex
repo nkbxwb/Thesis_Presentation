@@ -367,7 +367,7 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
 
 \end{frame}
 
-\begin{frame}{Results of IPTW}
+\begin{frame}{Results of IPTW: Chemotherapeutic}
  \begin{table}[]
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
@@ -384,18 +384,45 @@ Cape vs. other & 1.179         &  & 1.156       &  & 1.173         &  & 1.183   
 
 \end{table}
 
+
+ 
+\end{frame}
+
+\begin{frame}{Results of IPTW: HER2 Directed}
+
 \begin{table}[]
 \centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI no weight}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
+                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI Unerighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
                    & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                           &                       & HR                         & 95\% CI                            \\ \hline
 Lapat. vs none     & 0.467                      & (0.355,0.616)                      &                       & 0.571                      & (0.381,0.855)                      &                       & 0.474                      & (0.362,0.622)                     &                       & 0.485                      & (0.304,0.775)                      \\ \hline
 Trastuz. vs none   & 0.488                      & (0.398,0.597)                      &                       & 0.566                      & (0.421,0.759)                      &                       & 0.506                      & (0.417,0.614)                     &                       & 0.480                      & (0.313,0.735)                      \\ \hline
 Lapat. vs Trastuz. & \multicolumn{1}{l|}{0.958} & \multicolumn{1}{l|}{(0.693,1.324)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.009} & \multicolumn{1}{l|}{(0.680,1.496)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{0.927} & \multicolumn{1}{l|}{(0.673,1.28)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.011} & \multicolumn{1}{l|}{(0.763,1.338)} \\ \hline
 \end{tabular}
+}
 \caption{HER2 directed ATE with IPTW weights, AC and MI}
 \label{tab:lapatonly}
 \end{table}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                   & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI Unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+                   & HR          & 95\% CI              &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR         & 95\% CI            \\ \hline
+Lapat. vs none     & 0.468       & (0.316,0.692)        &  & 0.514     & (0.331,0.798)    &  & 0.524        & (0.367,0.747)       &  & 0.410      & (0.257,0.652)      \\ \hline
+Trastuz. vs none   & 0.447       & (0.328,0.6089)       &  & 0.456     & (0.328,0.632)    &  & 0.511        & (0.381,0.685)       &  & 0.388      & (0.249,0.602)      \\ \hline
+Lapat. vs Trastuz. & 1.048       & (0.704,1.560)        &  & 1.128     & (0.726,1.754)    &  & 1.026        & (0.713,1.477)       &  & 1.057      & (0.788,1.417)      \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, double robust}
+\label{lapatfull}
+\end{table}
  
 \end{frame}
+

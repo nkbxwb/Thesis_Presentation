@@ -103,6 +103,12 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 
 \end{figure}
 \end{itemize}
+
+\note{Justification:
+$E[ZY/e(x)]=E[ZY_1/e(x)]=E[E[ZY_1/e(X)]|Y_1,X]$
+$=E[Y_1/e(x)E[Z|Y_1,X]]=E[Y_1/e(x) E[Z|X]]$
+$=E[Y_1/e(x)e(x)]=E[Y_1]$
+}
 \end{frame}
 
 %ps issues was here
