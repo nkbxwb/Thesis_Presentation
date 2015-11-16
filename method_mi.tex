@@ -40,6 +40,8 @@
 \note{Missing data model relates Y to R}
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{MI Concepts}
 \begin{itemize}
  \item Ignorability
@@ -67,6 +69,8 @@ the second is to formulate two imputation models, one for the observed and one f
 }
 
 \end{frame}
+
+\end{comment}
 
 \begin{frame}{Missing data Mechanisms}
 Now, we may discuss the three main types of missing data mechanisms. 
@@ -101,6 +105,7 @@ Now, we may discuss the three main types of missing data mechanisms.
  \begin{itemize}
   \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
+  \item Drawing from $p(Y,R|\theta)$ through the full conditionals $p(Y_j|Y_{-j},R,\theta_j)$
   \item Requires no distributional assumptions
   \item Idea: Specify k one dimensional models to impute on the missing data columns
  \end{itemize}

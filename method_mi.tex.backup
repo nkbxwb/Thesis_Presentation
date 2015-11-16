@@ -1,3 +1,5 @@
+\begin{comment}
+ 
 \begin{frame}{A path with many options}
  \begin{itemize}
   \item There are many different options to choose
@@ -15,6 +17,8 @@
  \item Poor imputation leads to poor results (bias, variability, loss in power)
 \end{itemize}
 \end{frame}
+
+\end{comment}
 
 \begin{frame}{MI Notation}
  
@@ -91,44 +95,7 @@ Now, we may discuss the three main types of missing data mechanisms.
  
 \end{frame}
 
-\begin{frame}{Joint Modelling (JM)}
- \begin{itemize}
-  \item Assume ignorable MAR  missing data mechanism
-  \item Missing data imputed by sampling from a user specified distribution
-  \item A lot of theory developed for Normal, not much else
-  \begin{itemize}
-   \item Normal imputation has been shown to perform well, even under non normality \cite{Demirtas2008}
-  \end{itemize}
-\item Idea: pull imputations by missing data row pattern
- \end{itemize}
-
-\end{frame}
-
-\begin{frame}{JM pseudocode}
- \begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.6\textwidth]{jm_algo}
- % \caption{Normal JM imputation pseudocode}
-\label{fig:jmexample}
-\end{figure}
-%do I want to include the amelia algo?
-\end{frame}
-
-\begin{frame}{JM Pros and Cons}
-Pros
- \begin{itemize}
-  \item Fast
-  \item Easy to derive posteriors with common distributions
- \end{itemize}
-
- Cons
- \begin{itemize}
-  \item Inflexible
-  \item Limited to known distributions
-  \item How to deal with mixed categorical and continuous missing data
- \end{itemize}
-
-\end{frame}
+%JM wa here
 
 \begin{frame}{Full Conditional Specification (FCS)}
  \begin{itemize}
@@ -144,7 +111,7 @@ Pros
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.6\textwidth]{fcs_algo}
- % \caption{Normal JM imputation pseudocode}
+  \caption{FCS imputation pseudocode, taken from \cite{VanBuuren2012}}
 \label{fig:fcsexample}
 \end{figure}
  \note{ Observe how the previous imputation Y_j^(t-1) only enters the current imputation
@@ -169,6 +136,8 @@ Pros
 
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{Decision}
  \begin{itemize}
   \item Both are not as good as having complete data
@@ -176,6 +145,8 @@ Pros
   \item FCS offers us the most ease and flexibility
  \end{itemize}
 \end{frame}
+
+\end{comment}
 
 \begin{frame}{Setting Up The Model}
 \begin{itemize}
@@ -238,7 +209,7 @@ Then
  \item The MI ``within'' variance is given by
  $\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$
  \item the MI ``between'' variance is given by
- $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$
+ $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$ % matrix notation?
    \item Total variance given by \cite{Rubin1987}
   $$T=\bar{U}+B +\frac{B}{m}$$
 \end{itemize}
@@ -267,23 +238,5 @@ Then
 if not normal, transform}
 \end{frame}
 
-\begin{frame}{The Stack Method}
- \begin{itemize}
-  \item Rubin's Rules work well, but not always
-  \begin{itemize}
-   \item Ex: partitioning the MI data on an imputed variable
-   \item Taking the average is not a good idea
-  \end{itemize}
-    \item Solution: Stack the MI datasets on top of each other to get one huge dataset
-    \begin{itemize}
-     \item Will get unbiased results
-     \item But sample size is falsely inflated, thus cannot trust variance
-    \end{itemize}
- \end{itemize}
- \begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.6\textwidth]{stacked}
- % \caption{Normal JM imputation pseudocode}
-\label{fig:stacked}
-\end{figure}
-\end{frame}
+
+%stack method was here
