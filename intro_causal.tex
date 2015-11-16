@@ -115,3 +115,11 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
 \end{frame}
 
 %ps issues was here
+\begin{frame}{IPTW}
+\begin{itemize}
+\item IPTW: Inverse probability of treatment weights
+\item Idea: Weight sample by propensity score so that we get a sample where there is no confounding
+\item Weights: $1/e(X)$ for treatment, $1/(1-e(X))$
+\item Can be shown that $E[\frac{TY(1)}{e(X)}|T=1]=E[Y(1)]$ and $E[\frac{(1-T)Y(0)}{1-e(X)}|T=0]=E[Y(0)]$
+\end{itemize}
+\end{frame}
