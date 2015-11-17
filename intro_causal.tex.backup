@@ -28,7 +28,7 @@ so the two groups seem identical at baseline
   \item $Y_i(0)$ - The outcome if they had taken the control, $T=0$
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
  \end{itemize}
- \item The observed value for subject i: $Y_i=Y_i(1)T+Y_0(1-T)$
+ \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
   \end{itemize}
 \end{frame}
 
@@ -53,9 +53,12 @@ so the two groups seem identical at baseline
 \begin{frame}{Rubin's Causal Model}
 \begin{itemize}
 \item Stable unit treatment value assumption (SUTVA): Treatment status of another subject does not affect outcome of other units. Single version of each treatment
-\item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$
+\item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$ ,\cite{Rosenbaum1983}
 \end{itemize}
-\note{No association between outcome and treatment asignment}
+\note{No association between outcome and treatment assignment
+The ignorability assumption simply means that the choice to assign to the control group
+or the treatment group can be assumed to be effectively random when conditioned on observable 
+characteristics of the study objects,}
 \end{frame}
 
 
@@ -92,22 +95,39 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 \begin{frame}{Common Propensity Score Methods}
 \begin{itemize}
  \item Matching: Match treatment and controls on their propensity score, calculate ATE
- \item Stratification: Stratify on propensity score, calculate ATE in each stratum
+ %\item Stratification: Stratify on propensity score, calculate ATE in each stratum
  \item Weighting: Weight each observation by the inverse of its propensity score, and then calculate ATE
  
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{ps_examples.png}
-    \caption{Taken from TWANG shortcourse \cite{Rand2015}}
+    \caption{Taken from TWANG short course \cite{Rand2015}}
 \label{fig:psexamp}
 
 \end{figure}
+\note{Give a thorough explanation of this}
+\end{itemize}
+
+
+\end{frame}
+
+%ps issues was here
+\begin{frame}{IPTW}
+\begin{itemize}
+\item IPTW: Inverse probability of treatment weights
+\item Idea: Weight sample by propensity score so that we get a sample where there is no confounding
+\item Weights: $1/e(X)$ for treatment, $1/(1-e(X))$ for control
+\item Can be shown that 
+\begin{itemize}
+ \item $E[\frac{TY(1)}{e(X)}|T=1]=E[Y(1)]$
+ \item $E[\frac{(1-T)Y(0)}{1-e(X)}|T=0]=E[Y(0)]$
+\end{itemize}
+ 
 \end{itemize}
 
 \note{Justification:
 $E[ZY/e(x)]=E[ZY_1/e(x)]=E[E[ZY_1/e(X)]|Y_1,X]$
-$=E[Y_1/e(x)E[]]$
+$=E[Y_1/e(x)E[Z|Y_1,X]]=E[Y_1/e(x) E[Z|X]]$
+$=E[Y_1/e(x)e(x)]=E[Y_1]$
 }
 \end{frame}
-
-%ps issues was here

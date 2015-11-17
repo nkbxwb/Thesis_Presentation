@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  16 NOV 2015 16:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  16 NOV 2015 22:22
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -845,32 +845,29 @@ Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.aux"
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_problem.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_missing_data.aux)
-(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux
-
-LaTeX Warning: Label `fig:hazard' multiply defined.
-
-) (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_surv.aux)
+(C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_mi.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_surv.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\method_ps.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\cancerapplication.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\conclusion_discuss.aux)
 (C:\Users\Nathan\Desktop\Thesis_Presentation\extras.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 101
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 102
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
@@ -925,7 +922,7 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks48
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 101.
+Package hyperref Info: Link coloring OFF on input line 102.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -935,60 +932,60 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 101.
-LaTeX Info: Redefining \pageref on input line 101.
-LaTeX Info: Redefining \nameref on input line 101.
+LaTeX Info: Redefining \ref on input line 102.
+LaTeX Info: Redefining \pageref on input line 102.
+LaTeX Info: Redefining \nameref on input line 102.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.out"
 ) ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.ou
 t")
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 101.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 101.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 101.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 101.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 102.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 101.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 101.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 101.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 101.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 101.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/bx/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 101.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 101.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 101.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 101.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 101.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 101.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 102.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 101.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 101.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 101.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 101.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 101.
+(Font)                  OT1/lmss/bx/n --> OT1/lmr/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 101.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 101.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/bx/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 101.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/bx/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 101.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/bx/n on input line 102.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -1014,56 +1011,56 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 101.
+LaTeX Info: Redefining \includegraphics on input line 102.
 
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.nav"
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 105.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 106.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 105
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 106
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 105
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 106
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 105.
+(Font)              <10.95> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 105.
+(Font)              <8> on input line 106.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 105.
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+(Font)              <6> on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <5> on input line 106.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 105.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 106.
 
  [1
 
@@ -1118,10 +1115,10 @@ Package pdftex.def Info: mi_example_full.jpg used on input line 63.
 <km_example.png, id=524, 386.19281pt x 291.33844pt>
 File: km_example.png Graphic file (type png)
  <use km_example.png>
-Package pdftex.def Info: km_example.png used on input line 34.
-(pdftex.def)             Requested size: 154.03183pt x 116.19989pt.
+Package pdftex.def Info: km_example.png used on input line 37.
+(pdftex.def)             Requested size: 130.07388pt x 98.12465pt.
 
-Overfull \vbox (26.49255pt too high) detected at line 34
+Overfull \vbox (8.41731pt too high) detected at line 37
  []
 
 [15
@@ -1132,21 +1129,16 @@ Overfull \vbox (26.49255pt too high) detected at line 34
 <hazard.png, id=585, 332.74312pt x 227.34938pt>
 File: hazard.png Graphic file (type png)
  <use hazard.png>
-Package pdftex.def Info: hazard.png used on input line 64.
-(pdftex.def)             Requested size: 222.48985pt x 152.02147pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:hazard}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 \end{frame}
-                
-Overfull \vbox (31.99869pt too high) detected at line 64
+Package pdftex.def Info: hazard.png used on input line 67.
+(pdftex.def)             Requested size: 188.26346pt x 128.63303pt.
+
+Overfull \vbox (9.16582pt too high) detected at line 67
  []
 
 [17
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/hazard.png>]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 82.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1172,7 +1164,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 
 [21
 
-] <counterfactual.png, id=731, 458.46281pt x 317.68687pt>
+] <counterfactual.png, id=734, 458.46281pt x 317.68687pt>
 File: counterfactual.png Graphic file (type png)
 
 <use counterfactual.png>
@@ -1187,13 +1179,13 @@ Package pdftex.def Info: counterfactual.png used on input line 51.
 ] [25
 
 ]
-<ps_examples.png, id=842, 540.51938pt x 216.81pt>
+<ps_examples.png, id=846, 533.74406pt x 313.9228pt>
 File: ps_examples.png Graphic file (type png)
  <use ps_examples.png>
-Package pdftex.def Info: ps_examples.png used on input line 115.
-(pdftex.def)             Requested size: 273.83728pt x 109.8405pt.
+Package pdftex.def Info: ps_examples.png used on input line 112.
+(pdftex.def)             Requested size: 273.83728pt x 161.06131pt.
 
-Overfull \vbox (1.33853pt too high) detected at line 115
+Overfull \vbox (25.35933pt too high) detected at line 112
  []
 
 [26
@@ -1213,7 +1205,7 @@ Overfull \vbox (1.33853pt too high) detected at line 115
 ]
 [31
 
-] <fcs_algo.jpg, id=1018, 365.11406pt x 261.97874pt>
+] <fcs_algo.jpg, id=1023, 365.11406pt x 261.97874pt>
 File: fcs_algo.jpg Graphic file (type jpg)
  <use fcs_algo.jpg>
 Package pdftex.def Info: fcs_algo.jpg used on input line 125.
@@ -1287,7 +1279,7 @@ Overfull \vbox (10.78333pt too high) detected at line 72
 
 [51
 
-] <missingvalues_plot.png, id=1590, 711.65875pt x 485.815pt>
+] <missingvalues_plot.png, id=1595, 711.65875pt x 485.815pt>
 File: missingvalues_plot.png Graphic file (type png)
 
 <use missingvalues_plot.png>
@@ -1298,13 +1290,13 @@ Package pdftex.def Info: missingvalues_plot.png used on input line 82.
  <C:/Users/Nathan/Desktop/Thesis_Presentation/missingvalues_plot.png>] [53
 
 ]
-<traceplots1.png, id=1645, 606.265pt x 440.64626pt>
+<traceplots1.png, id=1650, 606.265pt x 440.64626pt>
 File: traceplots1.png Graphic file (type png)
  <use traceplots1.png>
 Package pdftex.def Info: traceplots1.png used on input line 108.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
 
-<traceplots2.png, id=1646, 606.265pt x 440.64626pt>
+<traceplots2.png, id=1651, 606.265pt x 440.64626pt>
 File: traceplots2.png Graphic file (type png)
  <use traceplots2.png>
 Package pdftex.def Info: traceplots2.png used on input line 108.
@@ -1314,13 +1306,13 @@ Package pdftex.def Info: traceplots2.png used on input line 108.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/traceplots1.png> <C:/Users/Nathan
 /Desktop/Thesis_Presentation/traceplots2.png>]
-<cont_densplot.png, id=1675, 477.785pt x 485.815pt>
+<cont_densplot.png, id=1680, 477.785pt x 485.815pt>
 File: cont_densplot.png Graphic file (type png)
  <use cont_densplot.png>
 Package pdftex.def Info: cont_densplot.png used on input line 130.
 (pdftex.def)             Requested size: 171.14764pt x 174.01854pt.
 
-<discrete_densplot.png, id=1676, 477.785pt x 485.815pt>
+<discrete_densplot.png, id=1681, 477.785pt x 485.815pt>
 File: discrete_densplot.png Graphic file (type png)
 
 <use discrete_densplot.png>
@@ -1335,7 +1327,7 @@ Overfull \vbox (14.1272pt too high) detected at line 164
 
 [56
 
-] <cape_km.png, id=1733, 628.3475pt x 485.815pt>
+] <cape_km.png, id=1738, 628.3475pt x 485.815pt>
 File: cape_km.png Graphic file (type png)
  <use cape_km.png>
 Package pdftex.def Info: cape_km.png used on input line 205.
@@ -1352,7 +1344,7 @@ LaTeX Font Warning: Font shape `OML/lmss/m/n' undefined
 [57
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cape_km.png>]
-<lapat_km.png, id=1762, 676.5275pt x 485.815pt>
+<lapat_km.png, id=1767, 676.5275pt x 485.815pt>
 File: lapat_km.png Graphic file (type png)
  <use lapat_km.png>
 Package pdftex.def Info: lapat_km.png used on input line 238.
@@ -1360,13 +1352,13 @@ Package pdftex.def Info: lapat_km.png used on input line 238.
  [58
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/lapat_km.png>]
-<ac_schoenfeld.png, id=1790, 600.74437pt x 532.99126pt>
+<ac_schoenfeld.png, id=1795, 600.74437pt x 532.99126pt>
 File: ac_schoenfeld.png Graphic file (type png)
 
 <use ac_schoenfeld.png>
 Package pdftex.def Info: ac_schoenfeld.png used on input line 315.
 (pdftex.def)             Requested size: 171.14764pt x 151.84715pt.
- <mi_schoenfeld.png, id=1791, 800.9925pt x 710.655pt>
+ <mi_schoenfeld.png, id=1796, 800.9925pt x 710.655pt>
 File: mi_schoenfeld.png Graphic file (type png)
 
 <use mi_schoenfeld.png>
@@ -1390,7 +1382,7 @@ Overfull \vbox (6.39539pt too high) detected at line 345
 ] [64
 
 ]
-<balance_diagnosis.jpg, id=1952, 434.37282pt x 360.59718pt>
+<balance_diagnosis.jpg, id=1957, 434.37282pt x 360.59718pt>
 File: balance_diagnosis.jpg Graphic file (type jpg)
 
 <use balance_diagnosis.jpg>
@@ -1429,7 +1421,7 @@ Overfull \vbox (39.81067pt too high) detected at line 447
 
 ] [74
 
-] <jm_algo.jpg, id=2231, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=2236, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
  <use jm_algo.jpg>
 Package pdftex.def Info: jm_algo.jpg used on input line 31.
@@ -1440,7 +1432,7 @@ Package pdftex.def Info: jm_algo.jpg used on input line 31.
  <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [76
 
 ]
-<stacked.jpg, id=2285, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=2290, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 68.
@@ -1454,13 +1446,13 @@ Package pdftex.def Info: stacked.jpg used on input line 68.
 ] [80
 
 ]
-<bw_timemet.png, id=2395, 616.3025pt x 485.815pt>
+<bw_timemet.png, id=2400, 616.3025pt x 485.815pt>
 File: bw_timemet.png Graphic file (type png)
  <use bw_timemet.png>
 Package pdftex.def Info: bw_timemet.png used on input line 111.
 (pdftex.def)             Requested size: 171.14764pt x 134.90791pt.
 
-<bw_timedx.png, id=2396, 616.3025pt x 485.815pt>
+<bw_timedx.png, id=2401, 616.3025pt x 485.815pt>
 File: bw_timedx.png Graphic file (type png)
  <use bw_timedx.png>
 Package pdftex.def Info: bw_timedx.png used on input line 111.
@@ -1469,7 +1461,7 @@ Package pdftex.def Info: bw_timedx.png used on input line 111.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/bw_timemet.png> <C:/Users/Nathan/
 Desktop/Thesis_Presentation/bw_timedx.png>]
-<tabchecks.png, id=2425, 478.78876pt x 310.15875pt>
+<tabchecks.png, id=2430, 478.78876pt x 310.15875pt>
 File: tabchecks.png Graphic file (type png)
  <use tabchecks.png>
 Package pdftex.def Info: tabchecks.png used on input line 121.
@@ -1515,22 +1507,19 @@ anged.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 18355 strings out of 493921
- 356714 string characters out of 3144873
- 449429 words of memory out of 3000000
- 20871 multiletter control sequences out of 15000+200000
+ 18360 strings out of 493921
+ 356792 string characters out of 3144873
+ 449463 words of memory out of 3000000
+ 20874 multiletter control sequences out of 15000+200000
  66583 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,16n,65p,428b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,16n,65p,446b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x
+86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/
 fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
@@ -1545,11 +1534,12 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (85 pages, 1676925 bytes).
+lic/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8
+.pfb>
+Output written on "Nathan Berliner Presentation.pdf" (85 pages, 1710630 bytes).
 
 PDF statistics:
- 2639 PDF objects out of 2984 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
+ 2648 PDF objects out of 2984 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
  306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

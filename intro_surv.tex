@@ -6,9 +6,12 @@ event data, often in the face of censoring or truncation.
 Example:
 \begin{itemize}
  \item The survival of patients after a liver transplant in a hospital
+ \item Censoring/Truncation:
  \begin{itemize}
-  \item Complications: study ending and no death, subject dies before study starts,
-  subject moves away, exact death time is only known between two times
+  \item study ending and no death, 
+  \item subject dies before study starts
+  \item subject moves away, 
+ \item exact death time only known in an interval
  \end{itemize}
 
 \end{itemize}
@@ -24,9 +27,9 @@ Example:
 \end{itemize}
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.45\textwidth]{km_example.png}
-  \caption{A few different hazard function shapes, edited from wikipedia}
-\label{fig:hazard}
+    \includegraphics[width=0.38\textwidth]{km_example.png}
+  \caption{Tongue Cancer date from \cite{Klein1984}}
+\label{fig:KMcurve}
 \end{figure}
 \note{
  risk set at time t; the set of individuals alive and uncensored just before time t.
@@ -57,8 +60,8 @@ $$\frac{\sum_{j=1}^{J}(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}V_{j}}}\sim N(0,1)$$
 \end{itemize}
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.65\textwidth]{hazard.png}
-  \caption{A few different hazard function shapes, edited from wikipedia}
+    \includegraphics[width=0.55\textwidth]{hazard.png}
+  \caption{A few different hazard function shapes \cite{wikihazard}}
 \label{fig:hazard}
 \end{figure}
 \end{frame}
