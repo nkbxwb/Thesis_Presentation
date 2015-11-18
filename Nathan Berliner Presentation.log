@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  18 NOV 2015 13:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  18 NOV 2015 15:35
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1300,13 +1300,13 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ] [37
 
 ]
-<ac_schoenfeld.png, id=1098, 600.74437pt x 532.99126pt>
+<ac_schoenfeld.png, id=1099, 600.74437pt x 532.99126pt>
 File: ac_schoenfeld.png Graphic file (type png)
 
 <use ac_schoenfeld.png>
 Package pdftex.def Info: ac_schoenfeld.png used on input line 219.
 (pdftex.def)             Requested size: 171.14764pt x 151.84715pt.
- <mi_schoenfeld.png, id=1099, 800.9925pt x 710.655pt>
+ <mi_schoenfeld.png, id=1100, 800.9925pt x 710.655pt>
 File: mi_schoenfeld.png Graphic file (type png)
 
 <use mi_schoenfeld.png>
@@ -1326,7 +1326,7 @@ Overfull \vbox (6.39539pt too high) detected at line 251
 ] [41
 
 ]) (C:\Users\Nathan\Desktop\Thesis_Presentation\intro_causal.tex
-<ps_flow.png, id=1204, 536.75531pt x 188.95593pt>
+<ps_flow.png, id=1205, 536.75531pt x 188.95593pt>
 File: ps_flow.png Graphic file (type png)
  <use ps_flow.png>
 Package pdftex.def Info: ps_flow.png used on input line 7.
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: ps_flow.png used on input line 7.
 ] [44
 
 ]
-<counterfactual.png, id=1287, 458.46281pt x 317.68687pt>
+<counterfactual.png, id=1288, 458.46281pt x 317.68687pt>
 File: counterfactual.png Graphic file (type png)
 
 <use counterfactual.png>
@@ -1355,7 +1355,7 @@ Package pdftex.def Info: counterfactual.png used on input line 61.
 ] [48
 
 ]
-<ps_examples.png, id=1398, 533.74406pt x 313.9228pt>
+<ps_examples.png, id=1399, 533.74406pt x 313.9228pt>
 File: ps_examples.png Graphic file (type png)
  <use ps_examples.png>
 Package pdftex.def Info: ps_examples.png used on input line 126.
@@ -1375,7 +1375,7 @@ Overfull \vbox (25.35933pt too high) detected at line 126
 
 ] [53
 
-] <balance_diagnosis.jpg, id=1536, 434.37282pt x 360.59718pt>
+] <balance_diagnosis.jpg, id=1537, 434.37282pt x 360.59718pt>
 File: balance_diagnosis.jpg Graphic file (type jpg)
 
 <use balance_diagnosis.jpg>
@@ -1410,7 +1410,7 @@ Overfull \vbox (39.81067pt too high) detected at line 197
 
 ] [62
 
-] <jm_algo.jpg, id=1777, 362.85562pt x 364.36125pt>
+] <jm_algo.jpg, id=1778, 362.85562pt x 364.36125pt>
 File: jm_algo.jpg Graphic file (type jpg)
  <use jm_algo.jpg>
 Package pdftex.def Info: jm_algo.jpg used on input line 31.
@@ -1421,7 +1421,7 @@ Package pdftex.def Info: jm_algo.jpg used on input line 31.
  <C:/Users/Nathan/Desktop/Thesis_Presentation/jm_algo.jpg>] [64
 
 ]
-<stacked.jpg, id=1831, 493.0922pt x 249.93375pt>
+<stacked.jpg, id=1832, 493.0922pt x 249.93375pt>
 File: stacked.jpg Graphic file (type jpg)
  <use stacked.jpg>
 Package pdftex.def Info: stacked.jpg used on input line 68.
@@ -1435,13 +1435,13 @@ Package pdftex.def Info: stacked.jpg used on input line 68.
 ] [68
 
 ]
-<bw_timemet.png, id=1941, 616.3025pt x 485.815pt>
+<bw_timemet.png, id=1942, 616.3025pt x 485.815pt>
 File: bw_timemet.png Graphic file (type png)
  <use bw_timemet.png>
 Package pdftex.def Info: bw_timemet.png used on input line 111.
 (pdftex.def)             Requested size: 171.14764pt x 134.90791pt.
 
-<bw_timedx.png, id=1942, 616.3025pt x 485.815pt>
+<bw_timedx.png, id=1943, 616.3025pt x 485.815pt>
 File: bw_timedx.png Graphic file (type png)
  <use bw_timedx.png>
 Package pdftex.def Info: bw_timedx.png used on input line 111.
@@ -1450,7 +1450,7 @@ Package pdftex.def Info: bw_timedx.png used on input line 111.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/bw_timemet.png> <C:/Users/Nathan/
 Desktop/Thesis_Presentation/bw_timedx.png>]
-<tabchecks.png, id=1971, 478.78876pt x 310.15875pt>
+<tabchecks.png, id=1972, 478.78876pt x 310.15875pt>
 File: tabchecks.png Graphic file (type png)
  <use tabchecks.png>
 Package pdftex.def Info: tabchecks.png used on input line 121.
@@ -1497,15 +1497,15 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 272.
 Here is how much of TeX's memory you used:
  18392 strings out of 493921
  353908 string characters out of 3144873
- 450097 words of memory out of 3000000
+ 449097 words of memory out of 3000000
  20967 multiletter control sequences out of 15000+200000
  66896 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,64p,446b,660s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 mi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:
@@ -1518,12 +1518,13 @@ lic/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (73 pages, 1650738 bytes).
+ts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8
+.pfb>
+Output written on "Nathan Berliner Presentation.pdf" (73 pages, 1664128 bytes).
 
 PDF statistics:
- 2182 PDF objects out of 2487 (max. 8388607)
+ 2186 PDF objects out of 2487 (max. 8388607)
  188 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
