@@ -1,3 +1,5 @@
+\section{Survival Analysis}
+\subsection{Intro}
 \begin{frame}{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
@@ -25,6 +27,7 @@ Example:
 \end{itemize}
 \end{frame}
 
+\subsection{Kaplan-Meier}
 \begin{frame}{Kaplan-Meier Estimator}
 \begin{itemize}
  \item The survival function $S(t)=P(T>t)=\int_{t}^{\infty}f(u)du$ is estimated by the 
@@ -72,7 +75,8 @@ persons survival had they not been censored }
 
 \end{frame}
 
-\begin{frame}{Log rank test}
+\subsection{Log Rank Test}
+\begin{frame}{Log Rank test}
 $H_0$: No difference between the survival curves of the two populations
 
 $$\frac{\sum_{j=1}^{J}(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}V_{j}}}\sim N(0,1)$$
@@ -89,24 +93,24 @@ $$\frac{\sum_{j=1}^{J}(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}V_{j}}}\sim N(0,1)$$
 \begin{frame}{Log Rank Test in MI Setting}
  \begin{itemize}
  \item Under no tied times, the score test on
-  Cox Regression on a treatment is equivalent to the
+  Cox Regression on treatment only is equivalent to the
 log rank test
 \begin{itemize}
  \item And very similar under tied times
 \end{itemize}
-\item Idea: Derive log rank test from Cox model
+\item Idea: Derive log rank test from Cox regression
 \begin{itemize}
  \item Pooling LRT and Score test is unstable \cite{Marshall2009}
  \item Wald test is asymptotically equivalent
 \end{itemize}
- \item Final Solution: Run the Wald test on Cox model as an approximation
+ \item Final Solution: Run the Wald test on Cox regression as an approximation
 
  \end{itemize}
 \note{there are lots of issues, I moved them to extras
 Might need to check PH assumption on LR test}
 \end{frame}
 
-
+\subsection{KM and Log Rank Application}
 \begin{frame}{Chemo KM and Log Rank Test}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.75\textwidth}
@@ -171,7 +175,8 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 	\end{columns}
 \end{frame}
 
-\begin{frame}{Cox Model: Hazard Function}
+\subsection{Cox Regression}
+\begin{frame}{Cox Regression: Hazard Function}
 \begin{itemize}
  \item Hazard is the instantaneous rate of event given that you have survived until time t, given 
  by $$h(t)=\lim_{\Delta t \rightarrow 0+}\frac{P[t\leq T<t+\Delta t|T\geq t]}{\Delta t}$$
@@ -200,19 +205,20 @@ Quantiy of interest: Hazard ratio $\frac{h(t|Z)}{h(t|Z^{*})}=\exp(\sum_{k=1}^{p}
 \end{frame}
 
 
-\begin{frame}{Cox Model in the MI Setting}
+\begin{frame}{Cox Regression in the MI Setting}
 \begin{itemize}
- \item Goal: To get a ``baseline'' Cox model, then add treatment variables
+ \item Goal: To get a ``baseline'' Cox regression, then add treatment variables
  \item Need to check for proportional hazards assumption
  \begin{itemize}
-  \item Problem:  MI Cox model doesn't have residuals
+  \item Problem:  MI Cox regression doesn't have residuals
   \item Solution: Check assumptions (Schoenfeld residuals) on each MI dataset individually
  \end{itemize}
-\item Cox model is normally distributed, use Rubin's Rules to pool
+\item Cox regression is normally distributed, use Rubin's Rules to pool
 \item Add treatment covariates, rerun models, pool
 \end{itemize}
 \end{frame}
 
+\subsection{Cox Regression Application}
 \begin{frame}{Schoenfeld Residual Splines}
 \includegraphics[width=.5\textwidth]{ac_schoenfeld}%
 \includegraphics[width=.5\textwidth]{mi_schoenfeld} 
@@ -244,13 +250,13 @@ BM type                                                & Mult. Vs. Single       
 Sys. Cont.                                             & Yes vs. No                       & 0.71 & (0.61,0.83)                                          & \textless0.0001 &  & 0.73 & (0.63,0.85)                                        & \textless0.0001                                            \\ \hline
 \end{tabular}
 }
-\caption{AC and MI baseline Cox model}
+\caption{AC and MI baseline Cox regression}
 \label{fig:acmicox}
 \end{table}
 
 \end{frame}
 
-\begin{frame}{MI Cox Model, Chemo}
+\begin{frame}{MI Cox Regression, Chemo}
 \begin{table}[]
 \centering
 \adjustbox{max height=.9\dimexpr\textheight-5.5cm\relax,
@@ -276,13 +282,13 @@ Chemo                          & Cape. vs. none                   & 0.69        
                                & other vs. none                   & 0.52                                                & (0.42,0.65)           & \textless .0001       &                       & 0.58                  & (0.47,0.71) & \textless .0001                                             \\ \hline
 \end{tabular}
 }
-\caption{AC and MI Cox model with Chemo Treatment}
+\caption{AC and MI Cox regression with Chemo Treatment}
 \label{acmi_cox_chemo}
 \end{table} 
 \end{frame}
 
 
-\begin{frame}{AC and MI Cox Model with HER2 Treatment}
+\begin{frame}{AC and MI Cox Regression with HER2 Treatment}
 \begin{table}[]
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
@@ -306,7 +312,7 @@ HER2 therapy                   & Lapat vs. none                   & 0.47        
                                & Trastuz vs. none                 & 0.45                  & (0.33,0.61)                                        & \textless.0001        &                       & 0.51 & (0.38,0.68)                                                          & \textless.0001                                              \\ \hline
 \end{tabular}
 }
-\caption{AC and MI Cox model with HER2 Treatment}
+\caption{AC and MI Cox regression with HER2 Treatment}
 
 \end{table}
 \end{frame}

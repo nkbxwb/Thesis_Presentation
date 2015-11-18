@@ -56,6 +56,29 @@
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
 
+%%%%%
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertsubsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+%%%%
+
 \title[Master's Thesis]{Using Multiple Imputation, Survival Analysis, 
 And Propensity Score Analysis In Cancer Data With Missingness}
 
@@ -126,15 +149,15 @@ And Propensity Score Analysis In Cancer Data With Missingness}
 \subsection{The Problem}
 \include{intro_problem}
 
-\subsection{Missing data}
+%\subsection{Missing data}
 \include{intro_missing_data}
 
 
 
-\subsection{Survival Analysis}
+%\subsection{Survival Analysis}
 \include{intro_surv}
 
-\subsection{Causal Analysis}
+%\subsection{Causal Analysis}
 \include{intro_causal}
 
 %\section{Methods}
@@ -152,8 +175,7 @@ And Propensity Score Analysis In Cancer Data With Missingness}
 
 %\include{cancerapplication}
 
-\section{Conclusion}
-\subsection{Discussion}
+
 \include{conclusion_discuss}
 
 \include{extras}

@@ -1,8 +1,27 @@
 \beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {2}{Introducing the Data}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Characteristics}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Scientific Questions}{7}{0}{2}
+\beamer@subsectionintoc {2}{3}{Getting a feel for the data}{8}{0}{2}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{The Problem}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{Missing data}{10}{0}{1}
-\beamer@subsectionintoc {1}{3}{Survival Analysis}{26}{0}{1}
-\beamer@subsectionintoc {1}{4}{Causal Analysis}{42}{0}{1}
-\beamer@sectionintoc {2}{Conclusion}{57}{0}{2}
-\beamer@subsectionintoc {2}{1}{Discussion}{57}{0}{2}
+\beamer@sectionintoc {3}{Multiple Imputation}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Missing Data}{11}{0}{3}
+\beamer@subsectionintoc {3}{2}{MI Theory}{12}{0}{3}
+\beamer@subsectionintoc {3}{3}{Application}{20}{0}{3}
+\beamer@subsectionintoc {3}{4}{Rubin's Rules}{24}{0}{3}
+\beamer@sectionintoc {4}{Survival Analysis}{26}{0}{4}
+\beamer@subsectionintoc {4}{1}{Intro}{26}{0}{4}
+\beamer@subsectionintoc {4}{2}{Kaplan-Meier}{28}{0}{4}
+\beamer@subsectionintoc {4}{3}{Log Rank Test}{31}{0}{4}
+\beamer@subsectionintoc {4}{4}{KM and Log Rank Application}{33}{0}{4}
+\beamer@subsectionintoc {4}{5}{Cox Regression}{35}{0}{4}
+\beamer@subsectionintoc {4}{6}{Cox Regression Application}{38}{0}{4}
+\beamer@sectionintoc {5}{Causal Analysis}{42}{0}{5}
+\beamer@sectionintoc {6}{Intro}{42}{0}{6}
+\beamer@subsectionintoc {6}{1}{Propensity Score}{48}{0}{6}
+\beamer@sectionintoc {7}{Propensity Score Application}{52}{0}{7}
+\beamer@sectionintoc {8}{Conclusion}{57}{0}{8}
+\beamer@subsectionintoc {8}{1}{Future}{59}{0}{8}
+\beamer@subsectionintoc {8}{2}{Thanks!}{60}{0}{8}
+\beamer@sectionintoc {9}{Extras}{61}{0}{9}

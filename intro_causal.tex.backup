@@ -1,3 +1,11 @@
+\begin{frame}{Plan For This Presentation}
+  \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.9\textwidth]{ps_flow}
+\label{fig:ps_flow}
+\end{figure} 
+\end{frame}
+
 %might want to change this example
 \begin{frame}{Causal Analysis}
 Example: Examining weight loss between new weight loss drug or placebo
@@ -21,6 +29,7 @@ Idea: Try to balance the covariates to reduce the effects of confounding
 so the two groups seem identical at baseline
  \end{itemize}
 \end{frame}
+
 
 \begin{frame}{Counterfactuals}
 \begin{itemize}
@@ -50,6 +59,7 @@ so the two groups seem identical at baseline
 \item If we could observe both, then we could observe the causal effects for each person
 \end{itemize}
 \end{frame}
+
 
 \begin{frame}{Rubin's Causal Model}
 \begin{itemize}
@@ -151,12 +161,11 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
 \item Generating the propensity score
 \begin{itemize}
 \item What to put into the model
- \item How to compute it: Logistic regression, Probit regression, CART, GBM, etc.
+  \item Confounding factors: stage, race, IDC, breast cancer surgery, HR/HER2 status,
+  breast cancer radiation, first met site, number of prior treatments, ECOG score,
+  localized brain mets treatment, age at brain met, type of brain mets, brain met controlled
+ \item Method to compute the propensity scores: GBM
 \end{itemize}
-\item How to use the propensity score in the MI setting
- \begin{itemize}
-  \item Matching, weighting, covariate adjustment, etc.
- \end{itemize}
 \item What estimand do we care about?
 \end{itemize} 
 \end{frame}
@@ -173,5 +182,93 @@ For each MI dataset...
 \end{itemize}
 \item Need to be sure that propensity scores are between 0 and 1
 \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Balance Checks}
+  \begin{figure}[h!]
+  \centering
+\includegraphics[width=.8\textwidth]{balance_diagnosis} 
+  \caption{Selected Balance Diagnostics}
+\label{fig:balcheck}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Results of IPTW: Chemotherapeutic}
+ \begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+               & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+               & HR           & 95\% CI             &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR         & 95\% CI         \\ \hline
+Cape. vs none  & 0.396        & (0.325,0.482)       &  & 0.655     & (0.481,0.894)    &  & 0.484        & (0.400,0.585)       &  & 0.702          & (0.543,0.906)           \\ \hline
+Other vs none  & 0.336        & (0.287,0.394)       &  & 0.567     & (0.46,0.754)     &  & 0.413        & (0.354,0.481        &  & 0.593          & (0.470,0.748)           \\ \hline
+Cape. vs other & 1.179        & (0.983,1.416)       &  & 1.156     & (0.966,1.383)    &  & 1.173        & (0.981,1.402)       &  & 1.183          & (0.998,1.404)           \\ \hline
+\end{tabular}
+}
+\caption{Chemotherapeutic ATE with IPTW weights, AC and MI}
+
+\end{table}
+
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+               & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+               & HR           & 95\% CI             &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR        & 95\% CI          \\ \hline
+Cape. vs none  & 0.687        & (0.530,0.891)       &  & 0.603     & (0.443,0.820)    &  & 0.752        & (0.595,0.952)       &  & 0.701     & (0.536,0.917)    \\ \hline
+Other vs none  & 0.521        & (0.416,0.653)       &  & 0.452     & (0.340,0.602)    &  & 0.579        & (0.474,0.707)       &  & 0.532     & (0.416,0.681)    \\ \hline
+Cape. vs other & 1.318        & (1.078,1.612)       &  & 1.334     & (1.109,1.604)    &  & 1.300        & (1.076,1.570)       &  & 1.317     & (1.100,1.579)    \\ \hline
+\end{tabular}
+}
+\caption{Chemotherapeuic ATE, Doubly Robust, AC, MI}
+\label{chemorobust}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Results of IPTW: HER2 Directed}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                   & \multicolumn{2}{c|}{AC Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{AC IPTW}                                    & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI Unweighted}                              & \multicolumn{1}{l|}{} & \multicolumn{2}{c|}{MI IPTW}                                    \\ \hline
+                   & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                            &                       & HR                         & 95\% CI                           &                       & HR                         & 95\% CI                            \\ \hline
+Lapat. vs none     & 0.467                      & (0.355,0.616)                      &                       & 0.571                      & (0.381,0.855)                      &                       & 0.474                      & (0.362,0.622)                     &                       & 0.485                      & (0.304,0.775)                      \\ \hline
+Trastuz. vs none   & 0.488                      & (0.398,0.597)                      &                       & 0.566                      & (0.421,0.759)                      &                       & 0.506                      & (0.417,0.614)                     &                       & 0.480                      & (0.313,0.735)                      \\ \hline
+Lapat. vs Trastuz. & \multicolumn{1}{l|}{0.958} & \multicolumn{1}{l|}{(0.693,1.324)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.009} & \multicolumn{1}{l|}{(0.680,1.496)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{0.927} & \multicolumn{1}{l|}{(0.673,1.28)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{1.011} & \multicolumn{1}{l|}{(0.763,1.338)} \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, AC and MI}
+\label{tab:lapatonly}
+\end{table}
+
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+                   & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI Unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+                   & HR          & 95\% CI              &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR         & 95\% CI            \\ \hline
+Lapat. vs none     & 0.468       & (0.316,0.692)        &  & 0.514     & (0.331,0.798)    &  & 0.524        & (0.367,0.747)       &  & 0.410      & (0.257,0.652)      \\ \hline
+Trastuz. vs none   & 0.447       & (0.328,0.6089)       &  & 0.456     & (0.328,0.632)    &  & 0.511        & (0.381,0.685)       &  & 0.388      & (0.249,0.602)      \\ \hline
+Lapat. vs Trastuz. & 1.048       & (0.704,1.560)        &  & 1.128     & (0.726,1.754)    &  & 1.026        & (0.713,1.477)       &  & 1.057      & (0.788,1.417)      \\ \hline
+\end{tabular}
+}
+\caption{HER2 directed ATE with IPTW weights, double robust}
+\label{lapatfull}
+\end{table}
+ 
 \end{frame}
 

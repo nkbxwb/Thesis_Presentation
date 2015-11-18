@@ -14,12 +14,15 @@
 %%\documentclass[notes]{beamer}       % print frame + notes
 %\documentclass[notes=only]{beamer}   % only notes
 \documentclass{beamer}              % only frames
+\setbeamertemplate{caption}[numbered]
 
 
 %\documentclass{beamer}
 \usepackage{lmodern}
 \usepackage{verbatim}
 \usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{color,soul}
 % There are many different themes available for Beamer. A comprehensive
 % list with examples is given here:
 % http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
@@ -53,8 +56,31 @@
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
 
+%%%%%
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertsubsection
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+%%%%
+
 \title[Master's Thesis]{Using Multiple Imputation, Survival Analysis, 
-And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data}
+And Propensity Score Analysis In Cancer Data With Missingness}
 
 % A subtitle is optional and this may be deleted
 \subtitle{Master's Thesis}
@@ -89,12 +115,16 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
 
 % Delete this, if you do not want the table of contents to pop up at
 % the beginning of each subsection:
+\begin{comment}
+ 
+
 \AtBeginSubsection[]
 {
   \begin{frame}<beamer>{Outline}
     \tableofcontents[currentsection,currentsubsection]
   \end{frame}
 }
+\end{comment}
 
 % Let's get started
 \begin{document}
@@ -103,10 +133,15 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
   \titlepage
 \end{frame}
 
+\begin{comment}
+ 
 \begin{frame}{Outline}
   \tableofcontents
   % You might wish to add the option [pausesections]
 \end{frame}
+
+
+\end{comment}
 
 % Section and subsections will appear in the presentation overview
 % and table of contents.
@@ -125,9 +160,29 @@ And Propensity Score Analysis In Cancer Data With A Large Amount Of Missing Data
 \subsection{Causal Analysis}
 \include{intro_causal}
 
-\section{Methods}
-\subsection{Imputation}
-\include{method_mi}
+%\section{Methods}
+%\subsection{Imputation}
+
+%\include{method_mi}
+%\subsection{Survival}
+%\include{method_surv}
+
+%\subsection{Causal Analysis}
+%\include{method_ps}
+
+%\section{Application}
+%\subsection{Breast Brain Mets Example}
+
+%\include{cancerapplication}
+
+\section{Conclusion}
+\subsection{Discussion}
+\include{conclusion_discuss}
+
+\include{extras}
+\begin{comment}
+ 
+
 % You can reveal the parts of a slide one at a time
 % with the \pause command:
 \begin{frame}{Second Slide Title}
