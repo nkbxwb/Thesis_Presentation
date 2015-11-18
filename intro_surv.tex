@@ -51,6 +51,18 @@ persons survival had they not been censored }
 \end{frame}
 
 
+\begin{frame}{Median Survival Time}
+ \begin{itemize}
+  \item Want a measure of central tendency
+  \begin{itemize}
+   \item Survival distributions often skewed, so mean is poor choice
+  \end{itemize}
+  \item Median: smallest time such that $\hat{S}(t)\leq .5$
+\item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
+\item Confidence interval at median: the median of the upper and lower confidence bands
+ \end{itemize}
+
+\end{frame}
 
 \begin{frame}{Log rank test}
 $H_0$: No difference between the survival curves of the two populations
@@ -176,6 +188,7 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
    \item $\beta_k$'s are found by maximizing the partial likelihood function
 \item The covariates act to multiply the hazard function.
 \end{itemize}
+%do I want to talk about hazard ratio?
 \end{frame}
 
 
@@ -185,7 +198,7 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
  \item Need to check for proportional hazards assumption
  \begin{itemize}
   \item Problem:  MI Cox model doesn't have residuals
-  \item Solution: Check assumptions (Schoenfeld residuals) on stacked dataset or each MI dataset individually
+  \item Solution: Check assumptions (Schoenfeld residuals) on each MI dataset individually
  \end{itemize}
 \item Cox model is normally distributed, use Rubin's Rules to pool
 \item Add treatment covariates, rerun models, pool

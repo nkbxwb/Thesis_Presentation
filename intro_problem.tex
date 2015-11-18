@@ -123,6 +123,52 @@ Want to explore...
 
 \end{frame}
 
+%%%%%%%%%%%%%%55
+\begin{frame}{SEE IF I WANT TO KEEP THIS IN PRESENTATION}
+  \begin{table}[!ht]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|}
+\hline
+Name        & \begin{tabular}[c]{@{}c@{}}Percent \\ Missing\end{tabular} & Meaning                                                                                                                                             \\ \hline
+capeothno   & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotherapeutic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
+lapatrasno  & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2 treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
+controlled  & 12\%                                                        & Indicator: Extracranial progression of brain mets                                                                                                   \\ \hline
+her2        & 10\%                                                        & Indicator: HER2 receptor status                                                                                                                     \\ \hline
+hrher2      & 5\%   													& \begin{tabular}[c]{@{}c@{}}Categorical variable: The hormonal receptor and \\ HER2 receptor status of the subject\end{tabular}  						\\ \hline
+braintype   & 4\%                                                        & Categorical: Single, multiple, Leptomeningeal disease                                                                                               \\ \hline                                                                       
+timedx      & 1\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Time (years) from breast cancer diagnosis to brain\\ mets diagnosis greater or less than 6 years\end{tabular} \\ \hline
+site5       & 1\%                                                     & Indicator: First metastasis was to brain                                                                                                            \\ \hline
+race2       & 0\%                                                          & Categorical: White, Black, Hispanic, other                                                                                                          \\ \hline
+priorn      & 0\%                                                          & \begin{tabular}[c]{@{}c@{}}Indicator: Number of prior treatments in metastatic setting \\ before brain mets\end{tabular}                            \\ \hline
+os          & 0\%                                                          & Overall survival (months)                                                                                                                           \\ \hline
+dead        & 0\%                                                          & Indicator: death indicator                                                                                                                          \\ \hline
+agebrainmet & 0\%                                                        & Indicator: Age greater or less than 60 at time of brain mets                                                                                        \\ \hline
+
+\end{tabular}
+}
+\caption{Table of important covariates to be used in the analysis}
+\label{table:importantvars}
+
+\end{table}
+\end{frame}
+
+
+\begin{frame}{Visualization of Missingness}
+ \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.5\textwidth]{missingvalues_plot.png}
+  \caption{Visualization of missingness in the cancer dataset}
+\label{fig:missingplot}
+
+\end{figure}
+\end{frame}
+
+
+
+%%%%%%%%%%%
+
 \begin{frame}{Plan For This Presentation}
 Will put a graphic here of the flow of the paper
  
