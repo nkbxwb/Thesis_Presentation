@@ -240,3 +240,45 @@ no local therapy                                  & 10\%                        
 \end{table}
  
 \end{frame}
+
+\begin{frame}{Rubin's Rules}
+ Let
+ \begin{itemize}
+  \item $\hat{Q}_i$ be the scientific estimand from the $i^{th}$ MI dataset
+  \item $U_i$ be the variance-covariance matrix of the $i^{th}$ MI estimand
+ \end{itemize}
+Then
+\begin{itemize}
+ \item The MI estimate is given by
+ $\bar{Q}=\frac{1}{m}\sum_{i=1}^{m}\hat{Q}_i$
+ \item The MI ``within'' variance is given by
+ $\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$
+ \item the MI ``between'' variance is given by
+ $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$ % matrix notation?
+   \item Total variance given by \cite{Rubin1987}
+  $$T=\bar{U}+B +\frac{B}{m}$$
+\end{itemize}
+
+\end{frame}
+
+%I'm not sure where I want this to be 666
+\begin{frame}{Inference with Rubin's Rules}
+ \begin{itemize}
+  \item Assume that with complete data, inference on the estimand
+  Q would be based on the statement $(Q- \hat{Q})\sim N(0,U)$
+  \begin{itemize}
+   \item $\hat{Q}$ is the statistic estimating Q
+   \item $U$ is the variance-covariance of $(Q-\hat{Q})$
+  \end{itemize}
+   \item Since true T is not known, then
+  $$\frac{Q-\hat{Q}}{\sqrt{T}}\sim t_{\nu}$$
+  \item $\nu$ is given by \cite{Barnard1999}
+  $$\nu=\frac{\nu_{old}\nu_{obs}}{\nu_{old}+\nu_{obs}}$$
+\item Where $\nu_{obs}=\frac{\nu_{com}+1}{\nu_{com}+3}\nu_{com}(1-\frac{B + B/m}{T})$
+\item $\nu_{com}$ is the hypothetical complete sample degrees of freedom
+\item $\nu_{old}=\frac{m-1}{(\frac{B + B/m}{T})^2}$ 
+ \end{itemize}
+
+ \note{Requires normality
+if not normal, transform}
+\end{frame}

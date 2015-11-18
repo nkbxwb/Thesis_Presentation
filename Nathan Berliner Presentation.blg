@@ -3,17 +3,14 @@ A level-1 auxiliary file: intro_problem.aux
 A level-1 auxiliary file: intro_missing_data.aux
 A level-1 auxiliary file: intro_surv.aux
 A level-1 auxiliary file: intro_causal.aux
-A level-1 auxiliary file: method_mi.aux
-A level-1 auxiliary file: method_surv.aux
 A level-1 auxiliary file: method_ps.aux
-A level-1 auxiliary file: cancerapplication.aux
 A level-1 auxiliary file: conclusion_discuss.aux
 A level-1 auxiliary file: extras.aux
 The style file: ieeetr.bst
 Database file #1: Research.bib
 Warning--there's a number but no series in Rubin1987
 Warning--empty publisher in Rubin1987
+Warning--empty publisher in VanBuuren2012
 Warning--empty publisher in Klein1984
 Warning--empty journal in Rosenbaum1983
-Warning--empty publisher in VanBuuren2012
 (There were 5 warnings)

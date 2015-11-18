@@ -1,3 +1,7 @@
+% Moved these two slides to
+%intro, will probably remove them later
+
+%slide 1 moved to begin
 \begin{frame}{Data Explanation}
 \begin{itemize}
  \item 1514 MD Anderson patients who had brain mets from breast cancer between October 2009 and 
@@ -27,6 +31,7 @@ Survival data                                                                   
 
 \end{frame}
 
+%slide 2 moved to beginning
 \begin{frame}{Questions of interest}
 Want to explore...
 \begin{itemize}
@@ -41,9 +46,10 @@ Want to explore...
  
 \end{frame}
 
-
+\begin{comment}
+ 
 \begin{frame}{Important Covariates}
- \begin{table}[ !ht]
+ \begin{table}[!ht]
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
@@ -67,20 +73,55 @@ her2        & 10                                                        & Indica
 }
 \caption{Table of important covariates to be used in the analysis}
 \label{table:importantvars}
+\end{table}
+
+\end{frame}
+
+\end{comment}
+
+
+\begin{frame}{SEE IF I WANT TO KEEP THIS IN PRESENTATION}
+  \begin{table}[!ht]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|}
+\hline
+Name        & \begin{tabular}[c]{@{}c@{}}Percent \\ Missing\end{tabular} & Meaning                                                                                                                                             \\ \hline
+capeothno   & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotherapeutic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
+lapatrasno  & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2 treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
+controlled  & 12\%                                                        & Indicator: Extracranial progression of brain mets                                                                                                   \\ \hline
+her2        & 10\%                                                        & Indicator: HER2 receptor status                                                                                                                     \\ \hline
+hrher2      & 5\%   													& \begin{tabular}[c]{@{}c@{}}Categorical variable: The hormonal receptor and \\ HER2 receptor status of the subject\end{tabular}  						\\ \hline
+braintype   & 4\%                                                        & Categorical: Single, multiple, Leptomeningeal disease                                                                                               \\ \hline                                                                       
+timedx      & 1\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Time (years) from breast cancer diagnosis to brain\\ mets diagnosis greater or less than 6 years\end{tabular} \\ \hline
+site5       & 1\%                                                     & Indicator: First metastasis was to brain                                                                                                            \\ \hline
+race2       & 0\%                                                          & Categorical: White, Black, Hispanic, other                                                                                                          \\ \hline
+priorn      & 0\%                                                          & \begin{tabular}[c]{@{}c@{}}Indicator: Number of prior treatments in metastatic setting \\ before brain mets\end{tabular}                            \\ \hline
+os          & 0\%                                                          & Overall survival (months)                                                                                                                           \\ \hline
+dead        & 0\%                                                          & Indicator: death indicator                                                                                                                          \\ \hline
+agebrainmet & 0\%                                                        & Indicator: Age greater or less than 60 at time of brain mets                                                                                        \\ \hline
+
+\end{tabular}
+}
+\caption{Table of important covariates to be used in the analysis}
+\label{table:importantvars}
 
 \end{table}
 \end{frame}
 
+
 \begin{frame}{Visualization of Missingness}
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.8\textwidth]{missingvalues_plot.png}
+    \includegraphics[width=0.5\textwidth]{missingvalues_plot.png}
   \caption{Visualization of missingness in the cancer dataset}
 \label{fig:missingplot}
 
 \end{figure}
 \end{frame}
 
+%666 moving this to intro
 \begin{frame}{Imputation}
  \begin{itemize}
   \item MAR assumption seems reasonable
@@ -93,7 +134,7 @@ her2        & 10                                                        & Indica
 
 %issues were here
 
-
+%moving this to intro
 \begin{frame}{Convergence}
  
 \includegraphics[width=.5\textwidth]{traceplots1}%
@@ -123,7 +164,7 @@ var, and it would be very hard to read}
 
 \end{comment}
 
-
+%moved to intro
 \begin{frame}{Validity Checks}
 \includegraphics[width=.5\textwidth]{cont_densplot}%
 \includegraphics[width=.5\textwidth]{discrete_densplot} 
@@ -131,6 +172,7 @@ var, and it would be very hard to read}
 
 %% moved these validity checks to extras
 
+%moved to intro
 \begin{frame}{MI data Breakdown}
 \begin{table}[!ht]
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
@@ -172,7 +214,7 @@ no local therapy                                  & 10\%                        
 
 
 
-%%%
+%%% moved to intro
 \begin{frame}{Chemo KM and Log Rank Test}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.75\textwidth}
@@ -205,7 +247,7 @@ other/none      & \textless.0001          & \textless.0001          \\ \hline
 \end{frame}
 
 
-
+moved to intro
 \begin{frame}{HER2 Directed KM and Log Rank Test}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.75\textwidth}

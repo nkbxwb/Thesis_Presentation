@@ -214,7 +214,7 @@ no local therapy                                  & 10\%                        
 
 
 
-%%%
+%%% moved to intro
 \begin{frame}{Chemo KM and Log Rank Test}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.75\textwidth}
@@ -247,7 +247,7 @@ other/none      & \textless.0001          & \textless.0001          \\ \hline
 \end{frame}
 
 
-
+%moved to intro
 \begin{frame}{HER2 Directed KM and Log Rank Test}
   \begin{columns}[onlytextwidth]
     \begin{column}{0.75\textwidth}
@@ -351,11 +351,13 @@ Trastuz/none       & \textless.0001          & \textless.0001          \\ \hline
 
 \end{comment}
 
+%moved to intro
 \begin{frame}{Schoenfeld Residual Splines}
 \includegraphics[width=.5\textwidth]{ac_schoenfeld}%
 \includegraphics[width=.5\textwidth]{mi_schoenfeld} 
 \end{frame}
 
+%moved to intro
 \begin{frame}{Base model}
  \begin{table}[]
 \centering
@@ -386,6 +388,7 @@ Sys. Cont.                                             & Yes vs. No             
 
 \end{frame}
 
+%moved to intro
 \begin{frame}{MI Cox Model, Chemo}
 \begin{table}[]
 \centering
@@ -417,6 +420,7 @@ Chemo                          & Cape. vs. none                   & 0.69        
 \end{table} 
 \end{frame}
 
+%moved to intro
 \begin{frame}{AC and MI Cox Model with HER2 Treatment}
 \begin{table}[]
 \centering
@@ -507,7 +511,23 @@ Cape. vs other & 1.179        & (0.983,1.416)       &  & 1.156     & (0.966,1.38
 \end{table}
 
 
- !! Need to put in doubly robust table here!!!
+\begin{table}[]
+\centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+               & \multicolumn{2}{c|}{AC Unweighted} &  & \multicolumn{2}{c|}{AC IPTW} &  & \multicolumn{2}{c|}{MI unweighted} &  & \multicolumn{2}{c|}{MI IPTW} \\ \hline
+               & HR           & 95\% CI             &  & HR        & 95\% CI          &  & HR           & 95\% CI             &  & HR        & 95\% CI          \\ \hline
+Cape. vs none  & 0.687        & (0.530,0.891)       &  & 0.603     & (0.443,0.820)    &  & 0.752        & (0.595,0.952)       &  & 0.701     & (0.536,0.917)    \\ \hline
+Other vs none  & 0.521        & (0.416,0.653)       &  & 0.452     & (0.340,0.602)    &  & 0.579        & (0.474,0.707)       &  & 0.532     & (0.416,0.681)    \\ \hline
+Cape. vs other & 1.318        & (1.078,1.612)       &  & 1.334     & (1.109,1.604)    &  & 1.300        & (1.076,1.570)       &  & 1.317     & (1.100,1.579)    \\ \hline
+\end{tabular}
+}
+\caption{Chemotherapeuic ATE, Doubly Robust, AC, MI}
+\label{chemorobust}
+\end{table}
+
 \end{frame}
 
 \begin{frame}{Results of IPTW: HER2 Directed}

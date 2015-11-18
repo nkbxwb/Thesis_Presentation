@@ -4,10 +4,24 @@
 D.~Rubin, {\em {Multiple Imputation for Nonresponse in Surveys}}.
 \newblock No.~JOHN WILEY {\&} SONS, 1987.
 
+\bibitem{VanBuuren2012}
+S.~van Buuren, {\em {Flexible imputation of missing data}}.
+\newblock 2012.
+
+\bibitem{Barnard1999}
+J.~Barnard and D.~Rubin, ``{Small-sample degrees of freedom with multiple
+  imputation},'' {\em Biometrika}, vol.~86, no.~4, pp.~948--955, 1999.
+
 \bibitem{Klein1984}
 J.~Klein and M.~Moeschberger, {\em {Techniques for Censored and Truncated
   Data}}.
 \newblock 1984.
+
+\bibitem{Marshall2009}
+A.~Marshall, D.~G. Altman, R.~L. Holder, and P.~Royston, ``{Combining estimates
+  of interest in prognostic modelling studies after multiple imputation:
+  current practice and guidelines.},'' {\em BMC medical research methodology},
+  vol.~9, p.~57, 2009.
 
 \bibitem{wikihazard}
 Wikipedia, ``{Bathtub curve}.''
@@ -19,20 +33,6 @@ P.~Rosenbaum and D.~Rubin, ``{The Central Role of the Propensity Score in
 
 \bibitem{Rand2015}
 D.~F. {Griffin, Beth Ann McCaffrey}, ``{TWANG Short Course}.''
-
-\bibitem{VanBuuren2012}
-S.~van Buuren, {\em {Flexible imputation of missing data}}.
-\newblock 2012.
-
-\bibitem{Barnard1999}
-J.~Barnard and D.~Rubin, ``{Small-sample degrees of freedom with multiple
-  imputation},'' {\em Biometrika}, vol.~86, no.~4, pp.~948--955, 1999.
-
-\bibitem{Marshall2009}
-A.~Marshall, D.~G. Altman, R.~L. Holder, and P.~Royston, ``{Combining estimates
-  of interest in prognostic modelling studies after multiple imputation:
-  current practice and guidelines.},'' {\em BMC medical research methodology},
-  vol.~9, p.~57, 2009.
 
 \bibitem{Mitra2012}
 R.~Mitra and J.~P. Reiter, ``{A comparison of two methods of estimating
