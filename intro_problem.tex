@@ -75,6 +75,15 @@ Goal: To be able to apply methods to cancer data
 \end{frame}
 
 
+\begin{frame}{Plan For This Presentation}
+  \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.9\textwidth]{data_flow}
+\label{fig:data_flow}
+\end{figure} 
+\end{frame}
+
+
 \begin{frame}{Data Explanation}
 \begin{itemize}
  \item 1514 MD Anderson patients who had brain mets from breast cancer between October 2009 and 
@@ -123,8 +132,9 @@ Want to explore...
 
 \end{frame}
 
+
 %%%%%%%%%%%%%%55
-\begin{frame}{SEE IF I WANT TO KEEP THIS IN PRESENTATION}
+\begin{frame}{A Few Important Covariates}
   \begin{table}[!ht]
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
@@ -135,7 +145,7 @@ Name        & \begin{tabular}[c]{@{}c@{}}Percent \\ Missing\end{tabular} & Meani
 capeothno   & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotherapeutic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
 lapatrasno  & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2 treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
 controlled  & 12\%                                                        & Indicator: Extracranial progression of brain mets                                                                                                   \\ \hline
-her2        & 10\%                                                        & Indicator: HER2 receptor status                                                                                                                     \\ \hline
+%her2        & 10\%                                                        & Indicator: HER2 receptor status                                                                                                                     \\ \hline
 hrher2      & 5\%   													& \begin{tabular}[c]{@{}c@{}}Categorical variable: The hormonal receptor and \\ HER2 receptor status of the subject\end{tabular}  						\\ \hline
 braintype   & 4\%                                                        & Categorical: Single, multiple, Leptomeningeal disease                                                                                               \\ \hline                                                                       
 timedx      & 1\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Time (years) from breast cancer diagnosis to brain\\ mets diagnosis greater or less than 6 years\end{tabular} \\ \hline
@@ -169,10 +179,7 @@ agebrainmet & 0\%                                                        & Indic
 
 %%%%%%%%%%%
 
-\begin{frame}{Plan For This Presentation}
-Will put a graphic here of the flow of the paper
- 
-\end{frame}
+
 
 
 \begin{comment}
