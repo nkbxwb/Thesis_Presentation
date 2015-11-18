@@ -132,7 +132,6 @@ We then regress age on weight, get the results from the individual datasets, and
   \begin{itemize}
    \item X: Fully observed data
    \item $Y_{-j}$ is the missing components without column j
-   \item $\theta$ parameterizes full data model
   \end{itemize}
 
   %\item Requires no distributional assumptions

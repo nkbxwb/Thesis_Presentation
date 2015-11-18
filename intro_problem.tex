@@ -14,6 +14,9 @@
   \end{itemize}
 \end{frame}
 
+\begin{comment}
+ 
+ %took out ``in reality'' slide
 \begin{frame}{In Reality}
 
   \begin{itemize}
@@ -44,6 +47,8 @@
 
 \end{frame}
 
+\end{comment}
+
 \begin{frame}{Is This a Problem?}
 
 \begin{center}
@@ -68,6 +73,61 @@ This thesis aims to fix some of these problems
 Goal: To be able to apply methods to cancer data
 
 \end{frame}
+
+
+\begin{frame}{Data Explanation}
+\begin{itemize}
+ \item 1514 MD Anderson patients who had brain mets from breast cancer between October 2009 and 
+ December 2012
+ \item 1242 usable cases
+ \item 90 covariates
+ \begin{itemize}
+  \item Missingness from 0 to 65\%
+ \end{itemize}
+
+\end{itemize}
+\begin{table}[!ht]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Type                                                                            & Example                                                                       \\ \hline
+Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
+Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
+\begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
+\begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
+\begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
+Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline
+\end{tabular}
+\caption{Data Categories and Examples}
+\label{table:datacats}
+\end{table}
+
+\end{frame}
+
+\begin{frame}{Questions of interest}
+Want to explore...
+\begin{enumerate}
+ \item Chemotherapeutic drugs: Capecitabine vs other chemotherapeutic agents
+ \item HER2 directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects \\~\\
+ %  might want to move this later
+ \end{enumerate}
+ 
+ 
+ Note: treatment not determined at time of diagnosis 
+ \begin{itemize}
+  \item landmark (2 months) 
+ \end{itemize}
+ 
+\note{Human epidermal growth factor receptor 2 (HER2) overexpression drives the biology of 20
+ pct of breast cancers, and predicts a poor prognosis for patients.}
+
+\end{frame}
+
+\begin{frame}{Plan For This Presentation}
+Will put a graphic here of the flow of the paper
+ 
+\end{frame}
+
 
 \begin{comment}
  

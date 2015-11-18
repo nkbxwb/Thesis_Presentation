@@ -1,12 +1,13 @@
-\begin{thebibliography}{1}
-
-\bibitem{VanBuuren2012}
-S.~van Buuren, {\em {Flexible imputation of missing data}}.
-\newblock 2012.
+\begin{thebibliography}{10}
 
 \bibitem{Rubin1987}
 D.~Rubin, {\em {Multiple Imputation for Nonresponse in Surveys}}.
 \newblock No.~JOHN WILEY {\&} SONS, 1987.
+
+\bibitem{Klein1984}
+J.~Klein and M.~Moeschberger, {\em {Techniques for Censored and Truncated
+  Data}}.
+\newblock 1984.
 
 \bibitem{wikihazard}
 Wikipedia, ``{Bathtub curve}.''
@@ -18,6 +19,10 @@ P.~Rosenbaum and D.~Rubin, ``{The Central Role of the Propensity Score in
 
 \bibitem{Rand2015}
 D.~F. {Griffin, Beth Ann McCaffrey}, ``{TWANG Short Course}.''
+
+\bibitem{VanBuuren2012}
+S.~van Buuren, {\em {Flexible imputation of missing data}}.
+\newblock 2012.
 
 \bibitem{Barnard1999}
 J.~Barnard and D.~Rubin, ``{Small-sample degrees of freedom with multiple
