@@ -4,11 +4,5 @@
 \beamer@subsectionintoc {1}{2}{Missing data}{10}{0}{1}
 \beamer@subsectionintoc {1}{3}{Survival Analysis}{26}{0}{1}
 \beamer@subsectionintoc {1}{4}{Causal Analysis}{41}{0}{1}
-\beamer@sectionintoc {2}{Methods}{53}{0}{2}
-\beamer@subsectionintoc {2}{1}{Imputation}{53}{0}{2}
-\beamer@subsectionintoc {2}{2}{Survival}{54}{0}{2}
-\beamer@subsectionintoc {2}{3}{Causal Analysis}{55}{0}{2}
-\beamer@sectionintoc {3}{Application}{59}{0}{3}
-\beamer@subsectionintoc {3}{1}{Breast Brain Mets Example}{59}{0}{3}
-\beamer@sectionintoc {4}{Conclusion}{60}{0}{4}
-\beamer@subsectionintoc {4}{1}{Discussion}{60}{0}{4}
+\beamer@sectionintoc {2}{Conclusion}{56}{0}{2}
+\beamer@subsectionintoc {2}{1}{Discussion}{56}{0}{2}

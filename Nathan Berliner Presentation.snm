@@ -9,6 +9,10 @@
 \beamer@slide {acmi_cox_chemo}{39}
 \beamer@slide {fig:counterfactual}{44}
 \beamer@slide {fig:psexamp}{48}
-\beamer@slide {fig:jmexample}{67}
-\beamer@slide {fig:stacked}{69}
-\beamer@slide {fig:tabcheck}{74}
+\beamer@slide {fig:balcheck}{53}
+\beamer@slide {chemorobust}{54}
+\beamer@slide {tab:lapatonly}{55}
+\beamer@slide {lapatfull}{55}
+\beamer@slide {fig:jmexample}{63}
+\beamer@slide {fig:stacked}{65}
+\beamer@slide {fig:tabcheck}{70}
