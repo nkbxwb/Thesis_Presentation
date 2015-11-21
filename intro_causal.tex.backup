@@ -1,3 +1,5 @@
+\section{Causal Analysis}
+\section{Intro}
 \begin{frame}{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
@@ -40,19 +42,19 @@ so the two groups seem identical at baseline
  \end{itemize}
  \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
   \end{itemize}
+     \begin{figure}[h!]
+  \centering
+    \includegraphics[width=0.5\textwidth]{counterfactual.png}
+    \caption{Example of a counterfactual}
+\label{fig:counterfactual}
+\end{figure}
 \end{frame}
 
 
 
 
   
-\begin{frame}{Counterfactual Example}
-   \begin{figure}[h!]
-  \centering
-    \includegraphics[width=0.5\textwidth]{counterfactual.png}
-    \caption{Example of a counterfactual}
-\label{fig:counterfactual}
-\end{figure}
+\begin{frame}{Fundamental Problem of Causal Inference}
 
 \begin{itemize}
  \item Obviously we only observe one. \textit{The fundamental problem of causal inference}
@@ -63,7 +65,9 @@ so the two groups seem identical at baseline
 
 \begin{frame}{Rubin's Causal Model}
 \begin{itemize}
-\item Stable Unit Treatment Value Assumption (SUTVA): Treatment status of another subject does not affect outcome of other units. Single version of each treatment
+\item Stable Unit Treatment Value Assumption (SUTVA): Treatment status of another subject does 
+not affect outcome of other units. 
+%Single version of each treatment
 \item Ignorability/No Unmeasured Confounders: $(Y(0),Y(1))\perp T|X$ ,\cite{Rosenbaum1983}
 \end{itemize}
 \note{No association between outcome and treatment assignment
@@ -90,7 +94,7 @@ treatment contains no information about his what-if outcomes in both treated and
  
 \end{frame}
 
-
+\subsection{Propensity Score}
 \begin{frame}{Propensity scores}
 \begin{block}{Definition}
 The propensity score is the probability that the subject received the treatment given the subjects \textit{pretreatment}
@@ -156,6 +160,7 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
 \note{Another method: sample row from each of m datasets to get one sample}
 \end{frame}
 
+\section{Propensity Score Application}
 \begin{frame}{Propensity Score: Questions To Ask}
 \begin{itemize}
 \item Generating the propensity score

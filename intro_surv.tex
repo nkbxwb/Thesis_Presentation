@@ -52,9 +52,10 @@ We use death and survival because easy to say, but it really means event or not}
 
 \begin{frame}{Kaplan-Meier in the MI Setting}
  \begin{itemize}
-  \item Clearly define the population, groups, and events of interest
+  %\item Clearly define the population, groups, and events of interest
   \item Ensure that we have non-informative censoring
-\item Algorithm: Pool the complimentary log-log of the Kaplan-Meier curve via Rubin's Rules, get estimates,
+\item Algorithm: Pool the complimentary log-log of the Kaplan-Meier curve via Rubin's Rules at
+each unique event time, get estimates,
 back transform \cite{Marshall2009}
  \end{itemize}
 \note{noninformative censoring: knowledge of a censoring time provides no further info about the
@@ -220,8 +221,12 @@ Quantiy of interest: Hazard ratio $\frac{h(t|Z)}{h(t|Z^{*})}=\exp(\sum_{k=1}^{p}
 
 \subsection{Cox Regression Application}
 \begin{frame}{Schoenfeld Residual Splines}
+\begin{figure}[h!]
+  \centering
 \includegraphics[width=.5\textwidth]{ac_schoenfeld}%
 \includegraphics[width=.5\textwidth]{mi_schoenfeld} 
+\caption{AC and MI Schoenfeld splines}
+\end{figure}
 \end{frame}
 
 
