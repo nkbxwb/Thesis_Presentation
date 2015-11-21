@@ -96,7 +96,7 @@ We then regress age on weight, get the results from the individual datasets, and
 \end{frame}
 
 
-\begin{frame}{Missing data Mechanisms}
+\begin{frame}{Missing Data Mechanisms}
 %notation here?
 \begin{itemize}
 
@@ -120,17 +120,13 @@ We then regress age on weight, get the results from the individual datasets, and
 }
 \end{frame}
 
-\begin{frame}{Missing data Example}
+\begin{frame}{Missing Data Mechanism Example}
 
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.63\textwidth]{md_mechanism}
-  \caption{Visualization of MI data}
+    \includegraphics[width=0.99\textwidth]{md_mechanism}
+  \caption{Visualization of Missing Data Mechanisms}
 \label{fig:miviz}
-\medskip
-\small
-Missingness is displayed by \textcolor{red}{?'s} and the imputed data is shown  as \textcolor{teal}{\#'s}.
-We then regress age on weight, get the results from the individual datasets, and then pool them together.
 \end{figure}
  
 \end{frame}
@@ -155,6 +151,8 @@ We then regress age on weight, get the results from the individual datasets, and
 \end{frame}
 
 %I'm going to want to type this up as an algorithm
+\begin{comment}
+ 
 \begin{frame}{FCS Algorithm- MICE}
   \begin{figure}[h!]
   \centering
@@ -165,6 +163,29 @@ We then regress age on weight, get the results from the individual datasets, and
  \note{ Observe how the previous imputation Y_j^(t-1) only enters the current imputation
  through its relation with other variables, and not directly. This makes convergence very fast
 }
+\end{frame}
+
+\end{comment}
+
+
+\begin{frame}{FCS Algorithm- MICE}
+ 
+ \begin{enumerate}
+\item Specify an imputation model $P(Y_{j}^{mis}|Y_{j}^{obs},Y_{-j},R)$ for variable $Y_j$ with $j=1,\dots,p$
+\item For each $j$, fill in starting imputations $\dot{Y}_j ^{0}$ by random draws from $Y_{j}^{obs}$
+\item Repeat for $t=1,\dots, T$:
+\item Repeat for $j=1,\dots,p$:
+\begin{itemize}
+\item Define $\dot{Y}_{-j}^{t}=(\dot{Y}_1^{t},\dots,\dot{Y}_{j-1}^{t},\dot{Y}_{j+1}^{t-1},\dots,\dot{Y}_p^{t-1})$
+as the currently compete data except $Y_j$
+\item Draw $\dot{\phi}_j^{t}\sim P(\phi_j^t|Y_{obs},\dot{Y}_{-j}^{t},R)$
+\item Draw imputation $\dot{Y}_{j}^{t}\sim P(Y_j^{mis}|Y_j^{obs},\dot{Y}_{-j}^{t},R,\dot{\phi}_j^{t})$
+\end{itemize}
+\item End repeat $j$
+\item End repeat $t$
+\end{enumerate}
+FCS imputation pseudocode, taken from \cite{VanBuuren2012}
+\note{These draws are from the posterior predictive}
 \end{frame}
 
 %moved this to intro 666
@@ -218,7 +239,7 @@ var, and it would be very hard to read}
 \begin{frame}{Validity Checks}
 %might want to pick better ones
 \includegraphics[width=.5\textwidth]{cont_densplot}%
-\includegraphics[width=.5\textwidth]{discrete_densplot} 
+\includegraphics[width=.5\textwidth]{cape_lapat_ratio} 
 \end{frame}
 
 \begin{frame}{MI data Breakdown}
