@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  21 NOV 2015 14:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  21 NOV 2015 17:44
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1084,17 +1084,17 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <5> not available
 <data_flow.png, id=239, 538.26094pt x 194.22563pt>
 File: data_flow.png Graphic file (type png)
  <use data_flow.png>
-Package pdftex.def Info: data_flow.png used on input line 85.
+Package pdftex.def Info: data_flow.png used on input line 86.
 (pdftex.def)             Requested size: 308.06367pt x 111.16318pt.
  [5
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/data_flow.png>]
-Overfull \hbox (1.07983pt too wide) in paragraph at lines 116--116
+Overfull \hbox (1.07983pt too wide) in paragraph at lines 117--117
  [] 
  []
 
 
-Overfull \vbox (29.41806pt too high) detected at line 116
+Overfull \vbox (29.41806pt too high) detected at line 117
  []
 
 [6
@@ -1102,7 +1102,7 @@ Overfull \vbox (29.41806pt too high) detected at line 116
 ] [7
 
 ]
-Overfull \vbox (10.57443pt too high) detected at line 169
+Overfull \vbox (10.57443pt too high) detected at line 170
  []
 
 [8
@@ -1111,10 +1111,10 @@ Overfull \vbox (10.57443pt too high) detected at line 169
 File: missingvalues_plot.png Graphic file (type png)
 
 <use missingvalues_plot.png>
-Package pdftex.def Info: missingvalues_plot.png used on input line 181.
+Package pdftex.def Info: missingvalues_plot.png used on input line 182.
 (pdftex.def)             Requested size: 188.26346pt x 200.70508pt.
 
-Overfull \vbox (13.17876pt too high) detected at line 181
+Overfull \vbox (13.17876pt too high) detected at line 182
  []
 
 [9
@@ -1139,19 +1139,19 @@ Package pdftex.def Info: mi_flow.png used on input line 8.
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
-Package pdftex.def Info: mi_example_full.jpg used on input line 76.
+Package pdftex.def Info: mi_example_full.jpg used on input line 78.
 (pdftex.def)             Requested size: 273.83728pt x 140.58281pt.
  [13
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/mi_example_full.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 96.
+(Font)              <10> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 96.
+(Font)              <7> on input line 98.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 96.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 96.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 98.
  [14
 
 ] [15
@@ -1160,10 +1160,10 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 <md_mechanism.png, id=560, 757.83125pt x 456.70625pt>
 File: md_mechanism.png Graphic file (type png)
  <use md_mechanism.png>
-Package pdftex.def Info: md_mechanism.png used on input line 132.
+Package pdftex.def Info: md_mechanism.png used on input line 134.
 (pdftex.def)             Requested size: 338.87422pt x 204.22668pt.
 
-Overfull \vbox (16.70036pt too high) detected at line 132
+Overfull \vbox (16.70036pt too high) detected at line 134
  []
 
 [16
@@ -1181,13 +1181,13 @@ Overfull \vbox (16.70036pt too high) detected at line 132
 File: traceplots1.png Graphic file (type png)
 
 <use traceplots1.png>
-Package pdftex.def Info: traceplots1.png used on input line 239.
+Package pdftex.def Info: traceplots1.png used on input line 241.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
  <traceplots2.png, id=704, 606.265pt x 440.64626pt>
 File: traceplots2.png Graphic file (type png)
 
 <use traceplots2.png>
-Package pdftex.def Info: traceplots2.png used on input line 239.
+Package pdftex.def Info: traceplots2.png used on input line 241.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
  [21
 
@@ -1196,20 +1196,20 @@ Package pdftex.def Info: traceplots2.png used on input line 239.
 <cont_densplot.png, id=734, 477.785pt x 485.815pt>
 File: cont_densplot.png Graphic file (type png)
  <use cont_densplot.png>
-Package pdftex.def Info: cont_densplot.png used on input line 245.
+Package pdftex.def Info: cont_densplot.png used on input line 247.
 (pdftex.def)             Requested size: 171.14764pt x 174.01854pt.
 
 <cape_lapat_ratio.png, id=735, 541.02126pt x 485.815pt>
 File: cape_lapat_ratio.png Graphic file (type png)
 
 <use cape_lapat_ratio.png>
-Package pdftex.def Info: cape_lapat_ratio.png used on input line 245.
+Package pdftex.def Info: cape_lapat_ratio.png used on input line 247.
 (pdftex.def)             Requested size: 171.14764pt x 153.67746pt.
  [22
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cont_densplot.png> <C:/Users/Nath
 an/Desktop/Thesis_Presentation/cape_lapat_ratio.png>]
-Overfull \vbox (14.1272pt too high) detected at line 277
+Overfull \vbox (14.1272pt too high) detected at line 279
  []
 
 [23
@@ -1519,7 +1519,7 @@ TeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
 ts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8
 .pfb>
-Output written on "Nathan Berliner Presentation.pdf" (73 pages, 1640384 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (73 pages, 1647166 bytes).
 
 PDF statistics:
  2305 PDF objects out of 2487 (max. 8388607)

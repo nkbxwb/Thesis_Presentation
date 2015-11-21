@@ -8,14 +8,15 @@
 \end{frame}
 
 \subsection{Missing Data}
-\begin{frame}{Missing data and Historical Approaches}
+\begin{frame}{Missing Data and Historical Approaches}
  \begin{itemize}
  \item Missing data happens when we intend to collect a piece of data but don't actually get it
- \item Historical approaches
+ \item Historical approaches:
  \begin{itemize}
-  \item Complete Case (CC) analysis: Throw away any record that is not complete
+  \item Complete Case (CC) analysis: Throw away any record that is not complete\\~\\
   % list of downsides
- \item Available Case (AC) analysis: Use records so long as they are complete for the specific analysis in question
+ \item Available Case (AC) analysis: Use records so long as they are 
+ complete for the specific analysis in question\\~\\
  %bad things here
  \item Single Imputation (SI): Fill in the missing value, deduct degrees of freedom to account for it
  \end{itemize}
@@ -45,6 +46,7 @@ to reckon, attribute, make account of, charge, ascribe. \cite{VanBuuren2012}
 \end{comment}
 
 \subsection{MI Theory}
+
 \begin{frame}{Multiple Imputation}
 Throughout the 70's and 80's Donald Rubin worked to improve on single imputation
 \begin{itemize}
@@ -61,7 +63,7 @@ of the missing values under a model}
 \end{frame}
 
 
-\begin{frame}{How does MI work?}
+\begin{frame}{How Does MI work?}
  \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{mi_example_full.jpg}
@@ -131,7 +133,7 @@ We then regress age on weight, get the results from the individual datasets, and
  
 \end{frame}
 
-\begin{frame}{Full Conditional Specification (FCS)}
+\begin{frame}{Implementing MI: Full Conditional Specification (FCS)}
  \begin{itemize}
   \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis

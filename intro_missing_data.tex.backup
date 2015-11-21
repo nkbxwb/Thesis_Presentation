@@ -11,11 +11,12 @@
 \begin{frame}{Missing data and Historical Approaches}
  \begin{itemize}
  \item Missing data happens when we intend to collect a piece of data but don't actually get it
- \item Historical approaches
+ \item Historical approaches:
  \begin{itemize}
-  \item Complete Case (CC) analysis: Throw away any record that is not complete
+  \item Complete Case (CC) analysis: Throw away any record that is not complete\\~\\
   % list of downsides
- \item Available Case (AC) analysis: Use records so long as they are complete for the specific analysis in question
+ \item Available Case (AC) analysis: Use records so long as they are 
+ complete for the specific analysis in question\\~\\
  %bad things here
  \item Single Imputation (SI): Fill in the missing value, deduct degrees of freedom to account for it
  \end{itemize}
@@ -171,20 +172,23 @@ We then regress age on weight, get the results from the individual datasets, and
 \begin{frame}{FCS Algorithm- MICE}
  
  \begin{enumerate}
-\item Specify an imputation model $P(Y_{j}^{mis}|Y_{j}^{obs},Y_{-j},R)$ for variable $Y_j$ with $j=1,\dots,p$
+\item Specify an imputation/posterior predictive model $P(Y_{j}^{mis}|Y_{j}^{obs},Y_{-j},X,R)$ for variable $Y_j$ with $j=1,\dots,p$
 \item For each $j$, fill in starting imputations $\dot{Y}_j ^{0}$ by random draws from $Y_{j}^{obs}$
-\item Repeat for $t=1,\dots, T$:
-\item Repeat for $j=1,\dots,p$:
+\item Repeat for $t=1,\dots, T$ (number of iterations):
+\item Repeat for $j=1,\dots,p$ (number of covariates with missingness):
 \begin{itemize}
 \item Define $\dot{Y}_{-j}^{t}=(\dot{Y}_1^{t},\dots,\dot{Y}_{j-1}^{t},\dot{Y}_{j+1}^{t-1},\dots,\dot{Y}_p^{t-1})$
 as the currently compete data except $Y_j$
 \item Draw $\dot{\phi}_j^{t}\sim P(\phi_j^t|Y_{obs},\dot{Y}_{-j}^{t},R)$
-\item Draw imputation $\dot{Y}_{j}^{t}\sim P(Y_j^{mis}|Y_j^{obs},\dot{Y}_{-j}^{t},R,\dot{\phi}_j^{t})$
+\item Draw imputation $\dot{Y}_{j}^{t}\sim P(Y_j^{mis}|Y_j^{obs},\dot{Y}_{-j}^{t},R,X,\dot{\phi}_j^{t})$
 \end{itemize}
 \item End repeat $j$
 \item End repeat $t$
 \end{enumerate}
 FCS imputation pseudocode, taken from \cite{VanBuuren2012}
+\note{These draws are from the posterior predictive
+The imputation model describes how synthetic valuse for Ymis should be drawn
+Can be explicit probability model or implicit (like hot deck) model}
 \end{frame}
 
 %moved this to intro 666
