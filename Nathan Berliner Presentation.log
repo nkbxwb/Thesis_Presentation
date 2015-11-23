@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  23 NOV 2015 10:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  23 NOV 2015 15:17
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1050,61 +1050,61 @@ LaTeX Info: Redefining \includegraphics on input line 150.
 <data_flow.png, id=254, 538.26094pt x 194.22563pt>
 File: data_flow.png Graphic file (type png)
  <use data_flow.png>
-Package pdftex.def Info: data_flow.png used on input line 86.
+Package pdftex.def Info: data_flow.png used on input line 87.
 (pdftex.def)             Requested size: 308.06367pt x 111.16318pt.
  [5
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/data_flow.png>]
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 117.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 118.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 117
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 118
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 117
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 118
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 117.
+(Font)              <10.95> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 117.
+(Font)              <8> on input line 118.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 117.
-LaTeX Font Info:    Try loading font information for U+msa on input line 117.
+(Font)              <6> on input line 118.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 117.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 117.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 118.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 117.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 118.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 117.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 118.
 
 
-Overfull \hbox (1.07983pt too wide) in paragraph at lines 117--117
+Overfull \hbox (1.07983pt too wide) in paragraph at lines 118--118
  [] 
  []
 
 
-Overfull \vbox (29.68903pt too high) detected at line 117
+Overfull \vbox (29.68903pt too high) detected at line 118
  []
 
 [6
@@ -1112,7 +1112,7 @@ Overfull \vbox (29.68903pt too high) detected at line 117
 ] [7
 
 ]
-Overfull \vbox (10.31366pt too high) detected at line 170
+Overfull \vbox (10.31366pt too high) detected at line 171
  []
 
 [8
@@ -1121,10 +1121,10 @@ Overfull \vbox (10.31366pt too high) detected at line 170
 File: missingvalues_plot.png Graphic file (type png)
 
 <use missingvalues_plot.png>
-Package pdftex.def Info: missingvalues_plot.png used on input line 182.
+Package pdftex.def Info: missingvalues_plot.png used on input line 183.
 (pdftex.def)             Requested size: 188.26346pt x 200.70508pt.
 
-Overfull \vbox (13.44972pt too high) detected at line 182
+Overfull \vbox (13.44972pt too high) detected at line 183
  []
 
 [9
@@ -1145,12 +1145,12 @@ Package pdftex.def Info: mi_flow.png used on input line 8.
 ] [12
 
 ]
-<mi_example_full.jpg, id=503, 535.2497pt x 274.77657pt>
+<mi_example_full.jpg, id=503, 520.19344pt x 259.7203pt>
 File: mi_example_full.jpg Graphic file (type jpg)
 
 <use mi_example_full.jpg>
 Package pdftex.def Info: mi_example_full.jpg used on input line 78.
-(pdftex.def)             Requested size: 273.83728pt x 140.58281pt.
+(pdftex.def)             Requested size: 273.83728pt x 136.71979pt.
  [13
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/mi_example_full.jpg>]
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: cape_lapat_ratio.png used on input line 247.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cont_densplot.png> <C:/Users/Nath
 an/Desktop/Thesis_Presentation/cape_lapat_ratio.png>]
-Overfull \vbox (14.40549pt too high) detected at line 279
+Overfull \vbox (10.98839pt too high) detected at line 279
  []
 
 [23
@@ -1385,14 +1385,14 @@ Overfull \vbox (25.6303pt too high) detected at line 131
 
 ] [52
 
-] <balance_diagnosis.jpg, id=1731, 434.37282pt x 360.59718pt>
+] <balance_diagnosis.jpg, id=1731, 442.65375pt x 367.3725pt>
 File: balance_diagnosis.jpg Graphic file (type jpg)
 
 <use balance_diagnosis.jpg>
 Package pdftex.def Info: balance_diagnosis.jpg used on input line 202.
-(pdftex.def)             Requested size: 273.83728pt x 227.33699pt.
+(pdftex.def)             Requested size: 273.83728pt x 227.27528pt.
 
-Overfull \vbox (40.08163pt too high) detected at line 202
+Overfull \vbox (40.01993pt too high) detected at line 202
  []
 
 [53
@@ -1515,7 +1515,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
 Here is how much of TeX's memory you used:
  18532 strings out of 493921
  356766 string characters out of 3144873
- 451986 words of memory out of 3000000
+ 452203 words of memory out of 3000000
  21072 multiletter control sequences out of 15000+200000
  72326 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1539,7 +1539,7 @@ iKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (74 pages, 1713767 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (74 pages, 1713815 bytes).
 
 PDF statistics:
  2485 PDF objects out of 2487 (max. 8388607)
