@@ -1,12 +1,12 @@
 
 %\subsection{}
 
-\begin{frame}{In an ideal world}
+\begin{frame}{In an Ideal World}
 When exploring the effect of something
   \begin{itemize}
   \item We would have a large dataset that...
   \begin{itemize}
-   \item Was obtained from a randomized controlled trial (RCT)
+   \item Was obtained from a Randomized Controlled Trial (RCT)
    \item Would help answer a clearly defined question
    \item Had all the covariates of scientific interest
    \item Contained no missing data
