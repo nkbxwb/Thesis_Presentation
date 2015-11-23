@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  23 NOV 2015 15:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  23 NOV 2015 15:29
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1478,13 +1478,28 @@ Package pdftex.def Info: tabchecks.png used on input line 157.
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/tabchecks.png>] [72
 
-])
+]
+<ps_histo1.png, id=2316, 441.90094pt x 274.02374pt>
+File: ps_histo1.png Graphic file (type png)
+ <use ps_histo1.png>
+Package pdftex.def Info: ps_histo1.png used on input line 177.
+(pdftex.def)             Requested size: 171.14764pt x 106.12874pt.
+
+<ps_histo2.png, id=2317, 439.6425pt x 271.76532pt>
+File: ps_histo2.png Graphic file (type png)
+ <use ps_histo2.png>
+Package pdftex.def Info: ps_histo2.png used on input line 177.
+(pdftex.def)             Requested size: 171.14764pt x 105.79314pt.
+ [73
+
+ <C:/Users/Nathan/Desktop/Thesis_Presentation/ps_histo1.png> <C:/Users/Nathan/D
+esktop/Thesis_Presentation/ps_histo2.png>])
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.bbl"
-) [73
+) [74
 
 
  <C:/Program Files (x86)/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle
-.pdf>] [74
+.pdf>] [75
 
 
 ]
@@ -1513,10 +1528,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
- 18532 strings out of 493921
- 356766 string characters out of 3144873
+ 18544 strings out of 493921
+ 356953 string characters out of 3144873
  452203 words of memory out of 3000000
- 21072 multiletter control sequences out of 15000+200000
+ 21080 multiletter control sequences out of 15000+200000
  72326 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,64p,446b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1539,10 +1554,10 @@ iKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (74 pages, 1713815 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (75 pages, 1828586 bytes).
 
 PDF statistics:
- 2485 PDF objects out of 2487 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2518 PDF objects out of 2984 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
+ 430 words of extra memory for PDF output out of 10000 (max. 10000000)
 
