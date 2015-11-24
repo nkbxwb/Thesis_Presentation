@@ -23,13 +23,14 @@ Example: Examining weight loss between new weight loss drug or placebo
    \item Thus differences could be attributed to the drug or confounding
    
    \begin{itemize}
-    \item e.g. healthier people were much more likely to take the drug at baseline
+    \item e.g. Gealthier people were much more likely to take the drug at baseline
    \end{itemize}
 
   \end{itemize}
-Idea: Try to balance the covariates to reduce the effects of confounding
-so the two groups seem identical at baseline
+
  \end{itemize}
+ Idea: Try to balance the covariates to reduce the effects of confounding
+so the two groups seem identical at baseline
 \end{frame}
 
 
@@ -90,12 +91,13 @@ treatment contains no information about his what-if outcomes in both treated and
  \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
  \item Note:  $E[Y(1)|T=1]\neq E[Y(1)]$, because $E[Y|T=1]=E[Y_1T+Y_0(1-T)|T=1]=E[Y_1|T=1]\neq E[Y(1)]$
-\end{itemize}
+\item If assumptions hold, ATE is unbiassed estimator of true treatment effect
+ \end{itemize}
  
 \end{frame}
 
 \subsection{Propensity Score}
-\begin{frame}{Propensity scores}
+\begin{frame}{Propensity Score}
 \begin{block}{Definition}
 The propensity score is the probability that the subject received the treatment given the subjects \textit{pretreatment}
 covariates. It is computed using the patient's baseline (pretreatment) information \cite{Rosenbaum1983}
@@ -163,34 +165,33 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
 \section{Propensity Score Application}
 \begin{frame}{Propensity Score: Questions To Ask}
 \begin{itemize}
-\item Generating the propensity score
+\item Generating the propensity score: GBM
 \begin{itemize}
-\item What to put into the model
-  \item Confounding factors: stage, race, IDC, breast cancer surgery, HR/HER2 status,
+\item What confounders to put in propensity score model
+  \item Stage, race, IDC, breast cancer surgery, HR/HER2 status,
   breast cancer radiation, first met site, number of prior treatments, ECOG score,
   localized brain mets treatment, age at brain met, type of brain mets, brain met controlled
- \item Method to compute the propensity scores: GBM
 \end{itemize}
-\item What estimand do we care about?
+\item What estimand do we care about? ATE
 \end{itemize} 
 \end{frame}
 
 
 
 \begin{frame}{Verifying Balance}
-For each MI dataset...
+For each IPTW MI dataset...
 \begin{itemize}
 \item Need the distribution of the groups to be similar
 \begin{itemize}
 \item Standardized bias: $|\bar{X}_{k1}-\bar{X}_{k0}|/ \hat{\sigma}_k$
-\item Kolmogorov-Smirnov test 
+\item Kolmogorov-Smirnov (KS) test 
 \end{itemize}
 \item Need to be sure that propensity scores are between 0 and 1
 \end{itemize}
 \end{frame}
 
 
-
+%add ps histo here
 \begin{frame}{Balance Checks}
   \begin{figure}[h!]
   \centering

@@ -8,7 +8,7 @@
 \end{frame}
 
 \subsection{Missing Data}
-\begin{frame}{Missing data and Historical Approaches}
+\begin{frame}{Missing Data and Historical Approaches}
  \begin{itemize}
  \item Missing data happens when we intend to collect a piece of data but don't actually get it
  \item Historical approaches:
@@ -46,15 +46,16 @@ to reckon, attribute, make account of, charge, ascribe. \cite{VanBuuren2012}
 \end{comment}
 
 \subsection{MI Theory}
+
 \begin{frame}{Multiple Imputation}
-Throughout the 70's and 80's Donald Rubin worked to improve on single imputation
 \begin{itemize}
- \item Instead of imputing one value, lets impute it $m\geq 2$ times
+\item Theorized in the 70's and 80's by Donald Rubin to improve SI
+ \item Instead of imputing one value, impute $m\geq 2$ values
  \item Draw the values from the missing data's posterior distribution given the observed
  data and the process that generated the missing data
+ \item It is the gold standard method for missing data today
 \end{itemize}
-This idea is called Multiple Imputation (MI) and was formalized in 1987 \cite{Rubin1987}. It is the gold standard method
-for missing data currently.
+
 
 \note{MI are repitions drawn to simulate a Bayesian posterior distribution
 of the missing values under a model}
@@ -62,7 +63,7 @@ of the missing values under a model}
 \end{frame}
 
 
-\begin{frame}{How does MI work?}
+\begin{frame}{How Does MI work?}
  \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{mi_example_full.jpg}
@@ -70,7 +71,7 @@ of the missing values under a model}
 \label{fig:miexample}
 \medskip
 \small
-Missingness is displayed by \textcolor{red}{?'s} and the imputed data is shown  as \textcolor{teal}{\#'s}.
+Missingness is displayed by \textcolor{red}{?'s} and the imputed data is shown  as \textcolor{green}{\#'s}.
 We then regress age on weight, get the results from the individual datasets, and then pool them together.
 \end{figure}
 \note{We will go in to much more detail later in presentation}
@@ -109,9 +110,10 @@ We then regress age on weight, get the results from the individual datasets, and
 \begin{itemize}
  \item The missingness we have is related to something in the data 
 \end{itemize}
-\item MNAR: Missing not at random: $$p(R=0|Y_{obs},Y_{mis},\psi)$$ does not simplify
+\item MNAR: Missing not at random: $$p(R=0|Y_{obs},Y_{mis},\psi)$$ 
+%does not simplify
 \begin{itemize}
- \item  and the missingness depends on data that we have as well as have not collected
+ \item  The missingness depends on both the data that we have and haven't obtained
 \end{itemize}
 \end{itemize}
 \note{
@@ -121,18 +123,18 @@ We then regress age on weight, get the results from the individual datasets, and
 }
 \end{frame}
 
-\begin{frame}{Missing Data Mechanism Example}
+\begin{frame}{Missing Data Mechanisms Example}
 
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.99\textwidth]{md_mechanism}
+    \includegraphics[width=0.95\textwidth]{md_mechanism}
   \caption{Visualization of Missing Data Mechanisms}
 \label{fig:miviz}
 \end{figure}
  
 \end{frame}
 
-\begin{frame}{Full Conditional Specification (FCS)}
+\begin{frame}{Implementing MI: Full Conditional Specification (FCS)}
  \begin{itemize}
   \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
@@ -169,7 +171,7 @@ We then regress age on weight, get the results from the individual datasets, and
 \end{comment}
 
 
-\begin{frame}{FCS Algorithm- MICE}
+\begin{frame}{FCS Algorithm - MICE}
  
  \begin{enumerate}
 \item Specify an imputation/posterior predictive model $P(Y_{j}^{mis}|Y_{j}^{obs},Y_{-j},X,R)$ for variable $Y_j$ with $j=1,\dots,p$
@@ -245,14 +247,14 @@ var, and it would be very hard to read}
 \includegraphics[width=.5\textwidth]{cape_lapat_ratio} 
 \end{frame}
 
-\begin{frame}{MI data Breakdown}
+\begin{frame}{MI Data Breakdown}
 \begin{table}[!ht]
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
 \centering
 \begin{tabular}{|r|c|c|c|c|}
 \hline
-\multicolumn{1}{|l|}{}                            & \begin{tabular}[c]{@{}c@{}}Sys therapy \\ available case\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sys therapy \\ MI\end{tabular} & \begin{tabular}[c]{@{}c@{}}No Sys therapy \\ available case\end{tabular} & \begin{tabular}[c]{@{}c@{}}No Sys therapy \\ MI\end{tabular} \\ \hline
+\multicolumn{1}{|l|}{}                            & \begin{tabular}[c]{@{}c@{}}Sys. therapy \\ AC\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sys. therapy \\ MI\end{tabular} & \begin{tabular}[c]{@{}c@{}}No Sys. therapy \\ AC\end{tabular} & \begin{tabular}[c]{@{}c@{}}No Sys. therapy \\ MI\end{tabular} \\ \hline
 \multicolumn{1}{|l|}{Age (mean,sd)}               & 51.4(10.8)                                                            & 51.2(10.9)                                                & 52.7(11.9)                                                               & 52.9(11.4)                                                   \\ \hline
 \multicolumn{1}{|l|}{Breast Cancer subtype}       &                                                                       &                                                           &                                                                          &                                                              \\ \hline
 HR+/HER2-                                         & 27\%                                                                  & 31\%                                                      & 28\%                                                                     & 33\%                                                         \\ \hline
@@ -294,28 +296,10 @@ Then
  $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$ % matrix notation?
    \item Total variance given by \cite{Rubin1987}
   $$T=\bar{U}+B +\frac{B}{m}$$
+  \item Theory developed under normality assumption
 \end{itemize}
 
 \end{frame}
 
 %I'm not sure where I want this to be 666
-\begin{frame}{Inference with Rubin's Rules}
- \begin{itemize}
-  \item Assume that with complete data, inference on the estimand
-  Q would be based on the statement $(Q- \hat{Q})\sim N(0,U)$
-  \begin{itemize}
-   \item $\hat{Q}$ is the statistic estimating Q
-   \item $U$ is the variance-covariance of $(Q-\hat{Q})$
-  \end{itemize}
-   \item Since true T is not known, then
-  $$\frac{Q-\hat{Q}}{\sqrt{T}}\sim t_{\nu}$$
-  \item $\nu$ is given by \cite{Barnard1999}
-  $$\nu=\frac{\nu_{old}\nu_{obs}}{\nu_{old}+\nu_{obs}}$$
-\item Where $\nu_{obs}=\frac{\nu_{com}+1}{\nu_{com}+3}\nu_{com}(1-\frac{B + B/m}{T})$
-\item $\nu_{com}$ is the hypothetical complete sample degrees of freedom
-\item $\nu_{old}=\frac{m-1}{(\frac{B + B/m}{T})^2}$ 
- \end{itemize}
-
- \note{Requires normality
-if not normal, transform}
-\end{frame}
+%had rubins rules normal here
