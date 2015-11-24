@@ -1,6 +1,6 @@
 \section{Causal Analysis}
 \section{Intro}
-\begin{frame}{Plan For This Presentation}
+\begin{frame}[noframenumbering]{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.9\textwidth]{ps_flow}
@@ -10,23 +10,28 @@
 
 %might want to change this example
 \begin{frame}{Causal Analysis}
-Example: Examining weight loss between new weight loss drug or placebo
+The treatments were not given in an RCT
  \begin{itemize}
-  \item We would like to be able to say ``The drug leads to more weight loss''
+  \item Want to say ``The treatment leads to better survival''
   \begin{itemize}
    \item But need an RCT to say this
    \begin{itemize}
     \item Randomization minimizes differences between groups at baseline
+    \item Thus differences after treatment is due to treatment
    \end{itemize}
-
+  \end{itemize}
+  
    \item We only have observational data
-   \item Thus differences could be attributed to the drug or confounding
+   \begin{itemize}
+   \item Thus differences could be attributed to the drug or confounding factor, e.g.
    
    \begin{itemize}
-    \item e.g. Gealthier people were much more likely to take the drug at baseline
+    \item Healthier patients can tolerate chemo better
+    \item Different cancer manifestations lead to different plan\\~\\
    \end{itemize}
 
-  \end{itemize}
+   \end{itemize}
+
 
  \end{itemize}
  Idea: Try to balance the covariates to reduce the effects of confounding
@@ -42,6 +47,7 @@ so the two groups seem identical at baseline
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
  \end{itemize}
  \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
+  \item Obviously we only observe one. \textit{The fundamental problem of causal inference}
   \end{itemize}
      \begin{figure}[h!]
   \centering
@@ -53,7 +59,8 @@ so the two groups seem identical at baseline
 
 
 
-
+\begin{comment}
+ 
   
 \begin{frame}{Fundamental Problem of Causal Inference}
 
@@ -62,6 +69,8 @@ so the two groups seem identical at baseline
 \item If we could observe both, then we could observe the causal effects for each person
 \end{itemize}
 \end{frame}
+
+\end{comment}
 
 
 \begin{frame}{Rubin's Causal Model}
@@ -100,7 +109,7 @@ treatment contains no information about his what-if outcomes in both treated and
 \begin{frame}{Propensity Score}
 \begin{block}{Definition}
 The propensity score is the probability that the subject received the treatment given the subjects \textit{pretreatment}
-covariates. It is computed using the patient's baseline (pretreatment) information \cite{Rosenbaum1983}
+covariates \cite{Rosenbaum1983}.
 \end{block}
  \begin{itemize}
   \item Defined as  $e_i(x)=P(T_i =1 |X_i)$
@@ -120,7 +129,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
  
   \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.8\textwidth]{ps_examples.png}
+    \includegraphics[width=0.8\textwidth]{ps_examples2.png}
     \caption{Taken from TWANG short course \cite{Rand2015}}
 \label{fig:psexamp}
 
@@ -134,7 +143,7 @@ covariates. It is computed using the patient's baseline (pretreatment) informati
 %ps issues was here
 \begin{frame}{IPTW}
 \begin{itemize}
-\item IPTW: Inverse probability of treatment weights
+\item IPTW: Inverse Probability of Treatment Weights
 \item Idea: Weight sample by propensity score so that we get a sample where there is no confounding
 \item Weights: $1/e(X)$ for treatment, $1/(1-e(X))$ for control
 \item Can be shown that 
@@ -153,19 +162,22 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
 \end{frame}
 
 \begin{frame}{Propensity Score in MI Setting}
-\begin{itemize}
- \item Mitra and Reiter propose two methods \cite{Mitra2012}
+  Mitra and Reiter propose two methods \cite{Mitra2012}
+ \begin{itemize}
+ 
  \item Within: Work with propensity score on each of the $m$ MI datasets
- \item Across: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities
- \item Which to use: Dependent on the data
-\end{itemize} 
+ \item Across: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities 
+  \item Which to use: Dependent on the data
+
+ \end{itemize}
+
 \note{Another method: sample row from each of m datasets to get one sample}
 \end{frame}
 
 \section{Propensity Score Application}
 \begin{frame}{Propensity Score: Questions To Ask}
 \begin{itemize}
-\item Generating the propensity score: GBM
+\item Generating the propensity score: Generalized Boosted Model- GBM
 \begin{itemize}
 \item What confounders to put in propensity score model
   \item Stage, race, IDC, breast cancer surgery, HR/HER2 status,

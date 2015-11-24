@@ -1,6 +1,6 @@
 \section{Causal Analysis}
 \section{Intro}
-\begin{frame}{Plan For This Presentation}
+\begin{frame}[noframenumbering]{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.9\textwidth]{ps_flow}
@@ -10,23 +10,28 @@
 
 %might want to change this example
 \begin{frame}{Causal Analysis}
-Example: Examining weight loss between new weight loss drug or placebo
+The treatments were not given in an RCT
  \begin{itemize}
-  \item We would like to be able to say ``The drug leads to more weight loss''
+  \item Want to say ``The treatment leads to better survival''
   \begin{itemize}
    \item But need an RCT to say this
    \begin{itemize}
     \item Randomization minimizes differences between groups at baseline
+    \item Thus differences after treatment is due to treatment
    \end{itemize}
-
+  \end{itemize}
+  
    \item We only have observational data
-   \item Thus differences could be attributed to the drug or confounding
+   \begin{itemize}
+   \item Thus differences could be attributed to the drug or confounding factor, e.g.
    
    \begin{itemize}
-    \item e.g. Healthier people were much more likely to take the drug at baseline
+    \item Healthier patients can tolerate chemo better
+    \item Different cancer manifestations lead to different plan\\~\\
    \end{itemize}
 
-  \end{itemize}
+   \end{itemize}
+
 
  \end{itemize}
  Idea: Try to balance the covariates to reduce the effects of confounding
@@ -36,16 +41,17 @@ so the two groups seem identical at baseline
 
 \begin{frame}{Counterfactuals}
 \begin{itemize}
- \item Suppose that for or every person, there are two potential outcomes
+ \item Suppose that for patient $i$, there are two potential outcomes
  \begin{itemize}
   \item $Y_i(0)$ - The outcome if they had taken the control, $T=0$
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
  \end{itemize}
  \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
+  \item Obviously we only observe one. \textit{The fundamental problem of causal inference}
   \end{itemize}
      \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.5\textwidth]{counterfactual.png}
+    \includegraphics[width=0.5\textwidth]{counterfactual3.png}
     \caption{Example of a counterfactual}
 \label{fig:counterfactual}
 \end{figure}
@@ -53,7 +59,8 @@ so the two groups seem identical at baseline
 
 
 
-
+\begin{comment}
+ 
   
 \begin{frame}{Fundamental Problem of Causal Inference}
 
@@ -63,8 +70,10 @@ so the two groups seem identical at baseline
 \end{itemize}
 \end{frame}
 
+\end{comment}
 
-\begin{frame}{Rubin's Causal Model}
+
+\begin{frame}{Rubin's Causal Model: Assumptions}
 \begin{itemize}
 \item Stable Unit Treatment Value Assumption (SUTVA): Treatment status of another subject does 
 not affect outcome of other units. 
