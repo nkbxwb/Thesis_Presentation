@@ -72,7 +72,7 @@ This thesis aims to fix these problems by...
    \item Creating meaningful analytical models via survival analysis
    \item Getting a causal interpretation from observational data via propensity scores\\~\\
   \end{itemize}
-Goal: To be able to apply methods to cancer data
+Goal: To be able to apply these methods to cancer data
 
 \end{frame}
 
@@ -93,24 +93,28 @@ Goal: To be able to apply methods to cancer data
  \item 1514 MD Anderson patients who had brain mets from breast cancer between October 2009 and 
  December 2012
  \item 1242 usable cases
- \item 90 covariates
- \begin{itemize}
-  \item Missingness from 0 to 65\%
- \end{itemize}
-
+ \item 90 covariates - Missingness from 0 to 65\%
 \end{itemize}
+
 \begin{table}[!ht]
 \centering
+\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+           max width=\textwidth}{
+           %remove below to make normal
+\rowcolors[]{1}{blue!20}{blue!10} % \rowcolors is  in the xcolor manual 
+%
 \begin{tabular}{|c|c|}
 \hline
 Type                                                                            & Example                                                                       \\ \hline
+
 Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
-Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
+Breast Cancer data                                                                     & TNM staging, type, receptor status                                     \\ \hline
 \begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
-Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline
+Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline	
 \end{tabular}
+} 
 \caption{Data Categories and Examples}
 \label{table:datacats}
 \end{table}
@@ -119,10 +123,10 @@ Survival data                                                                   
 
 \subsection{Scientific Questions}
 \begin{frame}{Questions of Interest}
-Want to explore...
+Want to explore survival outcomes under...
 \begin{enumerate}
  \item Chemotherapeutic drugs: Capecitabine vs other chemotherapeutic agents
- \item HER2 directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects \\~\\
+ \item HER2-directed therapies (Lapatinib, Trastuzumab) in HER2+ subjects \\~\\
  %  might want to move this later
  \end{enumerate}
  
@@ -174,10 +178,10 @@ agebrainmet & 0\%                                                        & Indic
 \begin{frame}{Visualization of Missingness}
  \begin{figure}[h!]
   \centering
-    \caption{Visualization of missingness in the cancer dataset}
 
     \includegraphics[width=0.55\textwidth]{missingvalues_plot.png}
 \label{fig:missingplot}
+    \caption{Visualization of missingness in the cancer dataset}
 
 \end{figure}
 \end{frame}
