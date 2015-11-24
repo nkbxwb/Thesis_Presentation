@@ -1,12 +1,12 @@
 \begin{thebibliography}{10}
 
-\bibitem{Rubin1987}
-D.~Rubin, {\em {Multiple Imputation for Nonresponse in Surveys}}.
-\newblock No.~JOHN WILEY {\&} SONS, 1987.
-
 \bibitem{VanBuuren2012}
 S.~van Buuren, {\em {Flexible imputation of missing data}}.
 \newblock 2012.
+
+\bibitem{Rubin1987}
+D.~Rubin, {\em {Multiple Imputation for Nonresponse in Surveys}}.
+\newblock No.~JOHN WILEY {\&} SONS, 1987.
 
 \bibitem{Klein1984}
 J.~Klein and M.~Moeschberger, {\em {Techniques for Censored and Truncated
