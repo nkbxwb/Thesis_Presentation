@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  25 NOV 2015 00:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  25 NOV 2015 15:54
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1125,7 +1125,7 @@ Overfull \vbox (4.02676pt too high) detected at line 121
 ] [7
 
 ]
-Overfull \vbox (10.31366pt too high) detected at line 174
+Overfull \vbox (13.63559pt too high) detected at line 175
  []
 
 [8
@@ -1134,10 +1134,10 @@ Overfull \vbox (10.31366pt too high) detected at line 174
 File: missingvalues_plot.png Graphic file (type png)
 
 <use missingvalues_plot.png>
-Package pdftex.def Info: missingvalues_plot.png used on input line 186.
+Package pdftex.def Info: missingvalues_plot.png used on input line 187.
 (pdftex.def)             Requested size: 188.26346pt x 200.70508pt.
 
-Overfull \vbox (13.44972pt too high) detected at line 186
+Overfull \vbox (13.44972pt too high) detected at line 187
  []
 
 [9
@@ -1556,7 +1556,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
 Here is how much of TeX's memory you used:
  18649 strings out of 493921
  358365 string characters out of 3144873
- 459659 words of memory out of 3000000
+ 459661 words of memory out of 3000000
  21175 multiletter control sequences out of 15000+200000
  72326 words of font info for 65 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1580,7 +1580,7 @@ iKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (75 pages, 1848379 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (75 pages, 1869500 bytes).
 
 PDF statistics:
  2518 PDF objects out of 2984 (max. 8388607)
