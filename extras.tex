@@ -20,7 +20,7 @@
 
 \begin{frame}{Joint Modelling (JM)}
  \begin{itemize}
-  \item Assume ignorable MAR  missing data mechanism
+  \item Assume ignorable MAR missing data mechanism
   \item Missing data imputed by sampling from a user specified distribution
   \item A lot of theory developed for Normal, not much else
   \begin{itemize}
@@ -119,6 +119,19 @@ if not normal, transform}
 \end{itemize}
 \end{frame}
 
+\begin{frame}{Median Survival Time}
+ \begin{itemize}
+  \item Want a measure of central tendency
+  \begin{itemize}
+   \item Survival distributions often skewed, so mean is poor choice
+  \end{itemize}
+  \item Median: smallest time such that $\hat{S}(t)\leq .5$
+\item Algorithm: Take MI Kaplan-Meier curve, observe first time it goes below 50\%
+\item Confidence interval at median: the median of the upper and lower confidence bands
+ \end{itemize}
+
+\end{frame}
+
 \begin{frame}{Log Rank Issues in MI setting}
 \begin{itemize}
   \item Idea: Combine log rank tests from each MI dataset
@@ -146,7 +159,7 @@ if not normal, transform}
 \includegraphics[width=.5\textwidth]{bw_timedx} 
 \end{frame}
 
-\begin{frame}{Tabluar Checks}
+\begin{frame}{Tabular Checks}
  \begin{figure}[h!]
   \centering
 \includegraphics[width=.8\textwidth]{tabchecks} 
@@ -212,3 +225,12 @@ Sys. Cont.                                             & Yes vs. No             
 
 
 %put boosting algo here if I have time
+\begin{frame}{Boosting}
+ 
+  \begin{figure}[h!]
+  \centering
+ \includegraphics[width=.8\textwidth]{boosting}
+  \caption{Selected tabluar checks}
+\label{fig:boosting}
+\end{figure}
+\end{frame}
