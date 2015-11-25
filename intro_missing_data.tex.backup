@@ -1,5 +1,5 @@
 \section{Multiple Imputation}
-\begin{frame}{Plan For This Presentation}
+\begin{frame}[noframenumbering]{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.9\textwidth]{mi_flow}
@@ -123,7 +123,7 @@ We then regress age on weight, get the results from the individual datasets, and
 }
 \end{frame}
 
-\begin{frame}{Missing Data Mechanisms Example}
+\begin{frame}{Missing Data Mechanisms Visualization}
 
  \begin{figure}[h!]
   \centering
@@ -148,7 +148,7 @@ We then regress age on weight, get the results from the individual datasets, and
   %\item Requires no distributional assumptions
   %\item Specify univariate models for each missing variable conditional on other variables
   \item Generalization of univariate imputation
-  \item Idea: Specify k one dimensional models to impute on the missing data columns
+  \item Idea: Specify p one dimensional models to impute on the missing data columns
  \end{itemize}
 
 \end{frame}
@@ -294,9 +294,9 @@ Then
  $\bar{U}=\frac{1}{m}\sum_{i=1}^{m}U_i$
  \item the MI ``between'' variance is given by
  $B=\frac{1}{m-1}\sum_{i=1}^{m}(\hat{Q}_i - \bar{Q})(\hat{Q}_i - \bar{Q})'$ % matrix notation?
-   \item Total variance given by \cite{Rubin1987}
+   \item Total MI variance given by 
   $$T=\bar{U}+B +\frac{B}{m}$$
-  \item Theory developed under normality assumption
+  \item Theory developed under normality assumption \cite{Rubin1987}
 \end{itemize}
 
 \end{frame}

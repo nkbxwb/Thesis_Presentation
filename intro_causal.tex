@@ -43,10 +43,10 @@ so the two groups seem identical at baseline
 \begin{itemize}
  \item Suppose that for patient $i$, there are two potential outcomes
  \begin{itemize}
-  \item $Y_i(0)$ - The outcome if they had taken the control, $T=0$
-  \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
+  \item $Y_i(0)$ - The outcome if they had taken the control, $T_i=0$
+  \item $Y_i(1)$ - The outcome if they had taken the treatment, $T_i=1$
  \end{itemize}
- \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
+ \item The observed value for subject i: $Y_i=Y_i(1)T_i+Y_i(0)(1-T_i)$
   \item \textit{The fundamental problem of causal inference}
   \end{itemize}
      \begin{figure}[h!]
@@ -100,7 +100,7 @@ treatment contains no information about his what-if outcomes in both treated and
  \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
  \item Note:  $E[Y(1)|T=1,X]\neq E[Y(1)]$, because $E[Y|T=1,X]=E[Y_1T+Y_0(1-T)|T=1,X]=E[Y_1|T=1,X]\neq E[Y(1)]$
-\item If assumptions hold, ATE is unbiassed estimator of true treatment effect
+\item If assumptions hold, ATE is unbiased estimator of true treatment effect
  \end{itemize}
  
 \end{frame}
@@ -246,7 +246,7 @@ Other vs none  & 0.521        & (0.416,0.653)       &  & 0.452     & (0.340,0.60
 Cape. vs other & 1.318        & (1.078,1.612)       &  & 1.334     & (1.109,1.604)    &  & 1.300        & (1.076,1.570)       &  & 1.317     & (1.100,1.579)    \\ \hline
 \end{tabular}
 }
-\caption{Chemotherapeuic ATE, Doubly Robust, AC, MI}
+\caption{Chemotherapeutic ATE, Doubly Robust, AC, MI}
 \label{chemorobust}
 \end{table}
 
