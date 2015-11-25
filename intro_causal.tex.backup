@@ -41,7 +41,7 @@ so the two groups seem identical at baseline
 
 \begin{frame}{Counterfactuals}
 \begin{itemize}
- \item Suppose that for or every person, there are two potential outcomes
+ \item Suppose that for patient $i$, there are two potential outcomes
  \begin{itemize}
   \item $Y_i(0)$ - The outcome if they had taken the control, $T=0$
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
@@ -51,7 +51,7 @@ so the two groups seem identical at baseline
   \end{itemize}
      \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.5\textwidth]{counterfactual.png}
+    \includegraphics[width=0.5\textwidth]{counterfactual3.png}
     \caption{Example of a counterfactual}
 \label{fig:counterfactual}
 \end{figure}
@@ -73,7 +73,7 @@ so the two groups seem identical at baseline
 \end{comment}
 
 
-\begin{frame}{Rubin's Causal Model}
+\begin{frame}{Rubin's Causal Model: Assumptions}
 \begin{itemize}
 \item Stable Unit Treatment Value Assumption (SUTVA): Treatment status of another subject does 
 not affect outcome of other units. 
@@ -165,8 +165,8 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
   Mitra and Reiter propose two methods \cite{Mitra2012}
  \begin{itemize}
  
- \item Within: Work with propensity score on each of the $m$ MI datasets
- \item Across: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities 
+ \item \textit{Within}: Work with propensity score on each of the $m$ MI datasets
+ \item \textit{Across}: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities 
   \item Which to use: Dependent on the data
 
  \end{itemize}

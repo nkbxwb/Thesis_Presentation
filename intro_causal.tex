@@ -17,17 +17,17 @@ The treatments were not given in an RCT
    \item But need an RCT to say this
    \begin{itemize}
     \item Randomization minimizes differences between groups at baseline
-    \item Thus differences after treatment is due to treatment
+    \item Differences in outcomes are due to treatment
    \end{itemize}
   \end{itemize}
   
    \item We only have observational data
    \begin{itemize}
-   \item Thus differences could be attributed to the drug or confounding factor, e.g.
+   \item Differences could be attributed to the drug or confounding factor, e.g.
    
    \begin{itemize}
     \item Healthier patients can tolerate chemo better
-    \item Different cancer manifestations lead to different plan\\~\\
+    \item Different cancer manifestations lead to different plans\\~\\
    \end{itemize}
 
    \end{itemize}
@@ -47,7 +47,7 @@ so the two groups seem identical at baseline
   \item $Y_i(1)$ - The outcome if they had taken the treatment, $T=1$
  \end{itemize}
  \item The observed value for subject i: $Y_i=Y_i(1)T+Y_i(0)(1-T)$
-  \item Obviously we only observe one. \textit{The fundamental problem of causal inference}
+  \item \textit{The fundamental problem of causal inference}
   \end{itemize}
      \begin{figure}[h!]
   \centering
@@ -99,7 +99,7 @@ treatment contains no information about his what-if outcomes in both treated and
  from treated to untreated
  \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
- \item Note:  $E[Y(1)|T=1]\neq E[Y(1)]$, because $E[Y|T=1]=E[Y_1T+Y_0(1-T)|T=1]=E[Y_1|T=1]\neq E[Y(1)]$
+ \item Note:  $E[Y(1)|T=1,X]\neq E[Y(1)]$, because $E[Y|T=1,X]=E[Y_1T+Y_0(1-T)|T=1,X]=E[Y_1|T=1,X]\neq E[Y(1)]$
 \item If assumptions hold, ATE is unbiassed estimator of true treatment effect
  \end{itemize}
  
@@ -165,8 +165,8 @@ $=E[Y_1/e(x)e(x)]=E[Y_1]$
   Mitra and Reiter propose two methods \cite{Mitra2012}
  \begin{itemize}
  
- \item Within: Work with propensity score on each of the $m$ MI datasets
- \item Across: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities 
+ \item \textit{Within}: Work with propensity score on each of the $m$ MI datasets
+ \item \textit{Across}: Average propensity scores across the $m$ datasets and then analyze with the averaged propensities 
   \item Which to use: Dependent on the data
 
  \end{itemize}
