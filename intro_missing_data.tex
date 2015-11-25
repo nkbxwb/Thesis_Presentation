@@ -86,10 +86,10 @@ We then regress age on weight, get the results from the individual datasets, and
    %\item R is the response missingness indicator
    %\item $\theta$ parameterizes this model
   %\end{itemize}
-  \item Missing data model: $p(R|Y_{obs},Y_{mis},\psi)$
+  \item Missing data model: $P(R|Y_{obs},Y_{mis},\psi)$
   \begin{itemize}
      \item R is the response missingness indicator
-   \item $Y_{obs},Y_{mis}$ are observed and missings of Y (the set of covariates with missingness)
+   \item $Y_{obs},Y_{mis}$ are observed and missings of $Y$ (the data)
    \item $\psi$ parameterizes the missing data model
   \end{itemize}
 
@@ -106,11 +106,11 @@ We then regress age on weight, get the results from the individual datasets, and
 \begin{itemize}
 \item The missingness in the data is not at all related to any of the data that we do or don't have
 \end{itemize}
-\item MAR: Missing at random: $$p(R=0|Y_{obs},Y_{mis},\psi)= p(R=0|Y_{obs},\psi)$$
+\item MAR: Missing at random: $$P(R=0|Y_{obs},Y_{mis},\psi)= p(R=0|Y_{obs},\psi)$$
 \begin{itemize}
  \item The missingness we have is related to something in the data 
 \end{itemize}
-\item MNAR: Missing not at random: $$p(R=0|Y_{obs},Y_{mis},\psi)$$ 
+\item MNAR: Missing not at random: $$P(R=0|Y_{obs},Y_{mis},\psi)$$ 
 %does not simplify
 \begin{itemize}
  \item  The missingness depends on both the data that we have and haven't obtained
@@ -138,11 +138,12 @@ We then regress age on weight, get the results from the individual datasets, and
  \begin{itemize}
   \item Assume MAR missing data mechanism %although MNAR with more 
   \item Missing data is imputed iteratively on a variable by variable basis
-  \item Drawing from $p(Y,X,R|\theta)$ through the full conditionals $p(Y_j|X,Y_{-j},R,\theta_j)$
+%  \item Drawing from $P(Y,X,R|\theta)$ through the full conditionals $P(Y_j|X,Y_{-j},R,\theta_j)$
+\item Drawing from $P(Y,R|\theta)$ through the full conditionals $P(Y_j|Y_{-j},R,\theta_j)$
   \begin{itemize}
-   \item X: Fully observed data
-   \item $Y_{-j}$ is the missing components without column j
-   \item $\theta$ parameterizes full data model
+   %\item X: Fully observed data
+   \item $Y_{-j}$: Data without column j
+   \item $\theta$: parameterizes full data model
   \end{itemize}
 
   %\item Requires no distributional assumptions
@@ -200,7 +201,7 @@ Pros
   \item Flexible
   \item Easy to specify models
   \item Handles mixed continuous categorical data
-  \item Yeilds unbiased estimates with appropriate coverage
+  \item Yields unbiased estimates with appropriate coverage
  \end{itemize}
 
  Cons
