@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  25 NOV 2015 15:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.23)  27 NOV 2015 10:44
 entering extended mode
 **Nathan*Berliner*Presentation.tex
 ("C:\Users\Nathan\Desktop\Thesis_Presentation\Nathan Berliner Presentation.tex"
@@ -1208,13 +1208,13 @@ Overfull \vbox (8.71333pt too high) detected at line 135
 File: traceplots1.png Graphic file (type png)
 
 <use traceplots1.png>
-Package pdftex.def Info: traceplots1.png used on input line 243.
+Package pdftex.def Info: traceplots1.png used on input line 248.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
  <traceplots2.png, id=748, 606.265pt x 440.64626pt>
 File: traceplots2.png Graphic file (type png)
 
 <use traceplots2.png>
-Package pdftex.def Info: traceplots2.png used on input line 243.
+Package pdftex.def Info: traceplots2.png used on input line 248.
 (pdftex.def)             Requested size: 171.14764pt x 124.39539pt.
  [21
 
@@ -1223,20 +1223,20 @@ Package pdftex.def Info: traceplots2.png used on input line 243.
 <cont_densplot.png, id=780, 477.785pt x 485.815pt>
 File: cont_densplot.png Graphic file (type png)
  <use cont_densplot.png>
-Package pdftex.def Info: cont_densplot.png used on input line 249.
+Package pdftex.def Info: cont_densplot.png used on input line 254.
 (pdftex.def)             Requested size: 171.14764pt x 174.01854pt.
 
 <cape_lapat_ratio.png, id=781, 541.02126pt x 485.815pt>
 File: cape_lapat_ratio.png Graphic file (type png)
 
 <use cape_lapat_ratio.png>
-Package pdftex.def Info: cape_lapat_ratio.png used on input line 249.
+Package pdftex.def Info: cape_lapat_ratio.png used on input line 254.
 (pdftex.def)             Requested size: 171.14764pt x 153.67746pt.
  [22
 
  <C:/Users/Nathan/Desktop/Thesis_Presentation/cont_densplot.png> <C:/Users/Nath
 an/Desktop/Thesis_Presentation/cape_lapat_ratio.png>]
-Overfull \vbox (9.96295pt too high) detected at line 281
+Overfull \vbox (9.96295pt too high) detected at line 286
  []
 
 [23
@@ -1580,7 +1580,7 @@ iKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
 public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 sy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb>
-Output written on "Nathan Berliner Presentation.pdf" (75 pages, 1869500 bytes).
+Output written on "Nathan Berliner Presentation.pdf" (75 pages, 1861484 bytes).
 
 PDF statistics:
  2518 PDF objects out of 2984 (max. 8388607)
