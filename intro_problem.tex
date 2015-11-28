@@ -58,7 +58,7 @@ When exploring the effect of something
 \end{center}
   \begin{itemize}
    \item Without an RCT, we can't be sure if differences in outcome is due to the treatment or something else
-   \item Omitting important factors may bias our results
+   %\item Omitting important factors may bias our results
    \item With missing data, we will be throwing away data and biasing our results
   \end{itemize}
 
@@ -70,7 +70,7 @@ This thesis aims to fix these problems by...
   \begin{itemize}
    \item Filling in missing data via multiple imputation
    \item Creating meaningful analytical models via survival analysis
-   \item Getting a causal interpretation from observational data via propensity scores\\~\\
+   \item Getting a causal interpretation from observational data via propensity score analysis\\~\\
   \end{itemize}
 Goal: To be able to apply these methods to cancer data
 
@@ -100,22 +100,19 @@ Goal: To be able to apply these methods to cancer data
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
-           %remove below to make normal
-%\rowcolors[]{1}{blue!20}{blue!10} % \rowcolors is  in the xcolor manual 
-%
 \begin{tabular}{|c|c|}
 \hline
-Type                                                                            & Example                                                                       \\ \hline
-Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
-Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
-\begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
-\begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
-\begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
+Type of Data                                                                           & Examples                                                                       \\ \hline
+Subject                                                                    & Age range, race, date of birth                                                \\ \hline
+Breast Cancer                                                                     & TNM staging, type, receptor status                                            \\ \hline
+Pre brain mets                   & Treatment types                                                               \\ \hline
+Post brain mets clinical & Seizures, headache, nausea                                                    \\ \hline
+Post brain mets                  & Treatment type, type of brain mets						 \\ \hline
 Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline
 \end{tabular}
 }
-\caption{Data Categories and Examples}
-\label{table:datacats}
+\caption{Data categories and examples}
+\label{table:cats}
 \end{table}
 
 \end{frame}

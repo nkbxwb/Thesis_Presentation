@@ -40,7 +40,7 @@ Example:
 \end{itemize}
  \begin{figure}[h!]
   \centering
-    \includegraphics[width=0.31\textwidth]{ecog_km.png}
+    \includegraphics[width=0.33\textwidth]{ecog_km.png}
   \caption{AC Kaplan-Meier Curve for ECOG group}
 \label{fig:KMcurve}
 \end{figure}
@@ -84,19 +84,17 @@ $$\frac{\sum_{j=1}^{J}(O_{1j}-E_{1j})}{\sqrt{\sum_{j=1}^{j}V_{j}}}\sim N(0,1)$$
 
 \begin{frame}{Log Rank Test in MI Setting}
  \begin{itemize}
+ \item Combining tests is usually a bad idea \cite{Marshall2009}
  \item Under no tied times, the score test on
   Cox regression on treatment only is equivalent to the
 log rank test
-\begin{itemize}
- \item And very similar under tied times
-\end{itemize}
 \item Idea: Derive log rank test from Cox regression
-\begin{itemize}
- \item Pooling LRT and Score test is unstable \cite{Marshall2009}
- \item Wald test is asymptotically equivalent
-\end{itemize}
- \item Final Solution: Run the Wald test on Cox regression as an approximation
-
+%\begin{itemize}
+ %\item Pooling LRT and Score test is unstable \cite{Marshall2009}
+ %\item Score and Likelihood involve knowing 
+%\end{itemize}
+ %\item Final Solution: Run the Wald test on Cox regression as an approximation
+\item Algorithm: Run Wald test on Cox regression as an approximation to score test
  \end{itemize}
 \note{there are lots of issues, I moved them to extras
 Might need to check PH assumption on LR test}

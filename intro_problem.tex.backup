@@ -78,7 +78,7 @@ Goal: To be able to apply these methods to cancer data
 
 
 \section{Introducing the Data}
-\begin{frame}{Plan For This Presentation}
+\begin{frame}[noframenumbering]{Plan For This Presentation}
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.9\textwidth]{data_flow}
@@ -101,20 +101,19 @@ Goal: To be able to apply these methods to cancer data
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
            %remove below to make normal
-\rowcolors[]{1}{blue!20}{blue!10} % \rowcolors is  in the xcolor manual 
+%\rowcolors[]{1}{blue!20}{blue!10} % \rowcolors is  in the xcolor manual 
 %
 \begin{tabular}{|c|c|}
 \hline
 Type                                                                            & Example                                                                       \\ \hline
-
 Subject data                                                                    & Age range, race, date of birth                                                \\ \hline
-Breast Cancer data                                                                     & TNM staging, type, receptor status                                     \\ \hline
+Breast Cancer data                                                                     & TNM staging, type, receptor status                                            \\ \hline
 \begin{tabular}[c]{@{}c@{}}Pre brain mets\\ data\end{tabular}                   & Treatment types                                                               \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ clinical observations\end{tabular} & Seizures, headache, nausea                                                    \\ \hline
 \begin{tabular}[c]{@{}c@{}}Post brain mets\\ data\end{tabular}                  & \begin{tabular}[c]{@{}c@{}}Treatment type, \\ type of brain mets\end{tabular} \\ \hline
-Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline	
+Survival data                                                                   & Survival time after brain mets, censoring indicator                           \\ \hline
 \end{tabular}
-} 
+}
 \caption{Data Categories and Examples}
 \label{table:datacats}
 \end{table}
@@ -133,7 +132,7 @@ Want to explore survival outcomes under...
  
  Note: treatment not determined at time of diagnosis 
  \begin{itemize}
-  \item landmark (2 months) 
+  \item Landmark (2 months) 
  \end{itemize}
  
 \note{Human epidermal growth factor receptor 2 (HER2) overexpression drives the biology of 20
@@ -145,33 +144,34 @@ Want to explore survival outcomes under...
 %%%%%%%%%%%%%%55
 \subsection{Getting a feel for the data}
 \begin{frame}{A Few Important Covariates}
-  \begin{table}[!ht]
+\begin{table}[!ht]
 \centering
 \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
            max width=\textwidth}{
+
 \begin{tabular}{|c|c|c|}
 \hline
 Name        & \begin{tabular}[c]{@{}c@{}}Percent \\ Missing\end{tabular} & Meaning                                                                                                                                             \\ \hline
 capeothno   & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Capecitabine, other, or no chemotherapeutic\\ treatment. Treatment variable 1\end{tabular}                     \\ \hline
-lapatrasno  & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2 treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
+lapatrasno  & 18\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Lapatinib, Trastuzumab, or no HER2-directed treatment.\\ Treatment variable 2\end{tabular}                             \\ \hline
 controlled  & 12\%                                                        & Indicator: Extracranial progression of brain mets                                                                                                   \\ \hline
 %her2        & 10\%                                                        & Indicator: HER2 receptor status                                                                                                                     \\ \hline
-hrher2      & 5\%   													& \begin{tabular}[c]{@{}c@{}}Categorical variable: The hormonal receptor and \\ HER2 receptor status of the subject\end{tabular}  						\\ \hline
+hrher2      & 5\%   													& \begin{tabular}[c]{@{}c@{}}Categorical: The hormonal receptor (er,pr) and \\ HER2 receptor status of the subject\end{tabular}  						\\ \hline
 braintype   & 4\%                                                        & Categorical: Single, multiple, Leptomeningeal disease                                                                                               \\ \hline                                                                       
-timedx      & 1\%                                                        & \begin{tabular}[c]{@{}c@{}}Indicator: Time (years) from breast cancer diagnosis to brain\\ mets diagnosis greater or less than 6 years\end{tabular} \\ \hline
+timedx      & 1\%                                                        & \begin{tabular}[c]{@{}c@{}}Time (years) from breast cancer diagnosis to brain mets\\ \end{tabular} \\ \hline
 site5       & 1\%                                                     & Indicator: First metastasis was to brain                                                                                                            \\ \hline
-race2       & 0\%                                                          & Categorical: White, Black, Hispanic, other                                                                                                          \\ \hline
-priorn      & 0\%                                                          & \begin{tabular}[c]{@{}c@{}}Indicator: Number of prior treatments in metastatic setting \\ before brain mets\end{tabular}                            \\ \hline
+race2       & 0\%                                                          & Categorical: White, Black, Hispanic, Other                                                                                                          \\ \hline
+priorn      & 0\%                                                          & \begin{tabular}[c]{@{}c@{}}Number of prior treatments in metastatic setting \\ before brain mets\end{tabular}                            \\ \hline
 os          & 0\%                                                          & Overall survival (months)                                                                                                                           \\ \hline
-dead        & 0\%                                                          & Indicator: death indicator                                                                                                                          \\ \hline
-agebrainmet & 0\%                                                        & Indicator: Age greater or less than 60 at time of brain mets                                                                                        \\ \hline
+dead        & 0\%                                                          & Indicator: Censoring indicator                                                                                                                          \\ \hline
+agebrainmet & 0\%                                                        & Age at time of brain mets                                                                                        \\ \hline
 
 \end{tabular}
 }
 \caption{Table of important covariates to be used in the analysis}
 \label{table:importantvars}
-
 \end{table}
+
 \end{frame}
 
 
