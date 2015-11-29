@@ -35,7 +35,7 @@
  \begin{figure}[h!]
   \centering
     \includegraphics[width=0.6\textwidth]{jm_algo}
- % \caption{Normal JM imputation pseudocode}
+  \caption{Normal JM imputation pseudocode}
 \label{fig:jmexample}
 \end{figure}
 %do I want to include the amelia algo?
@@ -107,7 +107,7 @@ if not normal, transform}
 \begin{itemize}
 \item Issue: Kaplan-Meier is not normally distributed
   \begin{itemize}
-   \item Solution: Complimentary log log transformation, pool \cite{Marshall2009}
+   \item Solution: Complimentary log-log transformation, pool \cite{Marshall2009}
   \end{itemize}
   \item Issue: Imputations leave one KM curve much shorter than the rest
   \begin{itemize}
@@ -155,8 +155,13 @@ if not normal, transform}
 
 
 \begin{frame}{Validity Checks}
+\begin{figure}[h!]
+  \centering
  \includegraphics[width=.5\textwidth]{bw_timemet}%
 \includegraphics[width=.5\textwidth]{bw_timedx} 
+\label{fig:bwcheck}
+\caption{BW plot checks}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Tabular Checks}
@@ -218,9 +223,14 @@ Sys. Cont.                                             & Yes vs. No             
  
 \end{frame}
 
-\begin{frame}{Propensity Score Histogram Checks}
+\begin{frame}{Propensity Score Box and Whisker Checks}
+ \begin{figure}[h!]
+  \centering
   \includegraphics[width=.5\textwidth]{ps_histo1}%
 \includegraphics[width=.5\textwidth]{ps_histo2} 
+  \caption{Selected PS BW plots}
+\label{fig:psbw}
+\end{figure}
 \end{frame}
 
 
@@ -230,7 +240,7 @@ Sys. Cont.                                             & Yes vs. No             
   \begin{figure}[h!]
   \centering
  \includegraphics[width=.8\textwidth]{boosting}
-  \caption{Selected tabluar checks}
+  \caption{Boosting Algorithm}
 \label{fig:boosting}
 \end{figure}
 \end{frame}

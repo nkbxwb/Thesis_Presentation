@@ -96,7 +96,7 @@ treatment contains no information about his what-if outcomes in both treated and
  \begin{itemize}
  \item Individual Treatment Effect: $Y_i(1)-Y_i(0)$
  \item Average Treatment Effect (ATE): $E[Y(1)-Y(0)]$. The effect of moving entire population
- from treated to untreated
+ from untreated to treated
  \item Average treatment effect for the treated (ATT): $E[Y(1)-Y(0)|T=1]$. The average treatment
  effect for those actually treated
  \item Note:  $E[Y(1)|T=1,X]\neq E[Y(1)]$, because $E[Y|T=1,X]=E[Y_1T+Y_0(1-T)|T=1,X]=E[Y_1|T=1,X]\neq E[Y(1)]$
@@ -130,7 +130,7 @@ covariates \cite{Rosenbaum1983}.
   \begin{figure}[h!]
   \centering
     \includegraphics[width=0.8\textwidth]{ps_examples2.png}
-    \caption{Taken from TWANG short course \cite{Rand2015}}
+    \caption{PS matching and weighting \cite{Rand2015}}
 \label{fig:psexamp}
 
 \end{figure}
@@ -207,8 +207,8 @@ For each IPTW MI dataset...
 \begin{frame}{Balance Checks}
   \begin{figure}[h!]
   \centering
-\includegraphics[width=.8\textwidth]{balance_diagnosis} 
-  \caption{Selected Balance Diagnostics}
+\includegraphics[width=.70\textwidth]{balance_diagnosis} 
+  \caption{Selected balance diagnostics}
 \label{fig:balcheck}
 \end{figure}
 
